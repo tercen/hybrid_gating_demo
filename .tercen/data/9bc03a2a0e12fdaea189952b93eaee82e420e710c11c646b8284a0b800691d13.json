@@ -1,0 +1,91 @@
+{
+ "kind": "TableSchema",
+ "id": "9bc03a2a0e12fdaea189952b93eaee82e420e710c11c646b8284a0b800691d13",
+ "isDeleted": false,
+ "rev": "",
+ "description": "",
+ "name": "Channel-Descriptions-Krieg_Anti-PD-1_Dataset1.zip-03-26-24-09-57-56",
+ "acl": {
+  "kind": "Acl",
+  "owner": "",
+  "aces": []
+ },
+ "createdDate": {
+  "kind": "Date",
+  "value": ""
+ },
+ "lastModifiedDate": {
+  "kind": "Date",
+  "value": ""
+ },
+ "urls": [],
+ "tags": [],
+ "meta": [
+  {
+   "kind": "Pair",
+   "key": "SHA256",
+   "value": "9bc03a2a0e12fdaea189952b93eaee82e420e710c11c646b8284a0b800691d13"
+  }
+ ],
+ "url": {
+  "kind": "Url",
+  "uri": ""
+ },
+ "version": "",
+ "isPublic": false,
+ "projectId": "",
+ "folderId": "5",
+ "nRows": 57,
+ "columns": [
+  {
+   "kind": "ColumnSchema",
+   "id": "edc032e9-480d-4948-b0f6-d7ce9bf36599",
+   "name": "channel_name",
+   "type": "string",
+   "nRows": 0,
+   "size": -1,
+   "metaData": {
+    "kind": "ColumnSchemaMetaData",
+    "sort": [],
+    "ascending": true,
+    "quartiles": [],
+    "properties": []
+   }
+  },
+  {
+   "kind": "ColumnSchema",
+   "id": "452450cc-355d-411e-9479-5edb92d92a37",
+   "name": "channel_description",
+   "type": "string",
+   "nRows": 0,
+   "size": -1,
+   "metaData": {
+    "kind": "ColumnSchemaMetaData",
+    "sort": [],
+    "ascending": true,
+    "quartiles": [],
+    "properties": []
+   }
+  },
+  {
+   "kind": "ColumnSchema",
+   "id": "691d4f66-4060-473c-a006-91d5f119bfa1",
+   "name": "channel_id",
+   "type": "int32",
+   "nRows": 0,
+   "size": -1,
+   "metaData": {
+    "kind": "ColumnSchemaMetaData",
+    "sort": [],
+    "ascending": true,
+    "quartiles": [],
+    "properties": []
+   }
+  }
+ ],
+ "dataDirectory": "data/9b/c0/9bc03a2a0e12fdaea189952b93eaee82e420e710c11c646b8284a0b800691d13",
+ "relation": {
+  "kind": "Relation",
+  "id": "598fcd33-e385-4bbe-bf90-8b184be8b053"
+ }
+}

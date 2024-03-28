@@ -1,0 +1,40 @@
+{
+ "kind": "Workflow",
+ "id": "6",
+ "isDeleted": false,
+ "rev": "",
+ "description": "",
+ "name": "1. Manual Gating",
+ "acl": {
+  "kind": "Acl",
+  "owner": "",
+  "aces": []
+ },
+ "createdDate": {
+  "kind": "Date",
+  "value": ""
+ },
+ "lastModifiedDate": {
+  "kind": "Date",
+  "value": ""
+ },
+ "urls": [],
+ "tags": [],
+ "meta": [],
+ "url": {
+  "kind": "Url",
+  "uri": ""
+ },
+ "version": "",
+ "isPublic": false,
+ "projectId": "",
+ "folderId": "",
+ "links": [],
+ "steps": [],
+ "offset": {
+  "kind": "Point",
+  "x": 0.0,
+  "y": 0.0
+ },
+ "scale": 1.0
+}

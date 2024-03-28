@@ -1,0 +1,731 @@
+{
+ "kind": "ComputedTableSchema",
+ "id": "4becbe8332a125f2918091a74d9ddeb26868b5b1cd0d1017ae655b9fb98c71d1",
+ "isDeleted": false,
+ "rev": "",
+ "description": "",
+ "name": "4db41ba0-f1b3-1f34-8756-29c9644b152f",
+ "acl": {
+  "kind": "Acl",
+  "owner": "",
+  "aces": []
+ },
+ "createdDate": {
+  "kind": "Date",
+  "value": ""
+ },
+ "lastModifiedDate": {
+  "kind": "Date",
+  "value": ""
+ },
+ "urls": [],
+ "tags": [],
+ "meta": [
+  {
+   "kind": "Pair",
+   "key": "SHA256",
+   "value": "4becbe8332a125f2918091a74d9ddeb26868b5b1cd0d1017ae655b9fb98c71d1"
+  }
+ ],
+ "url": {
+  "kind": "Url",
+  "uri": ""
+ },
+ "version": "",
+ "isPublic": false,
+ "projectId": "",
+ "folderId": "",
+ "nRows": 129979,
+ "columns": [
+  {
+   "kind": "ColumnSchema",
+   "id": "53ba4d4a-06eb-4593-aed8-284f461bd681",
+   "name": "ds0.umap.1",
+   "type": "double",
+   "nRows": 0,
+   "size": -1,
+   "metaData": {
+    "kind": "ColumnSchemaMetaData",
+    "sort": [],
+    "ascending": true,
+    "quartiles": [],
+    "properties": []
+   }
+  },
+  {
+   "kind": "ColumnSchema",
+   "id": "92be3cb9-8391-40ad-bc53-6a077ee262b4",
+   "name": "ds0.umap.2",
+   "type": "double",
+   "nRows": 0,
+   "size": -1,
+   "metaData": {
+    "kind": "ColumnSchemaMetaData",
+    "sort": [],
+    "ascending": true,
+    "quartiles": [],
+    "properties": []
+   }
+  },
+  {
+   "kind": "ColumnSchema",
+   "id": "a37043b3-be43-489e-89cd-864c271fd39a",
+   "name": ".ci",
+   "type": "int32",
+   "nRows": 0,
+   "size": -1,
+   "metaData": {
+    "kind": "ColumnSchemaMetaData",
+    "sort": [],
+    "ascending": true,
+    "quartiles": [],
+    "properties": []
+   }
+  }
+ ],
+ "dataDirectory": "data/4b/ec/4becbe8332a125f2918091a74d9ddeb26868b5b1cd0d1017ae655b9fb98c71d1",
+ "relation": {
+  "kind": "Relation",
+  "id": "d88acad5-4b25-4a14-986a-a9c21c8eefb0"
+ },
+ "query": {
+  "kind": "CubeQuery",
+  "relation": {
+   "kind": "CompositeRelation",
+   "id": "e64ec838-ee60-4173-aa7f-5cde89515869",
+   "joinOperators": [
+    {
+     "kind": "JoinOperator",
+     "joinType": "leftOuter",
+     "leftPair": {
+      "kind": "ColumnPair",
+      "lColumns": [
+       "event_id",
+       "channel_annot.channel_description"
+      ],
+      "rColumns": [
+       "event_id",
+       "channel_annot.channel_description"
+      ]
+     },
+     "rightRelation": {
+      "kind": "RenameRelation",
+      "id": "67b9b534-e46c-4f98-a7ac-60dfa4907715",
+      "relation": {
+       "kind": "CompositeRelation",
+       "id": "97746172-0890-497a-82d4-7f094937ddd7",
+       "joinOperators": [
+        {
+         "kind": "JoinOperator",
+         "joinType": "leftOuter",
+         "leftPair": {
+          "kind": "ColumnPair",
+          "lColumns": [
+           ".ri"
+          ],
+          "rColumns": [
+           "987ed8623dde683cde2f4340ce79a85a61512b496188cc7b383089492d0bdfe5._rids"
+          ]
+         },
+         "rightRelation": {
+          "kind": "SimpleRelation",
+          "id": "987ed8623dde683cde2f4340ce79a85a61512b496188cc7b383089492d0bdfe5",
+          "index": 4
+         }
+        }
+       ],
+       "mainRelation": {
+        "kind": "CompositeRelation",
+        "id": "e38b8b7a-6105-4625-877f-37dcfada1e84",
+        "joinOperators": [
+         {
+          "kind": "JoinOperator",
+          "joinType": "leftOuter",
+          "leftPair": {
+           "kind": "ColumnPair",
+           "lColumns": [
+            ".ci"
+           ],
+           "rColumns": [
+            "36e1ef619d565a0098cbb0076950366a881ddf9d39f003f9219513d1ad6c4c22._rids"
+           ]
+          },
+          "rightRelation": {
+           "kind": "SimpleRelation",
+           "id": "36e1ef619d565a0098cbb0076950366a881ddf9d39f003f9219513d1ad6c4c22",
+           "index": 3
+          }
+         }
+        ],
+        "mainRelation": {
+         "kind": "SimpleRelation",
+         "id": "898ad2add7931c18d0dcd2aa3f851a9f133663760736dbe783ee57b68ed758bc",
+         "index": 2
+        }
+       }
+      },
+      "inNames": [
+       ".ci",
+       ".ri",
+       "logicle.value",
+       "898ad2add7931c18d0dcd2aa3f851a9f133663760736dbe783ee57b68ed758bc._rids",
+       "898ad2add7931c18d0dcd2aa3f851a9f133663760736dbe783ee57b68ed758bc.tlbId",
+       "event_id",
+       "36e1ef619d565a0098cbb0076950366a881ddf9d39f003f9219513d1ad6c4c22._rids",
+       "36e1ef619d565a0098cbb0076950366a881ddf9d39f003f9219513d1ad6c4c22.tlbId",
+       "channel_annot.channel_description",
+       "987ed8623dde683cde2f4340ce79a85a61512b496188cc7b383089492d0bdfe5._rids",
+       "987ed8623dde683cde2f4340ce79a85a61512b496188cc7b383089492d0bdfe5.tlbId",
+       "event_id",
+       "channel_annot.channel_description"
+      ],
+      "outNames": [
+       ".ci",
+       ".ri",
+       "logicle.value",
+       "898ad2add7931c18d0dcd2aa3f851a9f133663760736dbe783ee57b68ed758bc._rids",
+       "898ad2add7931c18d0dcd2aa3f851a9f133663760736dbe783ee57b68ed758bc.tlbId",
+       "event_id",
+       "36e1ef619d565a0098cbb0076950366a881ddf9d39f003f9219513d1ad6c4c22._rids",
+       "36e1ef619d565a0098cbb0076950366a881ddf9d39f003f9219513d1ad6c4c22.tlbId",
+       "channel_annot.channel_description",
+       "987ed8623dde683cde2f4340ce79a85a61512b496188cc7b383089492d0bdfe5._rids",
+       "987ed8623dde683cde2f4340ce79a85a61512b496188cc7b383089492d0bdfe5.tlbId",
+       "logicle..event_id",
+       "logicle..channel_description"
+      ]
+     }
+    }
+   ],
+   "mainRelation": {
+    "kind": "CompositeRelation",
+    "id": "4e4471e6-9ecb-4749-b404-66d54d6096ba",
+    "joinOperators": [
+     {
+      "kind": "JoinOperator",
+      "joinType": "r.o.f",
+      "leftPair": {
+       "kind": "ColumnPair",
+       "lColumns": [
+        "channel.variable"
+       ],
+       "rColumns": [
+        "channel_annot.channel_name"
+       ]
+      },
+      "rightRelation": {
+       "kind": "RenameRelation",
+       "id": "27642971-9eff-4cfc-bd20-949342d9d5ce",
+       "relation": {
+        "kind": "RenameRelation",
+        "id": "297266e1-7e04-4100-8c1a-a5e74c2f2c41",
+        "relation": {
+         "kind": "SimpleRelation",
+         "id": "b4ecb594ba46b6734ae995115b0787519bd43eb4571dd0391d8fb6a11f3fcdb5",
+         "index": 1
+        },
+        "inNames": [
+         "channel_name",
+         "channel_description",
+         "channel_id",
+         "b4ecb594ba46b6734ae995115b0787519bd43eb4571dd0391d8fb6a11f3fcdb5._rids"
+        ],
+        "outNames": [
+         "channel_name",
+         "channel_description",
+         "channel_id",
+         "rowId"
+        ]
+       },
+       "inNames": [
+        "channel_name",
+        "channel_description",
+        "channel_id",
+        "rowId"
+       ],
+       "outNames": [
+        "channel_annot.channel_name",
+        "channel_annot.channel_description",
+        "channel_annot.channel_id",
+        "channel_annot.rowId"
+       ]
+      }
+     }
+    ],
+    "mainRelation": {
+     "kind": "GatherRelation",
+     "id": "82e1276b-5598-4ba8-9150-b5cbb5aa4c39",
+     "relation": {
+      "kind": "SimpleRelation",
+      "id": "645a97079a29142f4497f0c214d666f03041c59ac7b047e475d9135b33b15446",
+      "index": 0
+     },
+     "names": [
+      "Bi209Di",
+      "Ce140Di",
+      "Dy161Di",
+      "Dy162Di",
+      "Dy163Di",
+      "Dy164Di",
+      "Er166Di",
+      "Er167Di",
+      "Er168Di",
+      "Eu151Di",
+      "Eu153Di",
+      "Gd152Di",
+      "Gd154Di",
+      "Gd155Di",
+      "Gd156Di",
+      "Gd157Di",
+      "Gd158Di",
+      "Gd160Di",
+      "Ho165Di",
+      "In113Di",
+      "In115Di",
+      "Ir191Di",
+      "Ir193Di",
+      "La139Di",
+      "Lu175Di",
+      "Nd142Di",
+      "Nd143Di",
+      "Nd144Di",
+      "Nd145Di",
+      "Nd146Di",
+      "Pd102Di",
+      "Pd104Di",
+      "Pd105Di",
+      "Pd106Di",
+      "Pd108Di",
+      "Pd110Di",
+      "Pr141Di",
+      "Pt195Di",
+      "Pt196Di",
+      "Pt198Di",
+      "Sm147Di",
+      "Sm148Di",
+      "Sm149Di",
+      "Sm150Di",
+      "Tb159Di",
+      "Tm169Di",
+      "Y89Di",
+      "Yb170Di",
+      "Yb171Di",
+      "Yb172Di",
+      "Yb173Di",
+      "Yb174Di",
+      "Yb176Di"
+     ],
+     "valueName": "channel.value",
+     "variableName": "channel.variable",
+     "valueType": "double",
+     "gatherType": ""
+    }
+   }
+  },
+  "colColumns": [
+   {
+    "kind": "Factor",
+    "name": "logicle..event_id",
+    "type": "int32"
+   }
+  ],
+  "rowColumns": [
+   {
+    "kind": "Factor",
+    "name": "logicle..channel_description",
+    "type": "string"
+   }
+  ],
+  "axisQueries": [
+   {
+    "kind": "CubeAxisQuery",
+    "pointSize": 4,
+    "chartType": "point",
+    "yAxis": {
+     "kind": "Factor",
+     "name": "logicle.value",
+     "type": "double"
+    },
+    "yAxisSettings": {
+     "kind": "AxisSettings",
+     "meta": []
+    },
+    "xAxis": {
+     "kind": "Factor",
+     "name": "",
+     "type": "string"
+    },
+    "xAxisSettings": {
+     "kind": "AxisSettings",
+     "meta": []
+    },
+    "errors": [],
+    "labels": [],
+    "colors": [],
+    "preprocessors": []
+   }
+  ],
+  "filters": {
+   "kind": "Filters",
+   "removeNaN": true,
+   "namedFilters": [
+    {
+     "kind": "NamedFilter",
+     "logical": "or",
+     "not": false,
+     "filterExprs": [
+      {
+       "kind": "FilterExpr",
+       "filterOp": "equals",
+       "stringValue": "142Nd_CD19",
+       "factor": {
+        "kind": "Factor",
+        "name": "channel_annot.channel_description",
+        "type": "string"
+       }
+      },
+      {
+       "kind": "FilterExpr",
+       "filterOp": "equals",
+       "stringValue": "146Nd_CD64",
+       "factor": {
+        "kind": "Factor",
+        "name": "channel_annot.channel_description",
+        "type": "string"
+       }
+      },
+      {
+       "kind": "FilterExpr",
+       "filterOp": "equals",
+       "stringValue": "147Sm_CD303",
+       "factor": {
+        "kind": "Factor",
+        "name": "channel_annot.channel_description",
+        "type": "string"
+       }
+      },
+      {
+       "kind": "FilterExpr",
+       "filterOp": "equals",
+       "stringValue": "148Sm_CD34",
+       "factor": {
+        "kind": "Factor",
+        "name": "channel_annot.channel_description",
+        "type": "string"
+       }
+      },
+      {
+       "kind": "FilterExpr",
+       "filterOp": "equals",
+       "stringValue": "149Sm_CD141",
+       "factor": {
+        "kind": "Factor",
+        "name": "channel_annot.channel_description",
+        "type": "string"
+       }
+      },
+      {
+       "kind": "FilterExpr",
+       "filterOp": "equals",
+       "stringValue": "150Sm_CD61",
+       "factor": {
+        "kind": "Factor",
+        "name": "channel_annot.channel_description",
+        "type": "string"
+       }
+      },
+      {
+       "kind": "FilterExpr",
+       "filterOp": "equals",
+       "stringValue": "151Eu_CD123",
+       "factor": {
+        "kind": "Factor",
+        "name": "channel_annot.channel_description",
+        "type": "string"
+       }
+      },
+      {
+       "kind": "FilterExpr",
+       "filterOp": "equals",
+       "stringValue": "152Gd_CD66b",
+       "factor": {
+        "kind": "Factor",
+        "name": "channel_annot.channel_description",
+        "type": "string"
+       }
+      },
+      {
+       "kind": "FilterExpr",
+       "filterOp": "equals",
+       "stringValue": "153Eu_CD62L",
+       "factor": {
+        "kind": "Factor",
+        "name": "channel_annot.channel_description",
+        "type": "string"
+       }
+      },
+      {
+       "kind": "FilterExpr",
+       "filterOp": "equals",
+       "stringValue": "154Gd_ICAM-1",
+       "factor": {
+        "kind": "Factor",
+        "name": "channel_annot.channel_description",
+        "type": "string"
+       }
+      },
+      {
+       "kind": "FilterExpr",
+       "filterOp": "equals",
+       "stringValue": "155Gd_CD1c",
+       "factor": {
+        "kind": "Factor",
+        "name": "channel_annot.channel_description",
+        "type": "string"
+       }
+      },
+      {
+       "kind": "FilterExpr",
+       "filterOp": "equals",
+       "stringValue": "156Gd_CD86",
+       "factor": {
+        "kind": "Factor",
+        "name": "channel_annot.channel_description",
+        "type": "string"
+       }
+      },
+      {
+       "kind": "FilterExpr",
+       "filterOp": "equals",
+       "stringValue": "160Gd_CD14",
+       "factor": {
+        "kind": "Factor",
+        "name": "channel_annot.channel_description",
+        "type": "string"
+       }
+      },
+      {
+       "kind": "FilterExpr",
+       "filterOp": "equals",
+       "stringValue": "162Dy_CD11c",
+       "factor": {
+        "kind": "Factor",
+        "name": "channel_annot.channel_description",
+        "type": "string"
+       }
+      },
+      {
+       "kind": "FilterExpr",
+       "filterOp": "equals",
+       "stringValue": "163Dy_CD7",
+       "factor": {
+        "kind": "Factor",
+        "name": "channel_annot.channel_description",
+        "type": "string"
+       }
+      },
+      {
+       "kind": "FilterExpr",
+       "filterOp": "equals",
+       "stringValue": "167Er_CD38",
+       "factor": {
+        "kind": "Factor",
+        "name": "channel_annot.channel_description",
+        "type": "string"
+       }
+      },
+      {
+       "kind": "FilterExpr",
+       "filterOp": "equals",
+       "stringValue": "165Ho_CD16",
+       "factor": {
+        "kind": "Factor",
+        "name": "channel_annot.channel_description",
+        "type": "string"
+       }
+      },
+      {
+       "kind": "FilterExpr",
+       "filterOp": "equals",
+       "stringValue": "166Er_CD209",
+       "factor": {
+        "kind": "Factor",
+        "name": "channel_annot.channel_description",
+        "type": "string"
+       }
+      },
+      {
+       "kind": "FilterExpr",
+       "filterOp": "equals",
+       "stringValue": "169Tm_CD33",
+       "factor": {
+        "kind": "Factor",
+        "name": "channel_annot.channel_description",
+        "type": "string"
+       }
+      },
+      {
+       "kind": "FilterExpr",
+       "filterOp": "equals",
+       "stringValue": "170Yb_CD3",
+       "factor": {
+        "kind": "Factor",
+        "name": "channel_annot.channel_description",
+        "type": "string"
+       }
+      },
+      {
+       "kind": "FilterExpr",
+       "filterOp": "equals",
+       "stringValue": "173Yb_CD56",
+       "factor": {
+        "kind": "Factor",
+        "name": "channel_annot.channel_description",
+        "type": "string"
+       }
+      },
+      {
+       "kind": "FilterExpr",
+       "filterOp": "equals",
+       "stringValue": "174Yb_HLA-DR",
+       "factor": {
+        "kind": "Factor",
+        "name": "channel_annot.channel_description",
+        "type": "string"
+       }
+      },
+      {
+       "kind": "FilterExpr",
+       "filterOp": "equals",
+       "stringValue": "175Lu_PD-L1",
+       "factor": {
+        "kind": "Factor",
+        "name": "channel_annot.channel_description",
+        "type": "string"
+       }
+      },
+      {
+       "kind": "FilterExpr",
+       "filterOp": "equals",
+       "stringValue": "209Bi_CD11b",
+       "factor": {
+        "kind": "Factor",
+        "name": "channel_annot.channel_description",
+        "type": "string"
+       }
+      },
+      {
+       "kind": "FilterExpr",
+       "filterOp": "equals",
+       "stringValue": "89Y_CD45",
+       "factor": {
+        "kind": "Factor",
+        "name": "channel_annot.channel_description",
+        "type": "string"
+       }
+      }
+     ],
+     "meta": [],
+     "name": "Keep Markers Only"
+    }
+   ]
+  },
+  "operatorSettings": {
+   "kind": "OperatorSettings",
+   "namespace": "ds0",
+   "operatorRef": {
+    "kind": "OperatorRef",
+    "name": "UMAP",
+    "version": "1.2.5",
+    "operatorId": "1",
+    "operatorKind": "ROperator",
+    "propertyValues": [
+     {
+      "kind": "PropertyValue",
+      "name": "init",
+      "value": "spectral"
+     },
+     {
+      "kind": "PropertyValue",
+      "name": "scale",
+      "value": "none"
+     },
+     {
+      "kind": "PropertyValue",
+      "name": "n_neighbors",
+      "value": "15"
+     },
+     {
+      "kind": "PropertyValue",
+      "name": "spread",
+      "value": "1"
+     },
+     {
+      "kind": "PropertyValue",
+      "name": "min_dist",
+      "value": "0.5"
+     },
+     {
+      "kind": "PropertyValue",
+      "name": "pca",
+      "value": "-1"
+     },
+     {
+      "kind": "PropertyValue",
+      "name": "prop.train",
+      "value": "1"
+     },
+     {
+      "kind": "PropertyValue",
+      "name": "seed",
+      "value": "-1"
+     }
+    ],
+    "url": {
+     "kind": "Url",
+     "uri": "https://github.com/tercen/umap_operator"
+    },
+    "operatorSpec": {
+     "kind": "OperatorSpec",
+     "ontologyUri": "",
+     "ontologyVersion": "",
+     "inputSpecs": [],
+     "outputSpecs": []
+    }
+   },
+   "environment": [
+    {
+     "kind": "Pair",
+     "key": "cpu",
+     "value": "0"
+    },
+    {
+     "kind": "Pair",
+     "key": "ram",
+     "value": "0"
+    },
+    {
+     "kind": "Pair",
+     "key": "cpu-shares",
+     "value": "0"
+    },
+    {
+     "kind": "Pair",
+     "key": "tercen.collect.stats",
+     "value": "false"
+    },
+    {
+     "kind": "Pair",
+     "key": "debug",
+     "value": "false"
+    }
+   ],
+   "operatorModel": {
+    "kind": "OperatorModel"
+   }
+  },
+  "qtHash": "",
+  "columnHash": "",
+  "rowHash": ""
+ }
+}

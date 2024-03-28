@@ -1,0 +1,42 @@
+{
+ "kind": "FileDocument",
+ "id": "data/Krieg_Anti-PD-1_Dataset1.zip",
+ "isDeleted": false,
+ "rev": "",
+ "description": "",
+ "name": "Krieg_Anti-PD-1_Dataset1.zip",
+ "acl": {
+  "kind": "Acl",
+  "owner": "",
+  "aces": []
+ },
+ "createdDate": {
+  "kind": "Date",
+  "value": ""
+ },
+ "lastModifiedDate": {
+  "kind": "Date",
+  "value": ""
+ },
+ "urls": [],
+ "tags": [],
+ "meta": [],
+ "url": {
+  "kind": "Url",
+  "uri": ""
+ },
+ "version": "",
+ "isPublic": false,
+ "projectId": "",
+ "folderId": "8",
+ "dataUri": "lfs/de/0a/7470d3c064fc1d6a2d1ad98102a63a2132952a8734b349052b060af87393",
+ "metadata": {
+  "kind": "FileMetadata",
+  "contentType": "",
+  "cacheControl": "",
+  "contentEncoding": "",
+  "contentLanguage": "",
+  "md5Hash": ""
+ },
+ "size": 20519509
+}

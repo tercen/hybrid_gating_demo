@@ -1,0 +1,918 @@
+{
+ "kind": "ComputedTableSchema",
+ "id": "c346ea5aa0b63645e481e42c1cc30b7393df7072ae7ae6e5e6aa3755d0f7d949",
+ "isDeleted": false,
+ "rev": "",
+ "description": "",
+ "name": "f449a550-7251-1f3b-8f82-b76381def153",
+ "acl": {
+  "kind": "Acl",
+  "owner": "",
+  "aces": []
+ },
+ "createdDate": {
+  "kind": "Date",
+  "value": ""
+ },
+ "lastModifiedDate": {
+  "kind": "Date",
+  "value": ""
+ },
+ "urls": [],
+ "tags": [],
+ "meta": [
+  {
+   "kind": "Pair",
+   "key": "SHA256",
+   "value": "c346ea5aa0b63645e481e42c1cc30b7393df7072ae7ae6e5e6aa3755d0f7d949"
+  }
+ ],
+ "url": {
+  "kind": "Url",
+  "uri": ""
+ },
+ "version": "",
+ "isPublic": false,
+ "projectId": "",
+ "folderId": "",
+ "nRows": 129979,
+ "columns": [
+  {
+   "kind": "ColumnSchema",
+   "id": "124aa018-f1e3-4e67-85de-8e3b6cff3fc3",
+   "name": ".ci",
+   "type": "int32",
+   "nRows": 0,
+   "size": -1,
+   "metaData": {
+    "kind": "ColumnSchemaMetaData",
+    "sort": [],
+    "ascending": true,
+    "quartiles": [],
+    "properties": []
+   }
+  },
+  {
+   "kind": "ColumnSchema",
+   "id": "f095e4b6-aa12-4b21-ba51-e16df4d0e251",
+   "name": "scyan.PredictedPopulation_Population",
+   "type": "string",
+   "nRows": 0,
+   "size": -1,
+   "metaData": {
+    "kind": "ColumnSchemaMetaData",
+    "sort": [],
+    "ascending": true,
+    "quartiles": [],
+    "properties": []
+   }
+  },
+  {
+   "kind": "ColumnSchema",
+   "id": "c835cec9-b375-492d-b31e-eb72281788d1",
+   "name": "scyan.MaxLogProb_Population",
+   "type": "double",
+   "nRows": 0,
+   "size": -1,
+   "metaData": {
+    "kind": "ColumnSchemaMetaData",
+    "sort": [],
+    "ascending": true,
+    "quartiles": [],
+    "properties": []
+   }
+  }
+ ],
+ "dataDirectory": "data/c3/46/c346ea5aa0b63645e481e42c1cc30b7393df7072ae7ae6e5e6aa3755d0f7d949",
+ "relation": {
+  "kind": "Relation",
+  "id": "4863dbb8-fa84-4ffb-978e-7fbc7995b078"
+ },
+ "query": {
+  "kind": "CubeQuery",
+  "relation": {
+   "kind": "CompositeRelation",
+   "id": "4539dc8c-1bdb-4540-8d27-7eab3c78da81",
+   "joinOperators": [
+    {
+     "kind": "JoinOperator",
+     "joinType": "leftOuter",
+     "leftPair": {
+      "kind": "ColumnPair",
+      "lColumns": [
+       "logicle..channel_description"
+      ],
+      "rColumns": [
+       "logicle..channel_description"
+      ]
+     },
+     "rightRelation": {
+      "kind": "RenameRelation",
+      "id": "2e5a6500-fb40-4313-bbb7-1b0586e970e5",
+      "relation": {
+       "kind": "CompositeRelation",
+       "id": "cd8b2896-6954-4bcf-85db-4b3f53a59388",
+       "joinOperators": [
+        {
+         "kind": "JoinOperator",
+         "joinType": "leftOuter",
+         "leftPair": {
+          "kind": "ColumnPair",
+          "lColumns": [
+           ".ri"
+          ],
+          "rColumns": [
+           "21c7661345cd1da770e8b05cbefd0e5e1c80efb5a8586ee268dd9e6033a7fe76._rids"
+          ]
+         },
+         "rightRelation": {
+          "kind": "SimpleRelation",
+          "id": "21c7661345cd1da770e8b05cbefd0e5e1c80efb5a8586ee268dd9e6033a7fe76",
+          "index": 9
+         }
+        }
+       ],
+       "mainRelation": {
+        "kind": "SimpleRelation",
+        "id": "11f389eb729b354a19d298217d0d1a7f063a22d76e0d6f336a101e48496b69cd",
+        "index": 8
+       }
+      },
+      "inNames": [
+       "name.Mass",
+       "name.Marker",
+       ".ri",
+       "11f389eb729b354a19d298217d0d1a7f063a22d76e0d6f336a101e48496b69cd._rids",
+       "11f389eb729b354a19d298217d0d1a7f063a22d76e0d6f336a101e48496b69cd.tlbId",
+       "logicle..channel_description",
+       "21c7661345cd1da770e8b05cbefd0e5e1c80efb5a8586ee268dd9e6033a7fe76._rids",
+       "21c7661345cd1da770e8b05cbefd0e5e1c80efb5a8586ee268dd9e6033a7fe76.tlbId",
+       "logicle..channel_description"
+      ],
+      "outNames": [
+       "name.Mass",
+       "name.Marker",
+       ".ri",
+       "11f389eb729b354a19d298217d0d1a7f063a22d76e0d6f336a101e48496b69cd._rids",
+       "11f389eb729b354a19d298217d0d1a7f063a22d76e0d6f336a101e48496b69cd.tlbId",
+       "logicle..channel_description",
+       "21c7661345cd1da770e8b05cbefd0e5e1c80efb5a8586ee268dd9e6033a7fe76._rids",
+       "21c7661345cd1da770e8b05cbefd0e5e1c80efb5a8586ee268dd9e6033a7fe76.tlbId",
+       "name..channel_description"
+      ]
+     }
+    }
+   ],
+   "mainRelation": {
+    "kind": "CompositeRelation",
+    "id": "3213072d-c5af-4ff2-b968-4175bd93bfaa",
+    "joinOperators": [
+     {
+      "kind": "JoinOperator",
+      "joinType": "leftOuter",
+      "leftPair": {
+       "kind": "ColumnPair",
+       "lColumns": [
+        "logicle..event_id",
+        "logicle..channel_description"
+       ],
+       "rColumns": [
+        "logicle..event_id",
+        "logicle..channel_description"
+       ]
+      },
+      "rightRelation": {
+       "kind": "RenameRelation",
+       "id": "d62d5e8b-2b6c-4205-a6b3-8a5349d93516",
+       "relation": {
+        "kind": "CompositeRelation",
+        "id": "e51eb0fe-d58a-46ca-acf6-be84ca2b07be",
+        "joinOperators": [
+         {
+          "kind": "JoinOperator",
+          "joinType": "leftOuter",
+          "leftPair": {
+           "kind": "ColumnPair",
+           "lColumns": [
+            ".ri"
+           ],
+           "rColumns": [
+            "12e4975ea988ac358c2e4dfb69b6c8bc14a1572c78e7be86ccb35fc981b3cf32._rids"
+           ]
+          },
+          "rightRelation": {
+           "kind": "SimpleRelation",
+           "id": "12e4975ea988ac358c2e4dfb69b6c8bc14a1572c78e7be86ccb35fc981b3cf32",
+           "index": 7
+          }
+         }
+        ],
+        "mainRelation": {
+         "kind": "CompositeRelation",
+         "id": "7f2bbcff-b77d-4ad2-817e-0c077b8f08a3",
+         "joinOperators": [
+          {
+           "kind": "JoinOperator",
+           "joinType": "leftOuter",
+           "leftPair": {
+            "kind": "ColumnPair",
+            "lColumns": [
+             ".ci"
+            ],
+            "rColumns": [
+             "feee9765a77a60ee580d8d2ca08c512f80ac60c6aa12ff8c0a3138fcd1f95a12._rids"
+            ]
+           },
+           "rightRelation": {
+            "kind": "SimpleRelation",
+            "id": "feee9765a77a60ee580d8d2ca08c512f80ac60c6aa12ff8c0a3138fcd1f95a12",
+            "index": 6
+           }
+          }
+         ],
+         "mainRelation": {
+          "kind": "SimpleRelation",
+          "id": "0ccbf8d9b73c7ee0404b7d8db14bbb9c87b3cc2e732389e608d78fb476da89e8",
+          "index": 5
+         }
+        }
+       },
+       "inNames": [
+        "z.scaled_value",
+        ".ri",
+        ".ci",
+        "0ccbf8d9b73c7ee0404b7d8db14bbb9c87b3cc2e732389e608d78fb476da89e8._rids",
+        "0ccbf8d9b73c7ee0404b7d8db14bbb9c87b3cc2e732389e608d78fb476da89e8.tlbId",
+        "logicle..event_id",
+        "feee9765a77a60ee580d8d2ca08c512f80ac60c6aa12ff8c0a3138fcd1f95a12._rids",
+        "feee9765a77a60ee580d8d2ca08c512f80ac60c6aa12ff8c0a3138fcd1f95a12.tlbId",
+        "logicle..channel_description",
+        "12e4975ea988ac358c2e4dfb69b6c8bc14a1572c78e7be86ccb35fc981b3cf32._rids",
+        "12e4975ea988ac358c2e4dfb69b6c8bc14a1572c78e7be86ccb35fc981b3cf32.tlbId",
+        "logicle..event_id",
+        "logicle..channel_description"
+       ],
+       "outNames": [
+        "z.scaled_value",
+        ".ri",
+        ".ci",
+        "0ccbf8d9b73c7ee0404b7d8db14bbb9c87b3cc2e732389e608d78fb476da89e8._rids",
+        "0ccbf8d9b73c7ee0404b7d8db14bbb9c87b3cc2e732389e608d78fb476da89e8.tlbId",
+        "logicle..event_id",
+        "feee9765a77a60ee580d8d2ca08c512f80ac60c6aa12ff8c0a3138fcd1f95a12._rids",
+        "feee9765a77a60ee580d8d2ca08c512f80ac60c6aa12ff8c0a3138fcd1f95a12.tlbId",
+        "logicle..channel_description",
+        "12e4975ea988ac358c2e4dfb69b6c8bc14a1572c78e7be86ccb35fc981b3cf32._rids",
+        "12e4975ea988ac358c2e4dfb69b6c8bc14a1572c78e7be86ccb35fc981b3cf32.tlbId",
+        "z..event_id",
+        "z..channel_description"
+       ]
+      }
+     }
+    ],
+    "mainRelation": {
+     "kind": "CompositeRelation",
+     "id": "8dde5304-20a9-4747-8a33-6063707927a7",
+     "joinOperators": [
+      {
+       "kind": "JoinOperator",
+       "joinType": "leftOuter",
+       "leftPair": {
+        "kind": "ColumnPair",
+        "lColumns": [
+         "event_id",
+         "channel_annot.channel_description"
+        ],
+        "rColumns": [
+         "event_id",
+         "channel_annot.channel_description"
+        ]
+       },
+       "rightRelation": {
+        "kind": "RenameRelation",
+        "id": "79fb346a-6813-4ca2-85d6-8682a5edf413",
+        "relation": {
+         "kind": "CompositeRelation",
+         "id": "eef60579-3fb4-41d8-84d7-f9b60275d116",
+         "joinOperators": [
+          {
+           "kind": "JoinOperator",
+           "joinType": "leftOuter",
+           "leftPair": {
+            "kind": "ColumnPair",
+            "lColumns": [
+             ".ri"
+            ],
+            "rColumns": [
+             "987ed8623dde683cde2f4340ce79a85a61512b496188cc7b383089492d0bdfe5._rids"
+            ]
+           },
+           "rightRelation": {
+            "kind": "SimpleRelation",
+            "id": "987ed8623dde683cde2f4340ce79a85a61512b496188cc7b383089492d0bdfe5",
+            "index": 4
+           }
+          }
+         ],
+         "mainRelation": {
+          "kind": "CompositeRelation",
+          "id": "3136d090-7406-4773-9d5a-044c3795b09b",
+          "joinOperators": [
+           {
+            "kind": "JoinOperator",
+            "joinType": "leftOuter",
+            "leftPair": {
+             "kind": "ColumnPair",
+             "lColumns": [
+              ".ci"
+             ],
+             "rColumns": [
+              "36e1ef619d565a0098cbb0076950366a881ddf9d39f003f9219513d1ad6c4c22._rids"
+             ]
+            },
+            "rightRelation": {
+             "kind": "SimpleRelation",
+             "id": "36e1ef619d565a0098cbb0076950366a881ddf9d39f003f9219513d1ad6c4c22",
+             "index": 3
+            }
+           }
+          ],
+          "mainRelation": {
+           "kind": "SimpleRelation",
+           "id": "898ad2add7931c18d0dcd2aa3f851a9f133663760736dbe783ee57b68ed758bc",
+           "index": 2
+          }
+         }
+        },
+        "inNames": [
+         ".ci",
+         ".ri",
+         "logicle.value",
+         "898ad2add7931c18d0dcd2aa3f851a9f133663760736dbe783ee57b68ed758bc._rids",
+         "898ad2add7931c18d0dcd2aa3f851a9f133663760736dbe783ee57b68ed758bc.tlbId",
+         "event_id",
+         "36e1ef619d565a0098cbb0076950366a881ddf9d39f003f9219513d1ad6c4c22._rids",
+         "36e1ef619d565a0098cbb0076950366a881ddf9d39f003f9219513d1ad6c4c22.tlbId",
+         "channel_annot.channel_description",
+         "987ed8623dde683cde2f4340ce79a85a61512b496188cc7b383089492d0bdfe5._rids",
+         "987ed8623dde683cde2f4340ce79a85a61512b496188cc7b383089492d0bdfe5.tlbId",
+         "event_id",
+         "channel_annot.channel_description"
+        ],
+        "outNames": [
+         ".ci",
+         ".ri",
+         "logicle.value",
+         "898ad2add7931c18d0dcd2aa3f851a9f133663760736dbe783ee57b68ed758bc._rids",
+         "898ad2add7931c18d0dcd2aa3f851a9f133663760736dbe783ee57b68ed758bc.tlbId",
+         "event_id",
+         "36e1ef619d565a0098cbb0076950366a881ddf9d39f003f9219513d1ad6c4c22._rids",
+         "36e1ef619d565a0098cbb0076950366a881ddf9d39f003f9219513d1ad6c4c22.tlbId",
+         "channel_annot.channel_description",
+         "987ed8623dde683cde2f4340ce79a85a61512b496188cc7b383089492d0bdfe5._rids",
+         "987ed8623dde683cde2f4340ce79a85a61512b496188cc7b383089492d0bdfe5.tlbId",
+         "logicle..event_id",
+         "logicle..channel_description"
+        ]
+       }
+      }
+     ],
+     "mainRelation": {
+      "kind": "CompositeRelation",
+      "id": "a1379f93-587e-4f16-88f1-4c794d37f6a0",
+      "joinOperators": [
+       {
+        "kind": "JoinOperator",
+        "joinType": "r.o.f",
+        "leftPair": {
+         "kind": "ColumnPair",
+         "lColumns": [
+          "channel.variable"
+         ],
+         "rColumns": [
+          "channel_annot.channel_name"
+         ]
+        },
+        "rightRelation": {
+         "kind": "RenameRelation",
+         "id": "82110cce-9f34-434b-b949-637b4f0aaa4f",
+         "relation": {
+          "kind": "RenameRelation",
+          "id": "02bc7142-e69e-4b69-a4c3-021f3ec0d6c0",
+          "relation": {
+           "kind": "SimpleRelation",
+           "id": "b4ecb594ba46b6734ae995115b0787519bd43eb4571dd0391d8fb6a11f3fcdb5",
+           "index": 1
+          },
+          "inNames": [
+           "channel_name",
+           "channel_description",
+           "channel_id",
+           "b4ecb594ba46b6734ae995115b0787519bd43eb4571dd0391d8fb6a11f3fcdb5._rids"
+          ],
+          "outNames": [
+           "channel_name",
+           "channel_description",
+           "channel_id",
+           "rowId"
+          ]
+         },
+         "inNames": [
+          "channel_name",
+          "channel_description",
+          "channel_id",
+          "rowId"
+         ],
+         "outNames": [
+          "channel_annot.channel_name",
+          "channel_annot.channel_description",
+          "channel_annot.channel_id",
+          "channel_annot.rowId"
+         ]
+        }
+       }
+      ],
+      "mainRelation": {
+       "kind": "GatherRelation",
+       "id": "6a4bd90e-6b52-4f54-87a1-ab3a6e085415",
+       "relation": {
+        "kind": "SimpleRelation",
+        "id": "645a97079a29142f4497f0c214d666f03041c59ac7b047e475d9135b33b15446",
+        "index": 0
+       },
+       "names": [
+        "Bi209Di",
+        "Ce140Di",
+        "Dy161Di",
+        "Dy162Di",
+        "Dy163Di",
+        "Dy164Di",
+        "Er166Di",
+        "Er167Di",
+        "Er168Di",
+        "Eu151Di",
+        "Eu153Di",
+        "Gd152Di",
+        "Gd154Di",
+        "Gd155Di",
+        "Gd156Di",
+        "Gd157Di",
+        "Gd158Di",
+        "Gd160Di",
+        "Ho165Di",
+        "In113Di",
+        "In115Di",
+        "Ir191Di",
+        "Ir193Di",
+        "La139Di",
+        "Lu175Di",
+        "Nd142Di",
+        "Nd143Di",
+        "Nd144Di",
+        "Nd145Di",
+        "Nd146Di",
+        "Pd102Di",
+        "Pd104Di",
+        "Pd105Di",
+        "Pd106Di",
+        "Pd108Di",
+        "Pd110Di",
+        "Pr141Di",
+        "Pt195Di",
+        "Pt196Di",
+        "Pt198Di",
+        "Sm147Di",
+        "Sm148Di",
+        "Sm149Di",
+        "Sm150Di",
+        "Tb159Di",
+        "Tm169Di",
+        "Y89Di",
+        "Yb170Di",
+        "Yb171Di",
+        "Yb172Di",
+        "Yb173Di",
+        "Yb174Di",
+        "Yb176Di"
+       ],
+       "valueName": "channel.value",
+       "variableName": "channel.variable",
+       "valueType": "double",
+       "gatherType": ""
+      }
+     }
+    }
+   }
+  },
+  "colColumns": [
+   {
+    "kind": "Factor",
+    "name": "z..event_id",
+    "type": "int32"
+   }
+  ],
+  "rowColumns": [
+   {
+    "kind": "Factor",
+    "name": "name.Marker",
+    "type": "string"
+   }
+  ],
+  "axisQueries": [
+   {
+    "kind": "CubeAxisQuery",
+    "pointSize": 4,
+    "chartType": "point",
+    "yAxis": {
+     "kind": "Factor",
+     "name": "z.scaled_value",
+     "type": "double"
+    },
+    "yAxisSettings": {
+     "kind": "AxisSettings",
+     "meta": []
+    },
+    "xAxis": {
+     "kind": "Factor",
+     "name": "",
+     "type": "string"
+    },
+    "xAxisSettings": {
+     "kind": "AxisSettings",
+     "meta": []
+    },
+    "errors": [],
+    "labels": [],
+    "colors": [],
+    "preprocessors": []
+   }
+  ],
+  "filters": {
+   "kind": "Filters",
+   "removeNaN": true,
+   "namedFilters": [
+    {
+     "kind": "NamedFilter",
+     "logical": "or",
+     "not": false,
+     "filterExprs": [
+      {
+       "kind": "FilterExpr",
+       "filterOp": "equals",
+       "stringValue": "142Nd_CD19",
+       "factor": {
+        "kind": "Factor",
+        "name": "channel_annot.channel_description",
+        "type": "string"
+       }
+      },
+      {
+       "kind": "FilterExpr",
+       "filterOp": "equals",
+       "stringValue": "146Nd_CD64",
+       "factor": {
+        "kind": "Factor",
+        "name": "channel_annot.channel_description",
+        "type": "string"
+       }
+      },
+      {
+       "kind": "FilterExpr",
+       "filterOp": "equals",
+       "stringValue": "147Sm_CD303",
+       "factor": {
+        "kind": "Factor",
+        "name": "channel_annot.channel_description",
+        "type": "string"
+       }
+      },
+      {
+       "kind": "FilterExpr",
+       "filterOp": "equals",
+       "stringValue": "148Sm_CD34",
+       "factor": {
+        "kind": "Factor",
+        "name": "channel_annot.channel_description",
+        "type": "string"
+       }
+      },
+      {
+       "kind": "FilterExpr",
+       "filterOp": "equals",
+       "stringValue": "149Sm_CD141",
+       "factor": {
+        "kind": "Factor",
+        "name": "channel_annot.channel_description",
+        "type": "string"
+       }
+      },
+      {
+       "kind": "FilterExpr",
+       "filterOp": "equals",
+       "stringValue": "150Sm_CD61",
+       "factor": {
+        "kind": "Factor",
+        "name": "channel_annot.channel_description",
+        "type": "string"
+       }
+      },
+      {
+       "kind": "FilterExpr",
+       "filterOp": "equals",
+       "stringValue": "151Eu_CD123",
+       "factor": {
+        "kind": "Factor",
+        "name": "channel_annot.channel_description",
+        "type": "string"
+       }
+      },
+      {
+       "kind": "FilterExpr",
+       "filterOp": "equals",
+       "stringValue": "152Gd_CD66b",
+       "factor": {
+        "kind": "Factor",
+        "name": "channel_annot.channel_description",
+        "type": "string"
+       }
+      },
+      {
+       "kind": "FilterExpr",
+       "filterOp": "equals",
+       "stringValue": "153Eu_CD62L",
+       "factor": {
+        "kind": "Factor",
+        "name": "channel_annot.channel_description",
+        "type": "string"
+       }
+      },
+      {
+       "kind": "FilterExpr",
+       "filterOp": "equals",
+       "stringValue": "154Gd_ICAM-1",
+       "factor": {
+        "kind": "Factor",
+        "name": "channel_annot.channel_description",
+        "type": "string"
+       }
+      },
+      {
+       "kind": "FilterExpr",
+       "filterOp": "equals",
+       "stringValue": "155Gd_CD1c",
+       "factor": {
+        "kind": "Factor",
+        "name": "channel_annot.channel_description",
+        "type": "string"
+       }
+      },
+      {
+       "kind": "FilterExpr",
+       "filterOp": "equals",
+       "stringValue": "156Gd_CD86",
+       "factor": {
+        "kind": "Factor",
+        "name": "channel_annot.channel_description",
+        "type": "string"
+       }
+      },
+      {
+       "kind": "FilterExpr",
+       "filterOp": "equals",
+       "stringValue": "160Gd_CD14",
+       "factor": {
+        "kind": "Factor",
+        "name": "channel_annot.channel_description",
+        "type": "string"
+       }
+      },
+      {
+       "kind": "FilterExpr",
+       "filterOp": "equals",
+       "stringValue": "162Dy_CD11c",
+       "factor": {
+        "kind": "Factor",
+        "name": "channel_annot.channel_description",
+        "type": "string"
+       }
+      },
+      {
+       "kind": "FilterExpr",
+       "filterOp": "equals",
+       "stringValue": "163Dy_CD7",
+       "factor": {
+        "kind": "Factor",
+        "name": "channel_annot.channel_description",
+        "type": "string"
+       }
+      },
+      {
+       "kind": "FilterExpr",
+       "filterOp": "equals",
+       "stringValue": "167Er_CD38",
+       "factor": {
+        "kind": "Factor",
+        "name": "channel_annot.channel_description",
+        "type": "string"
+       }
+      },
+      {
+       "kind": "FilterExpr",
+       "filterOp": "equals",
+       "stringValue": "165Ho_CD16",
+       "factor": {
+        "kind": "Factor",
+        "name": "channel_annot.channel_description",
+        "type": "string"
+       }
+      },
+      {
+       "kind": "FilterExpr",
+       "filterOp": "equals",
+       "stringValue": "166Er_CD209",
+       "factor": {
+        "kind": "Factor",
+        "name": "channel_annot.channel_description",
+        "type": "string"
+       }
+      },
+      {
+       "kind": "FilterExpr",
+       "filterOp": "equals",
+       "stringValue": "169Tm_CD33",
+       "factor": {
+        "kind": "Factor",
+        "name": "channel_annot.channel_description",
+        "type": "string"
+       }
+      },
+      {
+       "kind": "FilterExpr",
+       "filterOp": "equals",
+       "stringValue": "170Yb_CD3",
+       "factor": {
+        "kind": "Factor",
+        "name": "channel_annot.channel_description",
+        "type": "string"
+       }
+      },
+      {
+       "kind": "FilterExpr",
+       "filterOp": "equals",
+       "stringValue": "173Yb_CD56",
+       "factor": {
+        "kind": "Factor",
+        "name": "channel_annot.channel_description",
+        "type": "string"
+       }
+      },
+      {
+       "kind": "FilterExpr",
+       "filterOp": "equals",
+       "stringValue": "174Yb_HLA-DR",
+       "factor": {
+        "kind": "Factor",
+        "name": "channel_annot.channel_description",
+        "type": "string"
+       }
+      },
+      {
+       "kind": "FilterExpr",
+       "filterOp": "equals",
+       "stringValue": "175Lu_PD-L1",
+       "factor": {
+        "kind": "Factor",
+        "name": "channel_annot.channel_description",
+        "type": "string"
+       }
+      },
+      {
+       "kind": "FilterExpr",
+       "filterOp": "equals",
+       "stringValue": "209Bi_CD11b",
+       "factor": {
+        "kind": "Factor",
+        "name": "channel_annot.channel_description",
+        "type": "string"
+       }
+      },
+      {
+       "kind": "FilterExpr",
+       "filterOp": "equals",
+       "stringValue": "89Y_CD45",
+       "factor": {
+        "kind": "Factor",
+        "name": "channel_annot.channel_description",
+        "type": "string"
+       }
+      }
+     ],
+     "meta": [],
+     "name": "Keep Markers Only"
+    }
+   ]
+  },
+  "operatorSettings": {
+   "kind": "OperatorSettings",
+   "namespace": "scyan",
+   "operatorRef": {
+    "kind": "OperatorRef",
+    "name": "Scyan",
+    "version": "0.0.5",
+    "operatorId": "8",
+    "operatorKind": "DockerOperator",
+    "propertyValues": [
+     {
+      "kind": "PropertyValue",
+      "name": "PriorSD",
+      "value": "0.3"
+     },
+     {
+      "kind": "PropertyValue",
+      "name": "LR",
+      "value": "0.0005"
+     },
+     {
+      "kind": "PropertyValue",
+      "name": "Layers",
+      "value": "7"
+     },
+     {
+      "kind": "PropertyValue",
+      "name": "Hidden Layers",
+      "value": "6"
+     },
+     {
+      "kind": "PropertyValue",
+      "name": "Hidden Size",
+      "value": "16"
+     },
+     {
+      "kind": "PropertyValue",
+      "name": "Temperature",
+      "value": "0.5"
+     },
+     {
+      "kind": "PropertyValue",
+      "name": "Batch Size",
+      "value": "8192"
+     },
+     {
+      "kind": "PropertyValue",
+      "name": "WarmUp",
+      "value": "(0.35,4)"
+     },
+     {
+      "kind": "PropertyValue",
+      "name": "FullOutput",
+      "value": "false"
+     }
+    ],
+    "url": {
+     "kind": "Url",
+     "uri": "https://github.com/tercen/scyan_operator"
+    },
+    "operatorSpec": {
+     "kind": "OperatorSpec",
+     "ontologyUri": "",
+     "ontologyVersion": "",
+     "inputSpecs": [],
+     "outputSpecs": []
+    }
+   },
+   "environment": [
+    {
+     "kind": "Pair",
+     "key": "cpu",
+     "value": "0"
+    },
+    {
+     "kind": "Pair",
+     "key": "ram",
+     "value": "0"
+    },
+    {
+     "kind": "Pair",
+     "key": "cpu-shares",
+     "value": "0"
+    },
+    {
+     "kind": "Pair",
+     "key": "tercen.collect.stats",
+     "value": "false"
+    },
+    {
+     "kind": "Pair",
+     "key": "debug",
+     "value": "false"
+    }
+   ],
+   "operatorModel": {
+    "kind": "OperatorModel"
+   }
+  },
+  "qtHash": "",
+  "columnHash": "",
+  "rowHash": ""
+ }
+}

@@ -529,7 +529,7 @@
     "kind": "OperatorRef",
     "name": "Logicle",
     "version": "1.0.2",
-    "operatorId": "0",
+    "operatorId": "3",
     "operatorKind": "ROperator",
     "propertyValues": [],
     "url": {

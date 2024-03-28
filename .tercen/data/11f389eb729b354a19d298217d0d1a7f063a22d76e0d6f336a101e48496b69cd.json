@@ -1,10 +1,10 @@
 {
  "kind": "ComputedTableSchema",
- "id": "4becbe8332a125f2918091a74d9ddeb26868b5b1cd0d1017ae655b9fb98c71d1",
+ "id": "11f389eb729b354a19d298217d0d1a7f063a22d76e0d6f336a101e48496b69cd",
  "isDeleted": false,
  "rev": "",
  "description": "",
- "name": "4db41ba0-f1b3-1f34-8756-29c9644b152f",
+ "name": "55655f00-c345-1f38-8756-29c9644b152f",
  "acl": {
   "kind": "Acl",
   "owner": "",
@@ -24,7 +24,7 @@
   {
    "kind": "Pair",
    "key": "SHA256",
-   "value": "4becbe8332a125f2918091a74d9ddeb26868b5b1cd0d1017ae655b9fb98c71d1"
+   "value": "11f389eb729b354a19d298217d0d1a7f063a22d76e0d6f336a101e48496b69cd"
   }
  ],
  "url": {
@@ -35,13 +35,13 @@
  "isPublic": false,
  "projectId": "",
  "folderId": "",
- "nRows": 129979,
+ "nRows": 25,
  "columns": [
   {
    "kind": "ColumnSchema",
-   "id": "53ba4d4a-06eb-4593-aed8-284f461bd681",
-   "name": "ds0.umap.1",
-   "type": "double",
+   "id": "6cbe07cd-9ef6-4658-a99e-4fb72ec1f7fb",
+   "name": "name.Mass",
+   "type": "string",
    "nRows": 0,
    "size": -1,
    "metaData": {
@@ -54,9 +54,9 @@
   },
   {
    "kind": "ColumnSchema",
-   "id": "92be3cb9-8391-40ad-bc53-6a077ee262b4",
-   "name": "ds0.umap.2",
-   "type": "double",
+   "id": "a6e18269-0d78-4089-9261-eee6ba7ffaa6",
+   "name": "name.Marker",
+   "type": "string",
    "nRows": 0,
    "size": -1,
    "metaData": {
@@ -69,8 +69,8 @@
   },
   {
    "kind": "ColumnSchema",
-   "id": "a37043b3-be43-489e-89cd-864c271fd39a",
-   "name": ".ci",
+   "id": "9c08e3fc-4c82-49c5-befa-d55ebc02a8f1",
+   "name": ".ri",
    "type": "int32",
    "nRows": 0,
    "size": -1,
@@ -83,16 +83,16 @@
    }
   }
  ],
- "dataDirectory": "data/4b/ec/4becbe8332a125f2918091a74d9ddeb26868b5b1cd0d1017ae655b9fb98c71d1",
+ "dataDirectory": "data/11/f3/11f389eb729b354a19d298217d0d1a7f063a22d76e0d6f336a101e48496b69cd",
  "relation": {
   "kind": "Relation",
-  "id": "d88acad5-4b25-4a14-986a-a9c21c8eefb0"
+  "id": "7a0072cd-2586-4ccd-8e38-97e185294dd5"
  },
  "query": {
   "kind": "CubeQuery",
   "relation": {
    "kind": "CompositeRelation",
-   "id": "e64ec838-ee60-4173-aa7f-5cde89515869",
+   "id": "4032eb8d-f4a8-4e8e-ba50-9f1e84ddbc52",
    "joinOperators": [
     {
      "kind": "JoinOperator",
@@ -110,10 +110,10 @@
      },
      "rightRelation": {
       "kind": "RenameRelation",
-      "id": "67b9b534-e46c-4f98-a7ac-60dfa4907715",
+      "id": "541fda78-d274-406b-be65-cc8c11ac0cef",
       "relation": {
        "kind": "CompositeRelation",
-       "id": "97746172-0890-497a-82d4-7f094937ddd7",
+       "id": "6fca4d0d-be3b-4424-9e4a-b666349e5858",
        "joinOperators": [
         {
          "kind": "JoinOperator",
@@ -136,7 +136,7 @@
        ],
        "mainRelation": {
         "kind": "CompositeRelation",
-        "id": "e38b8b7a-6105-4625-877f-37dcfada1e84",
+        "id": "eddcde86-bba1-4712-98ad-b418a4e3dad8",
         "joinOperators": [
          {
           "kind": "JoinOperator",
@@ -199,7 +199,7 @@
    ],
    "mainRelation": {
     "kind": "CompositeRelation",
-    "id": "4e4471e6-9ecb-4749-b404-66d54d6096ba",
+    "id": "0322c5ed-3aad-4e65-a6e8-08db5cc39410",
     "joinOperators": [
      {
       "kind": "JoinOperator",
@@ -215,10 +215,10 @@
       },
       "rightRelation": {
        "kind": "RenameRelation",
-       "id": "27642971-9eff-4cfc-bd20-949342d9d5ce",
+       "id": "a0a20044-9718-4875-a22c-ce605b66e138",
        "relation": {
         "kind": "RenameRelation",
-        "id": "297266e1-7e04-4100-8c1a-a5e74c2f2c41",
+        "id": "9bcdf8c6-9427-421e-9c88-cbb6c407ab4a",
         "relation": {
          "kind": "SimpleRelation",
          "id": "b4ecb594ba46b6734ae995115b0787519bd43eb4571dd0391d8fb6a11f3fcdb5",
@@ -254,7 +254,7 @@
     ],
     "mainRelation": {
      "kind": "GatherRelation",
-     "id": "82e1276b-5598-4ba8-9150-b5cbb5aa4c39",
+     "id": "1da7b638-a1fd-4189-b93b-ac2d659d8d16",
      "relation": {
       "kind": "SimpleRelation",
       "id": "645a97079a29142f4497f0c214d666f03041c59ac7b047e475d9135b33b15446",
@@ -322,13 +322,7 @@
     }
    }
   },
-  "colColumns": [
-   {
-    "kind": "Factor",
-    "name": "logicle..event_id",
-    "type": "int32"
-   }
-  ],
+  "colColumns": [],
   "rowColumns": [
    {
     "kind": "Factor",
@@ -343,8 +337,8 @@
     "chartType": "point",
     "yAxis": {
      "kind": "Factor",
-     "name": "logicle.value",
-     "type": "double"
+     "name": "",
+     "type": "string"
     },
     "yAxisSettings": {
      "kind": "AxisSettings",
@@ -632,58 +626,28 @@
   },
   "operatorSettings": {
    "kind": "OperatorSettings",
-   "namespace": "ds0",
+   "namespace": "name",
    "operatorRef": {
     "kind": "OperatorRef",
-    "name": "UMAP",
-    "version": "1.2.5",
+    "name": "Separate",
+    "version": "0.1.1",
     "operatorId": "1",
     "operatorKind": "ROperator",
     "propertyValues": [
      {
       "kind": "PropertyValue",
-      "name": "init",
-      "value": "spectral"
+      "name": "into",
+      "value": "Mass,Marker"
      },
      {
       "kind": "PropertyValue",
-      "name": "scale",
-      "value": "none"
-     },
-     {
-      "kind": "PropertyValue",
-      "name": "n_neighbors",
-      "value": "15"
-     },
-     {
-      "kind": "PropertyValue",
-      "name": "spread",
-      "value": "1"
-     },
-     {
-      "kind": "PropertyValue",
-      "name": "min_dist",
-      "value": "0.5"
-     },
-     {
-      "kind": "PropertyValue",
-      "name": "pca",
-      "value": "-1"
-     },
-     {
-      "kind": "PropertyValue",
-      "name": "prop.train",
-      "value": "1"
-     },
-     {
-      "kind": "PropertyValue",
-      "name": "seed",
-      "value": "-1"
+      "name": "sep",
+      "value": "[_]"
      }
     ],
     "url": {
      "kind": "Url",
-     "uri": "https://github.com/tercen/umap_operator"
+     "uri": "https://github.com/tercen/separate_operator"
     },
     "operatorSpec": {
      "kind": "OperatorSpec",

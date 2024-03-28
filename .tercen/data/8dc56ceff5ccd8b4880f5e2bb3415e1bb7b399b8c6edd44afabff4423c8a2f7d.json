@@ -95,7 +95,7 @@
    "id": "2f1fe116-308b-4498-a8c5-c57a91f67eaa",
    "relation": {
     "kind": "InMemoryRelation",
-    "id": "87737261-d45a-440d-8957-0d35c32d842c",
+    "id": "cb198611-7f60-474a-97cd-5eea8639d805",
     "inMemoryTable": {
      "kind": "Table",
      "nRows": 1,
@@ -203,7 +203,7 @@
     "kind": "OperatorRef",
     "name": "FCS",
     "version": "2.3.0",
-    "operatorId": "2",
+    "operatorId": "7",
     "operatorKind": "ROperator",
     "propertyValues": [
      {

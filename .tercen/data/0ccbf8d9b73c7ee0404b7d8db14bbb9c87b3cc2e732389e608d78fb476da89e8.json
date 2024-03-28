@@ -1,10 +1,10 @@
 {
  "kind": "ComputedTableSchema",
- "id": "ccaf3623e66ea8810045b6b06354088594f95d15b9562cf7074f830ee46402bf",
+ "id": "0ccbf8d9b73c7ee0404b7d8db14bbb9c87b3cc2e732389e608d78fb476da89e8",
  "isDeleted": false,
  "rev": "",
  "description": "",
- "name": "7a78e630-caad-1f38-8756-29c9644b152f",
+ "name": "02fc1bf0-b0c4-1f3a-8756-29c9644b152f",
  "acl": {
   "kind": "Acl",
   "owner": "",
@@ -24,7 +24,7 @@
   {
    "kind": "Pair",
    "key": "SHA256",
-   "value": "ccaf3623e66ea8810045b6b06354088594f95d15b9562cf7074f830ee46402bf"
+   "value": "0ccbf8d9b73c7ee0404b7d8db14bbb9c87b3cc2e732389e608d78fb476da89e8"
   }
  ],
  "url": {
@@ -35,13 +35,13 @@
  "isPublic": false,
  "projectId": "",
  "folderId": "",
- "nRows": 25,
+ "nRows": 3249475,
  "columns": [
   {
    "kind": "ColumnSchema",
-   "id": "515cb377-eff0-46ff-881b-c103b67155c1",
-   "name": "name.string",
-   "type": "string",
+   "id": "29b2cb7a-0380-4188-80af-fc462f535cec",
+   "name": "z.scaled_value",
+   "type": "double",
    "nRows": 0,
    "size": -1,
    "metaData": {
@@ -54,8 +54,23 @@
   },
   {
    "kind": "ColumnSchema",
-   "id": "b12c4096-5dfe-4329-9aa9-0189f0f76ed3",
+   "id": "a02f9f21-137c-4b08-a35b-1e50d29978e2",
    "name": ".ri",
+   "type": "int32",
+   "nRows": 0,
+   "size": -1,
+   "metaData": {
+    "kind": "ColumnSchemaMetaData",
+    "sort": [],
+    "ascending": true,
+    "quartiles": [],
+    "properties": []
+   }
+  },
+  {
+   "kind": "ColumnSchema",
+   "id": "ae6cfb38-78d2-4a27-8753-673f0d0152d7",
+   "name": ".ci",
    "type": "int32",
    "nRows": 0,
    "size": -1,
@@ -68,16 +83,16 @@
    }
   }
  ],
- "dataDirectory": "data/cc/af/ccaf3623e66ea8810045b6b06354088594f95d15b9562cf7074f830ee46402bf",
+ "dataDirectory": "data/0c/cb/0ccbf8d9b73c7ee0404b7d8db14bbb9c87b3cc2e732389e608d78fb476da89e8",
  "relation": {
   "kind": "Relation",
-  "id": "4898cf79-4f29-4b98-9073-28063ee480ec"
+  "id": "b289188d-37e7-44ac-8de6-31d787d33ace"
  },
  "query": {
   "kind": "CubeQuery",
   "relation": {
    "kind": "CompositeRelation",
-   "id": "2cf67d62-2b1b-448d-82d8-94ed33bfb4f9",
+   "id": "2db50dd4-62b2-4814-852c-1aa27650868d",
    "joinOperators": [
     {
      "kind": "JoinOperator",
@@ -95,10 +110,10 @@
      },
      "rightRelation": {
       "kind": "RenameRelation",
-      "id": "37810eb3-e785-4eff-a765-35ff1ab6f10d",
+      "id": "0eef0947-9b59-4135-9fdc-177dd73160a3",
       "relation": {
        "kind": "CompositeRelation",
-       "id": "0879281e-8b3e-4e8d-9d33-9cbf2da9b7a4",
+       "id": "cbb54fb5-421d-401d-ac04-529e1dc4d38d",
        "joinOperators": [
         {
          "kind": "JoinOperator",
@@ -121,7 +136,7 @@
        ],
        "mainRelation": {
         "kind": "CompositeRelation",
-        "id": "3dc85b2e-e375-406e-b4f9-c4fac01d3674",
+        "id": "eeffccdf-d0d9-42f5-a7d8-57a9ff668823",
         "joinOperators": [
          {
           "kind": "JoinOperator",
@@ -184,7 +199,7 @@
    ],
    "mainRelation": {
     "kind": "CompositeRelation",
-    "id": "1d0d8b6c-588d-432b-a397-94f69a403690",
+    "id": "b3857b1c-eae3-423a-828e-8d29e16d9ce3",
     "joinOperators": [
      {
       "kind": "JoinOperator",
@@ -200,10 +215,10 @@
       },
       "rightRelation": {
        "kind": "RenameRelation",
-       "id": "782b12e9-f689-4161-aec4-05ff6f2082a9",
+       "id": "e9f3c080-f16c-4ce6-93af-5cef0d4ab00f",
        "relation": {
         "kind": "RenameRelation",
-        "id": "f641aa75-ff7a-4088-b563-7407906205c7",
+        "id": "0849d8c7-f2d2-49cb-97c9-aec7c0b0536c",
         "relation": {
          "kind": "SimpleRelation",
          "id": "b4ecb594ba46b6734ae995115b0787519bd43eb4571dd0391d8fb6a11f3fcdb5",
@@ -239,7 +254,7 @@
     ],
     "mainRelation": {
      "kind": "GatherRelation",
-     "id": "857dcea1-f5b3-4ae9-8f44-0b6fbd32c3d8",
+     "id": "1e47893d-96ff-430d-bb7f-33adceb54747",
      "relation": {
       "kind": "SimpleRelation",
       "id": "645a97079a29142f4497f0c214d666f03041c59ac7b047e475d9135b33b15446",
@@ -307,7 +322,13 @@
     }
    }
   },
-  "colColumns": [],
+  "colColumns": [
+   {
+    "kind": "Factor",
+    "name": "logicle..event_id",
+    "type": "int32"
+   }
+  ],
   "rowColumns": [
    {
     "kind": "Factor",
@@ -322,8 +343,8 @@
     "chartType": "point",
     "yAxis": {
      "kind": "Factor",
-     "name": "",
-     "type": "string"
+     "name": "logicle.value",
+     "type": "double"
     },
     "yAxisSettings": {
      "kind": "AxisSettings",
@@ -611,33 +632,28 @@
   },
   "operatorSettings": {
    "kind": "OperatorSettings",
-   "namespace": "name",
+   "namespace": "z",
    "operatorRef": {
     "kind": "OperatorRef",
-    "name": "Replace",
-    "version": "0.1.2",
-    "operatorId": "3",
+    "name": "Scale (Z-Score)",
+    "version": "0.12.2",
+    "operatorId": "4",
     "operatorKind": "ROperator",
     "propertyValues": [
      {
       "kind": "PropertyValue",
-      "name": "type",
-      "value": "all"
+      "name": "scale",
+      "value": "true"
      },
      {
       "kind": "PropertyValue",
-      "name": "what",
-      "value": "(.*)"
-     },
-     {
-      "kind": "PropertyValue",
-      "name": "by",
-      "value": "X\\1"
+      "name": "center",
+      "value": "true"
      }
     ],
     "url": {
      "kind": "Url",
-     "uri": "https://github.com/tercen/replace_operator"
+     "uri": "https://github.com/tercen/scale_operator"
     },
     "operatorSpec": {
      "kind": "OperatorSpec",

@@ -1,0 +1,42 @@
+{
+ "kind": "FileDocument",
+ "id": "data/Dataset1_Panel1_tx_FR-FCM-ZY34_files.zip",
+ "isDeleted": false,
+ "rev": "",
+ "description": "",
+ "name": "Dataset1_Panel1_tx_FR-FCM-ZY34_files.zip",
+ "acl": {
+  "kind": "Acl",
+  "owner": "",
+  "aces": []
+ },
+ "createdDate": {
+  "kind": "Date",
+  "value": ""
+ },
+ "lastModifiedDate": {
+  "kind": "Date",
+  "value": ""
+ },
+ "urls": [],
+ "tags": [],
+ "meta": [],
+ "url": {
+  "kind": "Url",
+  "uri": ""
+ },
+ "version": "",
+ "isPublic": false,
+ "projectId": "",
+ "folderId": "17",
+ "dataUri": "lfs/38/13/68028e5a9da6e821f7f2cadba415d84e1370b4b6d2ecff5620bbc063db39",
+ "metadata": {
+  "kind": "FileMetadata",
+  "contentType": "",
+  "cacheControl": "",
+  "contentEncoding": "",
+  "contentLanguage": "",
+  "md5Hash": ""
+ },
+ "size": 55684249
+}

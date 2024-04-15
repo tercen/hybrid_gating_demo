@@ -1,0 +1,505 @@
+{
+ "kind": "ComputedTableSchema",
+ "id": "7b77a67b1ca5c8eec2dcfa33680640e0890b494533e540367fa078531edc126f",
+ "isDeleted": false,
+ "rev": "",
+ "description": "",
+ "name": "6728b830-156a-1f72-baff-1b795fe92eaa",
+ "acl": {
+  "kind": "Acl",
+  "owner": "",
+  "aces": []
+ },
+ "createdDate": {
+  "kind": "Date",
+  "value": ""
+ },
+ "lastModifiedDate": {
+  "kind": "Date",
+  "value": ""
+ },
+ "urls": [],
+ "tags": [],
+ "meta": [
+  {
+   "kind": "Pair",
+   "key": "SHA256",
+   "value": "7b77a67b1ca5c8eec2dcfa33680640e0890b494533e540367fa078531edc126f"
+  }
+ ],
+ "url": {
+  "kind": "Url",
+  "uri": ""
+ },
+ "version": "",
+ "isPublic": false,
+ "projectId": "",
+ "folderId": "",
+ "nRows": 99999,
+ "columns": [
+  {
+   "kind": "ColumnSchema",
+   "id": "19b16e65-f4e9-4992-a50f-d626f5433383",
+   "name": ".ci",
+   "type": "int32",
+   "nRows": 0,
+   "size": -1,
+   "metaData": {
+    "kind": "ColumnSchemaMetaData",
+    "sort": [],
+    "ascending": true,
+    "quartiles": [],
+    "properties": []
+   }
+  },
+  {
+   "kind": "ColumnSchema",
+   "id": "c56b2c41-52c8-489d-831d-c473a1d5ff5d",
+   "name": "scyan_logicle.PredictedPopulation_Population",
+   "type": "string",
+   "nRows": 0,
+   "size": -1,
+   "metaData": {
+    "kind": "ColumnSchemaMetaData",
+    "sort": [],
+    "ascending": true,
+    "quartiles": [],
+    "properties": []
+   }
+  },
+  {
+   "kind": "ColumnSchema",
+   "id": "4118fe17-7252-4dbd-ac65-6d3cfeccff65",
+   "name": "scyan_logicle.MaxLogProb_Population",
+   "type": "double",
+   "nRows": 0,
+   "size": -1,
+   "metaData": {
+    "kind": "ColumnSchemaMetaData",
+    "sort": [],
+    "ascending": true,
+    "quartiles": [],
+    "properties": []
+   }
+  },
+  {
+   "kind": "ColumnSchema",
+   "id": "4955ece9-a938-43f3-b194-9b9823bebaae",
+   "name": "scyan_logicle.PredictedPopulation_Level_3",
+   "type": "string",
+   "nRows": 0,
+   "size": -1,
+   "metaData": {
+    "kind": "ColumnSchemaMetaData",
+    "sort": [],
+    "ascending": true,
+    "quartiles": [],
+    "properties": []
+   }
+  },
+  {
+   "kind": "ColumnSchema",
+   "id": "c7572415-dd5c-484c-a9b6-f63069d9df3a",
+   "name": "scyan_logicle.MaxLogProb_Level_3",
+   "type": "double",
+   "nRows": 0,
+   "size": -1,
+   "metaData": {
+    "kind": "ColumnSchemaMetaData",
+    "sort": [],
+    "ascending": true,
+    "quartiles": [],
+    "properties": []
+   }
+  },
+  {
+   "kind": "ColumnSchema",
+   "id": "007a8245-c20a-4433-8bb7-a1f2a6544521",
+   "name": "scyan_logicle.PredictedPopulation_Level_4",
+   "type": "string",
+   "nRows": 0,
+   "size": -1,
+   "metaData": {
+    "kind": "ColumnSchemaMetaData",
+    "sort": [],
+    "ascending": true,
+    "quartiles": [],
+    "properties": []
+   }
+  },
+  {
+   "kind": "ColumnSchema",
+   "id": "89025643-acef-4be0-8f40-b8ec1da3ad38",
+   "name": "scyan_logicle.MaxLogProb_Level_4",
+   "type": "double",
+   "nRows": 0,
+   "size": -1,
+   "metaData": {
+    "kind": "ColumnSchemaMetaData",
+    "sort": [],
+    "ascending": true,
+    "quartiles": [],
+    "properties": []
+   }
+  },
+  {
+   "kind": "ColumnSchema",
+   "id": "039e4ca0-ec07-4196-a07e-c3e7b7c47e62",
+   "name": "scyan_logicle.PredictedPopulation_Level_5",
+   "type": "string",
+   "nRows": 0,
+   "size": -1,
+   "metaData": {
+    "kind": "ColumnSchemaMetaData",
+    "sort": [],
+    "ascending": true,
+    "quartiles": [],
+    "properties": []
+   }
+  },
+  {
+   "kind": "ColumnSchema",
+   "id": "28bc9868-6611-4058-af20-7a4876d4e5ad",
+   "name": "scyan_logicle.MaxLogProb_Level_5",
+   "type": "double",
+   "nRows": 0,
+   "size": -1,
+   "metaData": {
+    "kind": "ColumnSchemaMetaData",
+    "sort": [],
+    "ascending": true,
+    "quartiles": [],
+    "properties": []
+   }
+  },
+  {
+   "kind": "ColumnSchema",
+   "id": "7e12060f-a608-4478-afb3-b479c1e152c3",
+   "name": "scyan_logicle.PredictedPopulation_Level_6",
+   "type": "string",
+   "nRows": 0,
+   "size": -1,
+   "metaData": {
+    "kind": "ColumnSchemaMetaData",
+    "sort": [],
+    "ascending": true,
+    "quartiles": [],
+    "properties": []
+   }
+  },
+  {
+   "kind": "ColumnSchema",
+   "id": "6d85992e-5a25-40a1-ae49-cc4c85242868",
+   "name": "scyan_logicle.MaxLogProb_Level_6",
+   "type": "double",
+   "nRows": 0,
+   "size": -1,
+   "metaData": {
+    "kind": "ColumnSchemaMetaData",
+    "sort": [],
+    "ascending": true,
+    "quartiles": [],
+    "properties": []
+   }
+  },
+  {
+   "kind": "ColumnSchema",
+   "id": "ca5696ce-c0fb-4c5e-ae1c-537655c78bdd",
+   "name": "scyan_logicle.PredictedPopulation_Level_7",
+   "type": "string",
+   "nRows": 0,
+   "size": -1,
+   "metaData": {
+    "kind": "ColumnSchemaMetaData",
+    "sort": [],
+    "ascending": true,
+    "quartiles": [],
+    "properties": []
+   }
+  },
+  {
+   "kind": "ColumnSchema",
+   "id": "fff3b2a8-6540-4239-ba43-1e393aad955f",
+   "name": "scyan_logicle.MaxLogProb_Level_7",
+   "type": "double",
+   "nRows": 0,
+   "size": -1,
+   "metaData": {
+    "kind": "ColumnSchemaMetaData",
+    "sort": [],
+    "ascending": true,
+    "quartiles": [],
+    "properties": []
+   }
+  }
+ ],
+ "dataDirectory": "data/7b/77/7b77a67b1ca5c8eec2dcfa33680640e0890b494533e540367fa078531edc126f",
+ "relation": {
+  "kind": "Relation",
+  "id": "b3ca72df-c2c8-41ab-9eef-620d3d6e060e"
+ },
+ "query": {
+  "kind": "CubeQuery",
+  "relation": {
+   "kind": "RenameRelation",
+   "id": "2d8ca556-36f8-4edb-9dfe-ede351c8c210",
+   "relation": {
+    "kind": "CompositeRelation",
+    "id": "22320ff9-b8da-44a2-94b5-0fd191d9a9bb",
+    "joinOperators": [
+     {
+      "kind": "JoinOperator",
+      "joinType": "leftOuter",
+      "leftPair": {
+       "kind": "ColumnPair",
+       "lColumns": [
+        ".ri"
+       ],
+       "rColumns": [
+        "dd15be5123ea85bf2c0e156ea11163e8ef2311c05f49e3e0f43b61ca799c1983._rids"
+       ]
+      },
+      "rightRelation": {
+       "kind": "SimpleRelation",
+       "id": "dd15be5123ea85bf2c0e156ea11163e8ef2311c05f49e3e0f43b61ca799c1983",
+       "index": 2
+      }
+     }
+    ],
+    "mainRelation": {
+     "kind": "CompositeRelation",
+     "id": "00ed4c6e-a379-440d-8e73-a4a411a1c921",
+     "joinOperators": [
+      {
+       "kind": "JoinOperator",
+       "joinType": "leftOuter",
+       "leftPair": {
+        "kind": "ColumnPair",
+        "lColumns": [
+         ".ci"
+        ],
+        "rColumns": [
+         "b5b05152b92a9df777f092f832499b3fe07f7a7173a4afe72da8b1c653a6e7b6._rids"
+        ]
+       },
+       "rightRelation": {
+        "kind": "SimpleRelation",
+        "id": "b5b05152b92a9df777f092f832499b3fe07f7a7173a4afe72da8b1c653a6e7b6",
+        "index": 1
+       }
+      }
+     ],
+     "mainRelation": {
+      "kind": "SimpleRelation",
+      "id": "865e83b311436c01fff25b150da02d3317f5028f68c764c619857c21a42994cf",
+      "index": 0
+     }
+    }
+   },
+   "inNames": [
+    "scale_logicle.scaled_value",
+    ".ri",
+    ".ci",
+    "865e83b311436c01fff25b150da02d3317f5028f68c764c619857c21a42994cf._rids",
+    "865e83b311436c01fff25b150da02d3317f5028f68c764c619857c21a42994cf.tlbId",
+    "logic_transf..filename",
+    "logic_transf..event_id",
+    "b5b05152b92a9df777f092f832499b3fe07f7a7173a4afe72da8b1c653a6e7b6._rids",
+    "b5b05152b92a9df777f092f832499b3fe07f7a7173a4afe72da8b1c653a6e7b6.tlbId",
+    "marker_names.name",
+    "dd15be5123ea85bf2c0e156ea11163e8ef2311c05f49e3e0f43b61ca799c1983._rids",
+    "dd15be5123ea85bf2c0e156ea11163e8ef2311c05f49e3e0f43b61ca799c1983.tlbId",
+    "logic_transf..filename",
+    "logic_transf..event_id",
+    "marker_names.name"
+   ],
+   "outNames": [
+    "scale_logicle.scaled_value",
+    ".ri",
+    ".ci",
+    "865e83b311436c01fff25b150da02d3317f5028f68c764c619857c21a42994cf._rids",
+    "865e83b311436c01fff25b150da02d3317f5028f68c764c619857c21a42994cf.tlbId",
+    "logic_transf..filename",
+    "logic_transf..event_id",
+    "b5b05152b92a9df777f092f832499b3fe07f7a7173a4afe72da8b1c653a6e7b6._rids",
+    "b5b05152b92a9df777f092f832499b3fe07f7a7173a4afe72da8b1c653a6e7b6.tlbId",
+    "marker_names.name",
+    "dd15be5123ea85bf2c0e156ea11163e8ef2311c05f49e3e0f43b61ca799c1983._rids",
+    "dd15be5123ea85bf2c0e156ea11163e8ef2311c05f49e3e0f43b61ca799c1983.tlbId",
+    "scale_logicle..filename",
+    "scale_logicle..event_id",
+    "scale_logicle..name"
+   ]
+  },
+  "colColumns": [
+   {
+    "kind": "Factor",
+    "name": "scale_logicle..event_id",
+    "type": "int32"
+   }
+  ],
+  "rowColumns": [
+   {
+    "kind": "Factor",
+    "name": "scale_logicle..name",
+    "type": "string"
+   }
+  ],
+  "axisQueries": [
+   {
+    "kind": "CubeAxisQuery",
+    "pointSize": 4,
+    "chartType": "point",
+    "yAxis": {
+     "kind": "Factor",
+     "name": "scale_logicle.scaled_value",
+     "type": "double"
+    },
+    "yAxisSettings": {
+     "kind": "AxisSettings",
+     "meta": []
+    },
+    "xAxis": {
+     "kind": "Factor",
+     "name": "",
+     "type": "string"
+    },
+    "xAxisSettings": {
+     "kind": "AxisSettings",
+     "meta": []
+    },
+    "errors": [],
+    "labels": [],
+    "colors": [],
+    "preprocessors": []
+   }
+  ],
+  "filters": {
+   "kind": "Filters",
+   "removeNaN": true,
+   "namedFilters": [
+    {
+     "kind": "NamedFilter",
+     "logical": "and",
+     "not": false,
+     "filterExprs": [
+      {
+       "kind": "FilterExpr",
+       "filterOp": "less",
+       "stringValue": "100000",
+       "factor": {
+        "kind": "Factor",
+        "name": "scale_logicle..event_id",
+        "type": "int32"
+       }
+      }
+     ],
+     "meta": [],
+     "name": "scale_logicle..event_id"
+    }
+   ]
+  },
+  "operatorSettings": {
+   "kind": "OperatorSettings",
+   "namespace": "scyan_logicle",
+   "operatorRef": {
+    "kind": "OperatorRef",
+    "name": "Scyan",
+    "version": "0.0.5",
+    "operatorId": "12",
+    "operatorKind": "DockerOperator",
+    "propertyValues": [
+     {
+      "kind": "PropertyValue",
+      "name": "PriorSD",
+      "value": "0.3"
+     },
+     {
+      "kind": "PropertyValue",
+      "name": "LR",
+      "value": "0.0005"
+     },
+     {
+      "kind": "PropertyValue",
+      "name": "Layers",
+      "value": "7"
+     },
+     {
+      "kind": "PropertyValue",
+      "name": "Hidden Layers",
+      "value": "6"
+     },
+     {
+      "kind": "PropertyValue",
+      "name": "Hidden Size",
+      "value": "16"
+     },
+     {
+      "kind": "PropertyValue",
+      "name": "Temperature",
+      "value": "0.5"
+     },
+     {
+      "kind": "PropertyValue",
+      "name": "Batch Size",
+      "value": "8192"
+     },
+     {
+      "kind": "PropertyValue",
+      "name": "WarmUp",
+      "value": "(0.35,4)"
+     },
+     {
+      "kind": "PropertyValue",
+      "name": "FullOutput",
+      "value": "false"
+     }
+    ],
+    "url": {
+     "kind": "Url",
+     "uri": "https://github.com/tercen/scyan_operator"
+    },
+    "operatorSpec": {
+     "kind": "OperatorSpec",
+     "ontologyUri": "",
+     "ontologyVersion": "",
+     "inputSpecs": [],
+     "outputSpecs": []
+    }
+   },
+   "environment": [
+    {
+     "kind": "Pair",
+     "key": "cpu",
+     "value": "0"
+    },
+    {
+     "kind": "Pair",
+     "key": "ram",
+     "value": "6000000000"
+    },
+    {
+     "kind": "Pair",
+     "key": "cpu-shares",
+     "value": "0"
+    },
+    {
+     "kind": "Pair",
+     "key": "tercen.collect.stats",
+     "value": "false"
+    },
+    {
+     "kind": "Pair",
+     "key": "debug",
+     "value": "false"
+    }
+   ],
+   "operatorModel": {
+    "kind": "OperatorModel"
+   }
+  },
+  "qtHash": "",
+  "columnHash": "",
+  "rowHash": ""
+ }
+}

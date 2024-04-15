@@ -1,0 +1,673 @@
+{
+ "kind": "ComputedTableSchema",
+ "id": "378e5c30953dc9958b8a36331c1ac3e0d27ec1af3b547298f46c3194f93af0c6",
+ "isDeleted": false,
+ "rev": "",
+ "description": "",
+ "name": "3a1d9980-4b40-1f72-baff-1b795fe92eaa",
+ "acl": {
+  "kind": "Acl",
+  "owner": "",
+  "aces": []
+ },
+ "createdDate": {
+  "kind": "Date",
+  "value": ""
+ },
+ "lastModifiedDate": {
+  "kind": "Date",
+  "value": ""
+ },
+ "urls": [],
+ "tags": [],
+ "meta": [
+  {
+   "kind": "Pair",
+   "key": "SHA256",
+   "value": "378e5c30953dc9958b8a36331c1ac3e0d27ec1af3b547298f46c3194f93af0c6"
+  }
+ ],
+ "url": {
+  "kind": "Url",
+  "uri": ""
+ },
+ "version": "",
+ "isPublic": false,
+ "projectId": "",
+ "folderId": "",
+ "nRows": 491426,
+ "columns": [
+  {
+   "kind": "ColumnSchema",
+   "id": "4e26aabf-7863-4fdd-9bea-0a78ab25afba",
+   "name": "ds1.umap.1",
+   "type": "double",
+   "nRows": 0,
+   "size": -1,
+   "metaData": {
+    "kind": "ColumnSchemaMetaData",
+    "sort": [],
+    "ascending": true,
+    "quartiles": [],
+    "properties": []
+   }
+  },
+  {
+   "kind": "ColumnSchema",
+   "id": "c2bcd034-bec3-41c1-bdab-2ddc21448867",
+   "name": "ds1.umap.2",
+   "type": "double",
+   "nRows": 0,
+   "size": -1,
+   "metaData": {
+    "kind": "ColumnSchemaMetaData",
+    "sort": [],
+    "ascending": true,
+    "quartiles": [],
+    "properties": []
+   }
+  },
+  {
+   "kind": "ColumnSchema",
+   "id": "2376b2dc-2dc6-4d89-81be-0f961553440f",
+   "name": ".ci",
+   "type": "int32",
+   "nRows": 0,
+   "size": -1,
+   "metaData": {
+    "kind": "ColumnSchemaMetaData",
+    "sort": [],
+    "ascending": true,
+    "quartiles": [],
+    "properties": []
+   }
+  }
+ ],
+ "dataDirectory": "data/37/8e/378e5c30953dc9958b8a36331c1ac3e0d27ec1af3b547298f46c3194f93af0c6",
+ "relation": {
+  "kind": "Relation",
+  "id": "9e538020-8a5f-41d2-a106-376320ad513f"
+ },
+ "query": {
+  "kind": "CubeQuery",
+  "relation": {
+   "kind": "GatherRelation",
+   "id": "8b5a73a0-1810-4b7b-a1c4-11eba9091b44",
+   "relation": {
+    "kind": "CompositeRelation",
+    "id": "06f494b3-6e35-453a-b441-6f732090f059",
+    "joinOperators": [
+     {
+      "kind": "JoinOperator",
+      "joinType": "leftOuter",
+      "leftPair": {
+       "kind": "ColumnPair",
+       "lColumns": [
+        "filename",
+        "logicle..event_id"
+       ],
+       "rColumns": [
+        "filename",
+        "logicle..event_id"
+       ]
+      },
+      "rightRelation": {
+       "kind": "RenameRelation",
+       "id": "133c78cb-02f9-40bf-bc93-46aae36db7e4",
+       "relation": {
+        "kind": "CompositeRelation",
+        "id": "3f8b51cd-145e-4465-8bdf-ef4d2e32fc3f",
+        "joinOperators": [
+         {
+          "kind": "JoinOperator",
+          "joinType": "leftOuter",
+          "leftPair": {
+           "kind": "ColumnPair",
+           "lColumns": [
+            ".ri"
+           ],
+           "rColumns": [
+            "70b489c66f3854857b8dce425fdee86940e24bef6cbe5fe2969579fd7c1837e0-1._rids"
+           ]
+          },
+          "rightRelation": {
+           "kind": "SimpleRelation",
+           "id": "70b489c66f3854857b8dce425fdee86940e24bef6cbe5fe2969579fd7c1837e0-1",
+           "index": 7
+          }
+         }
+        ],
+        "mainRelation": {
+         "kind": "SimpleRelation",
+         "id": "213fe706f05c7d65843e526f60670ee86b98dfdf87fef18ea4ded358cb0eed65-1",
+         "index": 6
+        }
+       },
+       "inNames": [
+        "logic_transf.BTLA",
+        "logic_transf.CCR4",
+        "logic_transf.CCR5",
+        "logic_transf.CCR6",
+        "logic_transf.CCR7",
+        "logic_transf.CD11a",
+        "logic_transf.CD127",
+        "logic_transf.CD16",
+        "logic_transf.CD19",
+        "logic_transf.CD25",
+        "logic_transf.CD27",
+        "logic_transf.CD28",
+        "logic_transf.CD3",
+        "logic_transf.CD4",
+        "logic_transf.CD45",
+        "logic_transf.CD45RA",
+        "logic_transf.CD45RO",
+        "logic_transf.CD56",
+        "logic_transf.CD57",
+        "logic_transf.CD62L",
+        "logic_transf.CD69",
+        "logic_transf.CD8a",
+        "logic_transf.CD95",
+        "logic_transf.CTLA4",
+        "logic_transf.CXCR3",
+        "logic_transf.DNA1",
+        "logic_transf.DNA2",
+        "logic_transf.Dead",
+        "logic_transf.Granzyme-B",
+        "logic_transf.HLA-DR",
+        "logic_transf.LAG-3",
+        "logic_transf.PD-1",
+        "logic_transf.TCRgd",
+        ".ri",
+        "213fe706f05c7d65843e526f60670ee86b98dfdf87fef18ea4ded358cb0eed65-1._rids",
+        "213fe706f05c7d65843e526f60670ee86b98dfdf87fef18ea4ded358cb0eed65-1.tlbId",
+        "filename",
+        "logicle..event_id",
+        "70b489c66f3854857b8dce425fdee86940e24bef6cbe5fe2969579fd7c1837e0-1._rids",
+        "70b489c66f3854857b8dce425fdee86940e24bef6cbe5fe2969579fd7c1837e0-1.tlbId",
+        "filename",
+        "logicle..event_id"
+       ],
+       "outNames": [
+        "logic_transf.BTLA",
+        "logic_transf.CCR4",
+        "logic_transf.CCR5",
+        "logic_transf.CCR6",
+        "logic_transf.CCR7",
+        "logic_transf.CD11a",
+        "logic_transf.CD127",
+        "logic_transf.CD16",
+        "logic_transf.CD19",
+        "logic_transf.CD25",
+        "logic_transf.CD27",
+        "logic_transf.CD28",
+        "logic_transf.CD3",
+        "logic_transf.CD4",
+        "logic_transf.CD45",
+        "logic_transf.CD45RA",
+        "logic_transf.CD45RO",
+        "logic_transf.CD56",
+        "logic_transf.CD57",
+        "logic_transf.CD62L",
+        "logic_transf.CD69",
+        "logic_transf.CD8a",
+        "logic_transf.CD95",
+        "logic_transf.CTLA4",
+        "logic_transf.CXCR3",
+        "logic_transf.DNA1",
+        "logic_transf.DNA2",
+        "logic_transf.Dead",
+        "logic_transf.Granzyme-B",
+        "logic_transf.HLA-DR",
+        "logic_transf.LAG-3",
+        "logic_transf.PD-1",
+        "logic_transf.TCRgd",
+        ".ri",
+        "213fe706f05c7d65843e526f60670ee86b98dfdf87fef18ea4ded358cb0eed65-1._rids",
+        "213fe706f05c7d65843e526f60670ee86b98dfdf87fef18ea4ded358cb0eed65-1.tlbId",
+        "filename",
+        "logicle..event_id",
+        "70b489c66f3854857b8dce425fdee86940e24bef6cbe5fe2969579fd7c1837e0-1._rids",
+        "70b489c66f3854857b8dce425fdee86940e24bef6cbe5fe2969579fd7c1837e0-1.tlbId",
+        "logic_transf..filename",
+        "logic_transf..event_id"
+       ]
+      }
+     }
+    ],
+    "mainRelation": {
+     "kind": "CompositeRelation",
+     "id": "60ca73ef-eddf-48eb-ae7d-87f3178f9f93",
+     "joinOperators": [
+      {
+       "kind": "JoinOperator",
+       "joinType": "leftOuter",
+       "leftPair": {
+        "kind": "ColumnPair",
+        "lColumns": [
+         "event_id",
+         "channel.variable",
+         "annot.Antigen"
+        ],
+        "rColumns": [
+         "event_id",
+         "channel.variable",
+         "annot.Antigen"
+        ]
+       },
+       "rightRelation": {
+        "kind": "RenameRelation",
+        "id": "a10dd2a1-71ea-4bde-bdae-ff01b6133c04",
+        "relation": {
+         "kind": "CompositeRelation",
+         "id": "a56566b5-e43f-4d47-b953-ea4e8e42f44e",
+         "joinOperators": [
+          {
+           "kind": "JoinOperator",
+           "joinType": "leftOuter",
+           "leftPair": {
+            "kind": "ColumnPair",
+            "lColumns": [
+             ".ri"
+            ],
+            "rColumns": [
+             "11be764a04e5676cbafcc94bac9b760001596b3666d1eb2e8e9c1018d504894f-1._rids"
+            ]
+           },
+           "rightRelation": {
+            "kind": "SimpleRelation",
+            "id": "11be764a04e5676cbafcc94bac9b760001596b3666d1eb2e8e9c1018d504894f-1",
+            "index": 5
+           }
+          }
+         ],
+         "mainRelation": {
+          "kind": "CompositeRelation",
+          "id": "e59c65f1-4007-41f3-88b6-8fdb9f0f11e7",
+          "joinOperators": [
+           {
+            "kind": "JoinOperator",
+            "joinType": "leftOuter",
+            "leftPair": {
+             "kind": "ColumnPair",
+             "lColumns": [
+              ".ci"
+             ],
+             "rColumns": [
+              "98f691568de74b5645d476a7acd5d48f52c9e684f2ac4f6faf3f4a7650a5b103-1._rids"
+             ]
+            },
+            "rightRelation": {
+             "kind": "SimpleRelation",
+             "id": "98f691568de74b5645d476a7acd5d48f52c9e684f2ac4f6faf3f4a7650a5b103-1",
+             "index": 4
+            }
+           }
+          ],
+          "mainRelation": {
+           "kind": "SimpleRelation",
+           "id": "d91e2d64c82e1a89df2cd29c829d10cf479ec2c66581ff78d83c1c1767fc77ae-1",
+           "index": 3
+          }
+         }
+        },
+        "inNames": [
+         ".ci",
+         ".ri",
+         "logicle.value",
+         "d91e2d64c82e1a89df2cd29c829d10cf479ec2c66581ff78d83c1c1767fc77ae-1._rids",
+         "d91e2d64c82e1a89df2cd29c829d10cf479ec2c66581ff78d83c1c1767fc77ae-1.tlbId",
+         "event_id",
+         "98f691568de74b5645d476a7acd5d48f52c9e684f2ac4f6faf3f4a7650a5b103-1._rids",
+         "98f691568de74b5645d476a7acd5d48f52c9e684f2ac4f6faf3f4a7650a5b103-1.tlbId",
+         "channel.variable",
+         "annot.Antigen",
+         "11be764a04e5676cbafcc94bac9b760001596b3666d1eb2e8e9c1018d504894f-1._rids",
+         "11be764a04e5676cbafcc94bac9b760001596b3666d1eb2e8e9c1018d504894f-1.tlbId",
+         "event_id",
+         "channel.variable",
+         "annot.Antigen"
+        ],
+        "outNames": [
+         ".ci",
+         ".ri",
+         "logicle.value",
+         "d91e2d64c82e1a89df2cd29c829d10cf479ec2c66581ff78d83c1c1767fc77ae-1._rids",
+         "d91e2d64c82e1a89df2cd29c829d10cf479ec2c66581ff78d83c1c1767fc77ae-1.tlbId",
+         "event_id",
+         "98f691568de74b5645d476a7acd5d48f52c9e684f2ac4f6faf3f4a7650a5b103-1._rids",
+         "98f691568de74b5645d476a7acd5d48f52c9e684f2ac4f6faf3f4a7650a5b103-1.tlbId",
+         "channel.variable",
+         "annot.Antigen",
+         "11be764a04e5676cbafcc94bac9b760001596b3666d1eb2e8e9c1018d504894f-1._rids",
+         "11be764a04e5676cbafcc94bac9b760001596b3666d1eb2e8e9c1018d504894f-1.tlbId",
+         "logicle..event_id",
+         "logicle..variable",
+         "logicle..Antigen"
+        ]
+       }
+      }
+     ],
+     "mainRelation": {
+      "kind": "CompositeRelation",
+      "id": "ae5c6873-673c-4e80-b2a7-9e6aeae1441f",
+      "joinOperators": [
+       {
+        "kind": "JoinOperator",
+        "joinType": "r.o.f",
+        "leftPair": {
+         "kind": "ColumnPair",
+         "lColumns": [
+          "channel.variable"
+         ],
+         "rColumns": [
+          "annot.Name"
+         ]
+        },
+        "rightRelation": {
+         "kind": "RenameRelation",
+         "id": "f1908ae6-0354-4a63-8101-ab45e715bad5",
+         "relation": {
+          "kind": "RenameRelation",
+          "id": "8604ef1d-ce61-4b4f-a427-4a80b4b2f995",
+          "relation": {
+           "kind": "SimpleRelation",
+           "id": "fa97025fe6a3d0d3809b5fb7c406ff0572268c28e9a2dba6fec836b83a62dfcb",
+           "index": 2
+          },
+          "inNames": [
+           "Name",
+           "Isotope",
+           "Metal",
+           "Antigen",
+           "fa97025fe6a3d0d3809b5fb7c406ff0572268c28e9a2dba6fec836b83a62dfcb._rids"
+          ],
+          "outNames": [
+           "Name",
+           "Isotope",
+           "Metal",
+           "Antigen",
+           "rowId"
+          ]
+         },
+         "inNames": [
+          "Name",
+          "Isotope",
+          "Metal",
+          "Antigen",
+          "rowId"
+         ],
+         "outNames": [
+          "annot.Name",
+          "annot.Isotope",
+          "annot.Metal",
+          "annot.Antigen",
+          "annot.rowId"
+         ]
+        }
+       }
+      ],
+      "mainRelation": {
+       "kind": "GatherRelation",
+       "id": "114fc048-297a-4f6a-aab7-a4d7be59fb62",
+       "relation": {
+        "kind": "CompositeRelation",
+        "id": "2be9a5af-08c8-429b-9133-89c572569967",
+        "joinOperators": [
+         {
+          "kind": "JoinOperator",
+          "joinType": "leftOuter",
+          "leftPair": {
+           "kind": "ColumnPair",
+           "lColumns": [
+            "event_id"
+           ],
+           "rColumns": [
+            "event_id"
+           ]
+          },
+          "rightRelation": {
+           "kind": "SimpleRelation",
+           "id": "9008ac750aa31f7ef4ca19fa69a7231c1e8f461beb6a2acc252fb5f4ad6c27c8-1",
+           "index": 1
+          }
+         }
+        ],
+        "mainRelation": {
+         "kind": "SimpleRelation",
+         "id": "bd6f4cfcd754b490044fb1222a848652d05a4b1ad037adedb00a2d96bd7f8b1b-1",
+         "index": 0
+        }
+       },
+       "names": [
+        "Bi209Di",
+        "Dy161Di",
+        "Dy162Di",
+        "Dy164Di",
+        "Er166Di",
+        "Er167Di",
+        "Eu153Di",
+        "Gd152Di",
+        "Gd154Di",
+        "Gd155Di",
+        "Gd156Di",
+        "Gd158Di",
+        "Gd160Di",
+        "Ho165Di",
+        "Ir191Di",
+        "Ir193Di",
+        "Lu175Di",
+        "Nd142Di",
+        "Nd143Di",
+        "Nd144Di",
+        "Nd145Di",
+        "Nd146Di",
+        "Pr141Di",
+        "Pt195Di",
+        "Pt196Di",
+        "Pt198Di",
+        "SampleID",
+        "Sm149Di",
+        "Tm169Di",
+        "Y89Di",
+        "Yb170Di",
+        "Yb171Di",
+        "Yb172Di",
+        "Yb173Di",
+        "Yb174Di",
+        "Yb176Di"
+       ],
+       "valueName": "channel.value",
+       "variableName": "channel.variable",
+       "valueType": "double",
+       "gatherType": ""
+      }
+     }
+    }
+   },
+   "names": [
+    "logic_transf.BTLA",
+    "logic_transf.CCR4",
+    "logic_transf.CCR5",
+    "logic_transf.CCR6",
+    "logic_transf.CCR7",
+    "logic_transf.CD11a",
+    "logic_transf.CD127",
+    "logic_transf.CD16",
+    "logic_transf.CD19",
+    "logic_transf.CD25",
+    "logic_transf.CD27",
+    "logic_transf.CD28",
+    "logic_transf.CD3",
+    "logic_transf.CD4",
+    "logic_transf.CD45",
+    "logic_transf.CD45RA",
+    "logic_transf.CD45RO",
+    "logic_transf.CD56",
+    "logic_transf.CD57",
+    "logic_transf.CD62L",
+    "logic_transf.CD69",
+    "logic_transf.CD8a",
+    "logic_transf.CD95",
+    "logic_transf.CTLA4",
+    "logic_transf.CXCR3",
+    "logic_transf.DNA1",
+    "logic_transf.DNA2",
+    "logic_transf.Dead",
+    "logic_transf.Granzyme-B",
+    "logic_transf.HLA-DR",
+    "logic_transf.LAG-3",
+    "logic_transf.PD-1",
+    "logic_transf.TCRgd"
+   ],
+   "valueName": "data.value",
+   "variableName": "data.variable",
+   "valueType": "double",
+   "gatherType": "no.na"
+  },
+  "colColumns": [
+   {
+    "kind": "Factor",
+    "name": "logicle..event_id",
+    "type": "int32"
+   }
+  ],
+  "rowColumns": [
+   {
+    "kind": "Factor",
+    "name": "data.variable",
+    "type": "string"
+   }
+  ],
+  "axisQueries": [
+   {
+    "kind": "CubeAxisQuery",
+    "pointSize": 4,
+    "chartType": "point",
+    "yAxis": {
+     "kind": "Factor",
+     "name": "data.value",
+     "type": "double"
+    },
+    "yAxisSettings": {
+     "kind": "AxisSettings",
+     "meta": []
+    },
+    "xAxis": {
+     "kind": "Factor",
+     "name": "",
+     "type": "string"
+    },
+    "xAxisSettings": {
+     "kind": "AxisSettings",
+     "meta": []
+    },
+    "errors": [],
+    "labels": [],
+    "colors": [],
+    "preprocessors": []
+   }
+  ],
+  "filters": {
+   "kind": "Filters",
+   "removeNaN": true,
+   "namedFilters": []
+  },
+  "operatorSettings": {
+   "kind": "OperatorSettings",
+   "namespace": "ds1",
+   "operatorRef": {
+    "kind": "OperatorRef",
+    "name": "UMAP",
+    "version": "1.2.5",
+    "operatorId": "8",
+    "operatorKind": "ROperator",
+    "propertyValues": [
+     {
+      "kind": "PropertyValue",
+      "name": "init",
+      "value": "spectral"
+     },
+     {
+      "kind": "PropertyValue",
+      "name": "scale",
+      "value": "none"
+     },
+     {
+      "kind": "PropertyValue",
+      "name": "n_neighbors",
+      "value": "15"
+     },
+     {
+      "kind": "PropertyValue",
+      "name": "spread",
+      "value": "1"
+     },
+     {
+      "kind": "PropertyValue",
+      "name": "min_dist",
+      "value": "0.5"
+     },
+     {
+      "kind": "PropertyValue",
+      "name": "pca",
+      "value": "-1"
+     },
+     {
+      "kind": "PropertyValue",
+      "name": "prop.train",
+      "value": "1"
+     },
+     {
+      "kind": "PropertyValue",
+      "name": "seed",
+      "value": "-1"
+     }
+    ],
+    "url": {
+     "kind": "Url",
+     "uri": "https://github.com/tercen/umap_operator"
+    },
+    "operatorSpec": {
+     "kind": "OperatorSpec",
+     "ontologyUri": "",
+     "ontologyVersion": "",
+     "inputSpecs": [],
+     "outputSpecs": []
+    }
+   },
+   "environment": [
+    {
+     "kind": "Pair",
+     "key": "cpu",
+     "value": "0"
+    },
+    {
+     "kind": "Pair",
+     "key": "ram",
+     "value": "0"
+    },
+    {
+     "kind": "Pair",
+     "key": "cpu-shares",
+     "value": "0"
+    },
+    {
+     "kind": "Pair",
+     "key": "tercen.collect.stats",
+     "value": "false"
+    },
+    {
+     "kind": "Pair",
+     "key": "debug",
+     "value": "false"
+    }
+   ],
+   "operatorModel": {
+    "kind": "OperatorModel"
+   }
+  },
+  "qtHash": "",
+  "columnHash": "",
+  "rowHash": ""
+ }
+}

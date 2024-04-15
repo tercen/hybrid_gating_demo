@@ -1,0 +1,143 @@
+{
+ "kind": "CubeQueryTableSchema",
+ "id": "ab0571651960b77b999725a14221d955b0c0b78ac76f0702d87597f11fe9e28f-1",
+ "isDeleted": false,
+ "rev": "",
+ "description": "",
+ "name": "Cytotoxic T cells Memory",
+ "acl": {
+  "kind": "Acl",
+  "owner": "",
+  "aces": []
+ },
+ "createdDate": {
+  "kind": "Date",
+  "value": ""
+ },
+ "lastModifiedDate": {
+  "kind": "Date",
+  "value": ""
+ },
+ "urls": [],
+ "tags": [],
+ "meta": [
+  {
+   "kind": "Pair",
+   "key": "logic_transf..filename.size_in_bytes",
+   "value": "433480"
+  },
+  {
+   "kind": "Pair",
+   "key": "SHA256",
+   "value": "ab0571651960b77b999725a14221d955b0c0b78ac76f0702d87597f11fe9e28f"
+  }
+ ],
+ "url": {
+  "kind": "Url",
+  "uri": ""
+ },
+ "version": "",
+ "isPublic": false,
+ "projectId": "",
+ "folderId": "",
+ "nRows": 10310,
+ "columns": [
+  {
+   "kind": "ColumnSchema",
+   "id": "335b26b9-05e0-416d-a363-2b96eef62ee3",
+   "name": "gating.Cytotoxic T cells Memory",
+   "type": "double",
+   "nRows": 0,
+   "size": -1,
+   "metaData": {
+    "kind": "ColumnSchemaMetaData",
+    "sort": [],
+    "ascending": true,
+    "quartiles": [],
+    "properties": []
+   }
+  },
+  {
+   "kind": "ColumnSchema",
+   "id": "ff894fb2-2a45-46a4-b568-3b5986fbcda2",
+   "name": "logic_transf..event_id",
+   "type": "int32",
+   "nRows": 0,
+   "size": -1,
+   "metaData": {
+    "kind": "ColumnSchemaMetaData",
+    "sort": [],
+    "ascending": true,
+    "quartiles": [],
+    "properties": []
+   }
+  },
+  {
+   "kind": "ColumnSchema",
+   "id": "5ec5f175-37b8-4d70-a056-dc879d52b535",
+   "name": "logic_transf..filename",
+   "type": "string",
+   "nRows": 0,
+   "size": -1,
+   "metaData": {
+    "kind": "ColumnSchemaMetaData",
+    "sort": [],
+    "ascending": true,
+    "quartiles": [],
+    "properties": []
+   }
+  }
+ ],
+ "dataDirectory": "data/ab/05/ab0571651960b77b999725a14221d955b0c0b78ac76f0702d87597f11fe9e28f",
+ "relation": {
+  "kind": "Relation",
+  "id": "963a2871-91cf-4af4-a549-714e79adffdb"
+ },
+ "queryHash": "57d36fdae0f099a472b164e8508588d8",
+ "queryTableType": "row",
+ "query": {
+  "kind": "CubeQuery",
+  "relation": {
+   "kind": "Relation",
+   "id": "621593d3-dd80-4380-87fc-b58a91e27e0c"
+  },
+  "colColumns": [],
+  "rowColumns": [],
+  "axisQueries": [],
+  "filters": {
+   "kind": "Filters",
+   "removeNaN": true,
+   "namedFilters": []
+  },
+  "operatorSettings": {
+   "kind": "OperatorSettings",
+   "namespace": "",
+   "operatorRef": {
+    "kind": "OperatorRef",
+    "name": "",
+    "version": "",
+    "operatorId": "",
+    "operatorKind": "",
+    "propertyValues": [],
+    "url": {
+     "kind": "Url",
+     "uri": ""
+    },
+    "operatorSpec": {
+     "kind": "OperatorSpec",
+     "ontologyUri": "",
+     "ontologyVersion": "",
+     "inputSpecs": [],
+     "outputSpecs": []
+    }
+   },
+   "environment": [],
+   "operatorModel": {
+    "kind": "OperatorModel"
+   }
+  },
+  "qtHash": "",
+  "columnHash": "",
+  "rowHash": ""
+ }
+}

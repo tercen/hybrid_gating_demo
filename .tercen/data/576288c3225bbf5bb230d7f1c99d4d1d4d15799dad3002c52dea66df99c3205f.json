@@ -1,0 +1,143 @@
+{
+ "kind": "CubeQueryTableSchema",
+ "id": "576288c3225bbf5bb230d7f1c99d4d1d4d15799dad3002c52dea66df99c3205f",
+ "isDeleted": false,
+ "rev": "",
+ "description": "",
+ "name": "Unconventional T cells TCRgd-",
+ "acl": {
+  "kind": "Acl",
+  "owner": "",
+  "aces": []
+ },
+ "createdDate": {
+  "kind": "Date",
+  "value": ""
+ },
+ "lastModifiedDate": {
+  "kind": "Date",
+  "value": ""
+ },
+ "urls": [],
+ "tags": [],
+ "meta": [
+  {
+   "kind": "Pair",
+   "key": "logic_transf..filename.size_in_bytes",
+   "value": "395408"
+  },
+  {
+   "kind": "Pair",
+   "key": "SHA256",
+   "value": "576288c3225bbf5bb230d7f1c99d4d1d4d15799dad3002c52dea66df99c3205f"
+  }
+ ],
+ "url": {
+  "kind": "Url",
+  "uri": ""
+ },
+ "version": "",
+ "isPublic": false,
+ "projectId": "",
+ "folderId": "",
+ "nRows": 9406,
+ "columns": [
+  {
+   "kind": "ColumnSchema",
+   "id": "9a734503-e334-401f-a2cb-df9e281c051a",
+   "name": "gating.Unconventional T cells TCRgd-",
+   "type": "double",
+   "nRows": 0,
+   "size": -1,
+   "metaData": {
+    "kind": "ColumnSchemaMetaData",
+    "sort": [],
+    "ascending": true,
+    "quartiles": [],
+    "properties": []
+   }
+  },
+  {
+   "kind": "ColumnSchema",
+   "id": "f16ea1b8-a65b-4818-b569-e1b8998770b0",
+   "name": "logic_transf..event_id",
+   "type": "int32",
+   "nRows": 0,
+   "size": -1,
+   "metaData": {
+    "kind": "ColumnSchemaMetaData",
+    "sort": [],
+    "ascending": true,
+    "quartiles": [],
+    "properties": []
+   }
+  },
+  {
+   "kind": "ColumnSchema",
+   "id": "82f963df-edab-487e-bbcf-67eff9f4d1cb",
+   "name": "logic_transf..filename",
+   "type": "string",
+   "nRows": 0,
+   "size": -1,
+   "metaData": {
+    "kind": "ColumnSchemaMetaData",
+    "sort": [],
+    "ascending": true,
+    "quartiles": [],
+    "properties": []
+   }
+  }
+ ],
+ "dataDirectory": "data/57/62/576288c3225bbf5bb230d7f1c99d4d1d4d15799dad3002c52dea66df99c3205f",
+ "relation": {
+  "kind": "Relation",
+  "id": "32c49c53-e26f-4596-8a90-0018fda1b799"
+ },
+ "queryHash": "57d36fdae0f099a472b164e85084e0ca",
+ "queryTableType": "row",
+ "query": {
+  "kind": "CubeQuery",
+  "relation": {
+   "kind": "Relation",
+   "id": "be339637-b56f-491c-a8a1-34eda68bae2d"
+  },
+  "colColumns": [],
+  "rowColumns": [],
+  "axisQueries": [],
+  "filters": {
+   "kind": "Filters",
+   "removeNaN": true,
+   "namedFilters": []
+  },
+  "operatorSettings": {
+   "kind": "OperatorSettings",
+   "namespace": "",
+   "operatorRef": {
+    "kind": "OperatorRef",
+    "name": "",
+    "version": "",
+    "operatorId": "",
+    "operatorKind": "",
+    "propertyValues": [],
+    "url": {
+     "kind": "Url",
+     "uri": ""
+    },
+    "operatorSpec": {
+     "kind": "OperatorSpec",
+     "ontologyUri": "",
+     "ontologyVersion": "",
+     "inputSpecs": [],
+     "outputSpecs": []
+    }
+   },
+   "environment": [],
+   "operatorModel": {
+    "kind": "OperatorModel"
+   }
+  },
+  "qtHash": "",
+  "columnHash": "",
+  "rowHash": ""
+ }
+}

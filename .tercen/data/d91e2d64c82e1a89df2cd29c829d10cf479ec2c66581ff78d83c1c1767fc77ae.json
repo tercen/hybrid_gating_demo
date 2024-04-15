@@ -1,0 +1,334 @@
+{
+ "kind": "ComputedTableSchema",
+ "id": "d91e2d64c82e1a89df2cd29c829d10cf479ec2c66581ff78d83c1c1767fc77ae",
+ "isDeleted": false,
+ "rev": "",
+ "description": "",
+ "name": "9aa09e30-db6f-1f60-a65c-a902375270a0",
+ "acl": {
+  "kind": "Acl",
+  "owner": "",
+  "aces": []
+ },
+ "createdDate": {
+  "kind": "Date",
+  "value": ""
+ },
+ "lastModifiedDate": {
+  "kind": "Date",
+  "value": ""
+ },
+ "urls": [],
+ "tags": [],
+ "meta": [
+  {
+   "kind": "Pair",
+   "key": "SHA256",
+   "value": "d91e2d64c82e1a89df2cd29c829d10cf479ec2c66581ff78d83c1c1767fc77ae"
+  }
+ ],
+ "url": {
+  "kind": "Url",
+  "uri": ""
+ },
+ "version": "",
+ "isPublic": false,
+ "projectId": "",
+ "folderId": "",
+ "nRows": 16217058,
+ "columns": [
+  {
+   "kind": "ColumnSchema",
+   "id": "06d6d654-1671-45ad-a45e-4d07067470f5",
+   "name": ".ci",
+   "type": "int32",
+   "nRows": 0,
+   "size": -1,
+   "metaData": {
+    "kind": "ColumnSchemaMetaData",
+    "sort": [],
+    "ascending": true,
+    "quartiles": [],
+    "properties": []
+   }
+  },
+  {
+   "kind": "ColumnSchema",
+   "id": "1770b055-ab5e-473c-8be0-0d792c309e0b",
+   "name": ".ri",
+   "type": "int32",
+   "nRows": 0,
+   "size": -1,
+   "metaData": {
+    "kind": "ColumnSchemaMetaData",
+    "sort": [],
+    "ascending": true,
+    "quartiles": [],
+    "properties": []
+   }
+  },
+  {
+   "kind": "ColumnSchema",
+   "id": "2d87d764-84b8-4743-9fca-9097a2420a33",
+   "name": "logicle.value",
+   "type": "double",
+   "nRows": 0,
+   "size": -1,
+   "metaData": {
+    "kind": "ColumnSchemaMetaData",
+    "sort": [],
+    "ascending": true,
+    "quartiles": [],
+    "properties": []
+   }
+  }
+ ],
+ "dataDirectory": "data/d9/1e/d91e2d64c82e1a89df2cd29c829d10cf479ec2c66581ff78d83c1c1767fc77ae",
+ "relation": {
+  "kind": "Relation",
+  "id": "99a8bbfc-d1b1-46ff-a5dd-ffebd7093370"
+ },
+ "query": {
+  "kind": "CubeQuery",
+  "relation": {
+   "kind": "CompositeRelation",
+   "id": "8f55bcd4-17ad-4572-aa78-49934ce2dfc7",
+   "joinOperators": [
+    {
+     "kind": "JoinOperator",
+     "joinType": "r.o.f",
+     "leftPair": {
+      "kind": "ColumnPair",
+      "lColumns": [
+       "channel.variable"
+      ],
+      "rColumns": [
+       "annot.Name"
+      ]
+     },
+     "rightRelation": {
+      "kind": "RenameRelation",
+      "id": "e1d1f82c-270e-41c2-89a6-2b8abf4a9517",
+      "relation": {
+       "kind": "RenameRelation",
+       "id": "44684e11-4337-4cfa-bc9b-c915186e16e3",
+       "relation": {
+        "kind": "SimpleRelation",
+        "id": "fa97025fe6a3d0d3809b5fb7c406ff0572268c28e9a2dba6fec836b83a62dfcb",
+        "index": 1
+       },
+       "inNames": [
+        "Name",
+        "Isotope",
+        "Metal",
+        "Antigen",
+        "fa97025fe6a3d0d3809b5fb7c406ff0572268c28e9a2dba6fec836b83a62dfcb._rids"
+       ],
+       "outNames": [
+        "Name",
+        "Isotope",
+        "Metal",
+        "Antigen",
+        "rowId"
+       ]
+      },
+      "inNames": [
+       "Name",
+       "Isotope",
+       "Metal",
+       "Antigen",
+       "rowId"
+      ],
+      "outNames": [
+       "annot.Name",
+       "annot.Isotope",
+       "annot.Metal",
+       "annot.Antigen",
+       "annot.rowId"
+      ]
+     }
+    }
+   ],
+   "mainRelation": {
+    "kind": "GatherRelation",
+    "id": "1bc01f77-1520-480b-b097-52a464d9591d",
+    "relation": {
+     "kind": "SimpleRelation",
+     "id": "bd6f4cfcd754b490044fb1222a848652d05a4b1ad037adedb00a2d96bd7f8b1b",
+     "index": 0
+    },
+    "names": [
+     "Bi209Di",
+     "Dy161Di",
+     "Dy162Di",
+     "Dy164Di",
+     "Er166Di",
+     "Er167Di",
+     "Eu153Di",
+     "Gd152Di",
+     "Gd154Di",
+     "Gd155Di",
+     "Gd156Di",
+     "Gd158Di",
+     "Gd160Di",
+     "Ho165Di",
+     "Ir191Di",
+     "Ir193Di",
+     "Lu175Di",
+     "Nd142Di",
+     "Nd143Di",
+     "Nd144Di",
+     "Nd145Di",
+     "Nd146Di",
+     "Pr141Di",
+     "Pt195Di",
+     "Pt196Di",
+     "Pt198Di",
+     "SampleID",
+     "Sm149Di",
+     "Tm169Di",
+     "Y89Di",
+     "Yb170Di",
+     "Yb171Di",
+     "Yb172Di",
+     "Yb173Di",
+     "Yb174Di",
+     "Yb176Di"
+    ],
+    "valueName": "channel.value",
+    "variableName": "channel.variable",
+    "valueType": "double",
+    "gatherType": ""
+   }
+  },
+  "colColumns": [
+   {
+    "kind": "Factor",
+    "name": "event_id",
+    "type": "int32"
+   }
+  ],
+  "rowColumns": [
+   {
+    "kind": "Factor",
+    "name": "channel.variable",
+    "type": "string"
+   },
+   {
+    "kind": "Factor",
+    "name": "annot.Antigen",
+    "type": "string"
+   }
+  ],
+  "axisQueries": [
+   {
+    "kind": "CubeAxisQuery",
+    "pointSize": 4,
+    "chartType": "point",
+    "yAxis": {
+     "kind": "Factor",
+     "name": "channel.value",
+     "type": "double"
+    },
+    "yAxisSettings": {
+     "kind": "AxisSettings",
+     "meta": []
+    },
+    "xAxis": {
+     "kind": "Factor",
+     "name": "",
+     "type": "string"
+    },
+    "xAxisSettings": {
+     "kind": "AxisSettings",
+     "meta": []
+    },
+    "errors": [],
+    "labels": [],
+    "colors": [],
+    "preprocessors": []
+   }
+  ],
+  "filters": {
+   "kind": "Filters",
+   "removeNaN": true,
+   "namedFilters": [
+    {
+     "kind": "NamedFilter",
+     "logical": "and",
+     "not": false,
+     "filterExprs": [
+      {
+       "kind": "FilterExpr",
+       "filterOp": "notequals",
+       "stringValue": "",
+       "factor": {
+        "kind": "Factor",
+        "name": "annot.Antigen",
+        "type": "string"
+       }
+      }
+     ],
+     "meta": [],
+     "name": "annot.Antigen"
+    }
+   ]
+  },
+  "operatorSettings": {
+   "kind": "OperatorSettings",
+   "namespace": "logicle",
+   "operatorRef": {
+    "kind": "OperatorRef",
+    "name": "Logicle",
+    "version": "1.0.2",
+    "operatorId": "6",
+    "operatorKind": "ROperator",
+    "propertyValues": [],
+    "url": {
+     "kind": "Url",
+     "uri": "https://github.com/tercen/logicle_operator"
+    },
+    "operatorSpec": {
+     "kind": "OperatorSpec",
+     "ontologyUri": "",
+     "ontologyVersion": "",
+     "inputSpecs": [],
+     "outputSpecs": []
+    }
+   },
+   "environment": [
+    {
+     "kind": "Pair",
+     "key": "cpu",
+     "value": "0"
+    },
+    {
+     "kind": "Pair",
+     "key": "ram",
+     "value": "0"
+    },
+    {
+     "kind": "Pair",
+     "key": "cpu-shares",
+     "value": "0"
+    },
+    {
+     "kind": "Pair",
+     "key": "tercen.collect.stats",
+     "value": "false"
+    },
+    {
+     "kind": "Pair",
+     "key": "debug",
+     "value": "false"
+    }
+   ],
+   "operatorModel": {
+    "kind": "OperatorModel"
+   }
+  },
+  "qtHash": "",
+  "columnHash": "",
+  "rowHash": ""
+ }
+}

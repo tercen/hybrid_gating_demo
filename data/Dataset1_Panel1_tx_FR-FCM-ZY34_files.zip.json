@@ -1,0 +1,64 @@
+{
+ "kind": "TableSchema",
+ "id": "22",
+ "isDeleted": false,
+ "rev": "",
+ "description": "",
+ "name": "Dataset1_Panel1_tx_FR-FCM-ZY34_files.zip",
+ "acl": {
+  "kind": "Acl",
+  "owner": "",
+  "aces": []
+ },
+ "createdDate": {
+  "kind": "Date",
+  "value": ""
+ },
+ "lastModifiedDate": {
+  "kind": "Date",
+  "value": ""
+ },
+ "urls": [],
+ "tags": [],
+ "meta": [],
+ "url": {
+  "kind": "Url",
+  "uri": ""
+ },
+ "version": "",
+ "isPublic": false,
+ "projectId": "",
+ "folderId": "17",
+ "nRows": 0,
+ "columns": [],
+ "dataDirectory": "",
+ "relation": {
+  "kind": "CompositeRelation",
+  "id": "c8d005a4-fdd6-4a4d-a946-e7dd15ab261a",
+  "joinOperators": [
+   {
+    "kind": "JoinOperator",
+    "joinType": "leftOuter",
+    "leftPair": {
+     "kind": "ColumnPair",
+     "lColumns": [
+      "event_id"
+     ],
+     "rColumns": [
+      "event_id"
+     ]
+    },
+    "rightRelation": {
+     "kind": "SimpleRelation",
+     "id": "9868d565be48d3df803976ea5f236babfdb515d6853996571eb6c6f7d0f17eea",
+     "index": 0
+    }
+   }
+  ],
+  "mainRelation": {
+   "kind": "SimpleRelation",
+   "id": "8d978143e869cfb2fefee42c7e43ee8a61305c29807ff4e77ddbee12a7e7f17f",
+   "index": 0
+  }
+ }
+}

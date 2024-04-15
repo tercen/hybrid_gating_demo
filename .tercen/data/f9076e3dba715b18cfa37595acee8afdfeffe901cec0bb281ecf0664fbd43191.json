@@ -1,0 +1,91 @@
+{
+ "kind": "TableSchema",
+ "id": "f9076e3dba715b18cfa37595acee8afdfeffe901cec0bb281ecf0664fbd43191",
+ "isDeleted": false,
+ "rev": "",
+ "description": "",
+ "name": "Exported_Table_1. Manual Gating_Export Data_2024-04-15-100017.csv",
+ "acl": {
+  "kind": "Acl",
+  "owner": "",
+  "aces": []
+ },
+ "createdDate": {
+  "kind": "Date",
+  "value": ""
+ },
+ "lastModifiedDate": {
+  "kind": "Date",
+  "value": ""
+ },
+ "urls": [],
+ "tags": [],
+ "meta": [
+  {
+   "kind": "Pair",
+   "key": "SHA256",
+   "value": "f9076e3dba715b18cfa37595acee8afdfeffe901cec0bb281ecf0664fbd43191"
+  }
+ ],
+ "url": {
+  "kind": "Url",
+  "uri": ""
+ },
+ "version": "",
+ "isPublic": false,
+ "projectId": "",
+ "folderId": "",
+ "nRows": 149801,
+ "columns": [
+  {
+   "kind": "ColumnSchema",
+   "id": "edf00a47-789a-4c34-b59d-d3db830eb916",
+   "name": "ds1..event_id",
+   "type": "double",
+   "nRows": 0,
+   "size": -1,
+   "metaData": {
+    "kind": "ColumnSchemaMetaData",
+    "sort": [],
+    "ascending": true,
+    "quartiles": [],
+    "properties": []
+   }
+  },
+  {
+   "kind": "ColumnSchema",
+   "id": "4a8bcaff-36d6-4af1-a88c-d981d6dd6ada",
+   "name": "manual_gating.variable",
+   "type": "string",
+   "nRows": 0,
+   "size": -1,
+   "metaData": {
+    "kind": "ColumnSchemaMetaData",
+    "sort": [],
+    "ascending": true,
+    "quartiles": [],
+    "properties": []
+   }
+  },
+  {
+   "kind": "ColumnSchema",
+   "id": "29c36967-469a-4556-bdc4-225bec7287b5",
+   "name": "manual_gating.value",
+   "type": "double",
+   "nRows": 0,
+   "size": -1,
+   "metaData": {
+    "kind": "ColumnSchemaMetaData",
+    "sort": [],
+    "ascending": true,
+    "quartiles": [],
+    "properties": []
+   }
+  }
+ ],
+ "dataDirectory": "data/f9/07/f9076e3dba715b18cfa37595acee8afdfeffe901cec0bb281ecf0664fbd43191",
+ "relation": {
+  "kind": "Relation",
+  "id": "e32ea31f-1606-4a79-9334-887fff0dd893"
+ }
+}

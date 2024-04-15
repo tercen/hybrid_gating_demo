@@ -1,0 +1,331 @@
+{
+ "kind": "ComputedTableSchema",
+ "id": "b1ebb2467e8d729a8674b23fae501e344083ccb388f598e8d22282c9d749a2b5",
+ "isDeleted": false,
+ "rev": "",
+ "description": "",
+ "name": "ce2efc70-129e-1f72-baff-1b795fe92eaa",
+ "acl": {
+  "kind": "Acl",
+  "owner": "",
+  "aces": []
+ },
+ "createdDate": {
+  "kind": "Date",
+  "value": ""
+ },
+ "lastModifiedDate": {
+  "kind": "Date",
+  "value": ""
+ },
+ "urls": [],
+ "tags": [],
+ "meta": [
+  {
+   "kind": "Pair",
+   "key": "SHA256",
+   "value": "b1ebb2467e8d729a8674b23fae501e344083ccb388f598e8d22282c9d749a2b5"
+  }
+ ],
+ "url": {
+  "kind": "Url",
+  "uri": ""
+ },
+ "version": "",
+ "isPublic": false,
+ "projectId": "",
+ "folderId": "",
+ "nRows": 33,
+ "columns": [
+  {
+   "kind": "ColumnSchema",
+   "id": "a85834d3-9209-4d5c-b02d-e9b6f4c3c50d",
+   "name": "marker_names.derFactor",
+   "type": "string",
+   "nRows": 0,
+   "size": -1,
+   "metaData": {
+    "kind": "ColumnSchemaMetaData",
+    "sort": [],
+    "ascending": true,
+    "quartiles": [],
+    "properties": []
+   }
+  },
+  {
+   "kind": "ColumnSchema",
+   "id": "831ac293-915b-423a-bd30-6f199abc475c",
+   "name": "marker_names.name",
+   "type": "string",
+   "nRows": 0,
+   "size": -1,
+   "metaData": {
+    "kind": "ColumnSchemaMetaData",
+    "sort": [],
+    "ascending": true,
+    "quartiles": [],
+    "properties": []
+   }
+  },
+  {
+   "kind": "ColumnSchema",
+   "id": "5ac79e6a-24dc-4930-93c9-7d9669cba08a",
+   "name": ".ri",
+   "type": "int32",
+   "nRows": 0,
+   "size": -1,
+   "metaData": {
+    "kind": "ColumnSchemaMetaData",
+    "sort": [],
+    "ascending": true,
+    "quartiles": [],
+    "properties": []
+   }
+  }
+ ],
+ "dataDirectory": "data/b1/eb/b1ebb2467e8d729a8674b23fae501e344083ccb388f598e8d22282c9d749a2b5",
+ "relation": {
+  "kind": "Relation",
+  "id": "730d3ca3-065b-44a0-bc8e-5f9fbe7009d4"
+ },
+ "query": {
+  "kind": "CubeQuery",
+  "relation": {
+   "kind": "GatherRelation",
+   "id": "35e008eb-1660-4861-b2f1-4453ddb3e8dc",
+   "relation": {
+    "kind": "RenameRelation",
+    "id": "44016d09-8fc1-4009-8350-752116d28123",
+    "relation": {
+     "kind": "SimpleRelation",
+     "id": "213fe706f05c7d65843e526f60670ee86b98dfdf87fef18ea4ded358cb0eed65",
+     "index": 0
+    },
+    "inNames": [
+     "logic_transf.BTLA",
+     "logic_transf.CCR4",
+     "logic_transf.CCR5",
+     "logic_transf.CCR6",
+     "logic_transf.CCR7",
+     "logic_transf.CD11a",
+     "logic_transf.CD127",
+     "logic_transf.CD16",
+     "logic_transf.CD19",
+     "logic_transf.CD25",
+     "logic_transf.CD27",
+     "logic_transf.CD28",
+     "logic_transf.CD3",
+     "logic_transf.CD4",
+     "logic_transf.CD45",
+     "logic_transf.CD45RA",
+     "logic_transf.CD45RO",
+     "logic_transf.CD56",
+     "logic_transf.CD57",
+     "logic_transf.CD62L",
+     "logic_transf.CD69",
+     "logic_transf.CD8a",
+     "logic_transf.CD95",
+     "logic_transf.CTLA4",
+     "logic_transf.CXCR3",
+     "logic_transf.DNA1",
+     "logic_transf.DNA2",
+     "logic_transf.Dead",
+     "logic_transf.Granzyme-B",
+     "logic_transf.HLA-DR",
+     "logic_transf.LAG-3",
+     "logic_transf.PD-1",
+     "logic_transf.TCRgd",
+     ".ri",
+     "213fe706f05c7d65843e526f60670ee86b98dfdf87fef18ea4ded358cb0eed65._rids",
+     "213fe706f05c7d65843e526f60670ee86b98dfdf87fef18ea4ded358cb0eed65.tlbId"
+    ],
+    "outNames": [
+     "logic_transf.BTLA",
+     "logic_transf.CCR4",
+     "logic_transf.CCR5",
+     "logic_transf.CCR6",
+     "logic_transf.CCR7",
+     "logic_transf.CD11a",
+     "logic_transf.CD127",
+     "logic_transf.CD16",
+     "logic_transf.CD19",
+     "logic_transf.CD25",
+     "logic_transf.CD27",
+     "logic_transf.CD28",
+     "logic_transf.CD3",
+     "logic_transf.CD4",
+     "logic_transf.CD45",
+     "logic_transf.CD45RA",
+     "logic_transf.CD45RO",
+     "logic_transf.CD56",
+     "logic_transf.CD57",
+     "logic_transf.CD62L",
+     "logic_transf.CD69",
+     "logic_transf.CD8a",
+     "logic_transf.CD95",
+     "logic_transf.CTLA4",
+     "logic_transf.CXCR3",
+     "logic_transf.DNA1",
+     "logic_transf.DNA2",
+     "logic_transf.Dead",
+     "logic_transf.Granzyme-B",
+     "logic_transf.HLA-DR",
+     "logic_transf.LAG-3",
+     "logic_transf.PD-1",
+     "logic_transf.TCRgd",
+     ".ri",
+     "213fe706f05c7d65843e526f60670ee86b98dfdf87fef18ea4ded358cb0eed65._rids",
+     "213fe706f05c7d65843e526f60670ee86b98dfdf87fef18ea4ded358cb0eed65.tlbId"
+    ]
+   },
+   "names": [
+    "logic_transf.BTLA",
+    "logic_transf.CCR4",
+    "logic_transf.CCR5",
+    "logic_transf.CCR6",
+    "logic_transf.CCR7",
+    "logic_transf.CD11a",
+    "logic_transf.CD127",
+    "logic_transf.CD16",
+    "logic_transf.CD19",
+    "logic_transf.CD25",
+    "logic_transf.CD27",
+    "logic_transf.CD28",
+    "logic_transf.CD3",
+    "logic_transf.CD4",
+    "logic_transf.CD45",
+    "logic_transf.CD45RA",
+    "logic_transf.CD45RO",
+    "logic_transf.CD56",
+    "logic_transf.CD57",
+    "logic_transf.CD62L",
+    "logic_transf.CD69",
+    "logic_transf.CD8a",
+    "logic_transf.CD95",
+    "logic_transf.CTLA4",
+    "logic_transf.CXCR3",
+    "logic_transf.DNA1",
+    "logic_transf.DNA2",
+    "logic_transf.Dead",
+    "logic_transf.Granzyme-B",
+    "logic_transf.HLA-DR",
+    "logic_transf.LAG-3",
+    "logic_transf.PD-1",
+    "logic_transf.TCRgd"
+   ],
+   "valueName": "data.value",
+   "variableName": "data.variable",
+   "valueType": "double",
+   "gatherType": "no.na"
+  },
+  "colColumns": [],
+  "rowColumns": [
+   {
+    "kind": "Factor",
+    "name": "data.variable",
+    "type": "string"
+   }
+  ],
+  "axisQueries": [
+   {
+    "kind": "CubeAxisQuery",
+    "pointSize": 4,
+    "chartType": "point",
+    "yAxis": {
+     "kind": "Factor",
+     "name": "",
+     "type": "string"
+    },
+    "yAxisSettings": {
+     "kind": "AxisSettings",
+     "meta": []
+    },
+    "xAxis": {
+     "kind": "Factor",
+     "name": "",
+     "type": "string"
+    },
+    "xAxisSettings": {
+     "kind": "AxisSettings",
+     "meta": []
+    },
+    "errors": [],
+    "labels": [],
+    "colors": [],
+    "preprocessors": []
+   }
+  ],
+  "filters": {
+   "kind": "Filters",
+   "removeNaN": true,
+   "namedFilters": []
+  },
+  "operatorSettings": {
+   "kind": "OperatorSettings",
+   "namespace": "marker_names",
+   "operatorRef": {
+    "kind": "OperatorRef",
+    "name": "Separate",
+    "version": "0.1.1",
+    "operatorId": "4",
+    "operatorKind": "ROperator",
+    "propertyValues": [
+     {
+      "kind": "PropertyValue",
+      "name": "into",
+      "value": "derFactor,name"
+     },
+     {
+      "kind": "PropertyValue",
+      "name": "sep",
+      "value": "[.]"
+     }
+    ],
+    "url": {
+     "kind": "Url",
+     "uri": "https://github.com/tercen/separate_operator"
+    },
+    "operatorSpec": {
+     "kind": "OperatorSpec",
+     "ontologyUri": "",
+     "ontologyVersion": "",
+     "inputSpecs": [],
+     "outputSpecs": []
+    }
+   },
+   "environment": [
+    {
+     "kind": "Pair",
+     "key": "cpu",
+     "value": "0"
+    },
+    {
+     "kind": "Pair",
+     "key": "ram",
+     "value": "0"
+    },
+    {
+     "kind": "Pair",
+     "key": "cpu-shares",
+     "value": "0"
+    },
+    {
+     "kind": "Pair",
+     "key": "tercen.collect.stats",
+     "value": "false"
+    },
+    {
+     "kind": "Pair",
+     "key": "debug",
+     "value": "false"
+    }
+   ],
+   "operatorModel": {
+    "kind": "OperatorModel"
+   }
+  },
+  "qtHash": "",
+  "columnHash": "",
+  "rowHash": ""
+ }
+}

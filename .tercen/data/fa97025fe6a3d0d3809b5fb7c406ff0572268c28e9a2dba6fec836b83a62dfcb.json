@@ -1,0 +1,106 @@
+{
+ "kind": "TableSchema",
+ "id": "fa97025fe6a3d0d3809b5fb7c406ff0572268c28e9a2dba6fec836b83a62dfcb",
+ "isDeleted": false,
+ "rev": "",
+ "description": "",
+ "name": "Krieg_Panel1_Annotation.txt",
+ "acl": {
+  "kind": "Acl",
+  "owner": "",
+  "aces": []
+ },
+ "createdDate": {
+  "kind": "Date",
+  "value": ""
+ },
+ "lastModifiedDate": {
+  "kind": "Date",
+  "value": ""
+ },
+ "urls": [],
+ "tags": [],
+ "meta": [
+  {
+   "kind": "Pair",
+   "key": "SHA256",
+   "value": "fa97025fe6a3d0d3809b5fb7c406ff0572268c28e9a2dba6fec836b83a62dfcb"
+  }
+ ],
+ "url": {
+  "kind": "Url",
+  "uri": ""
+ },
+ "version": "",
+ "isPublic": false,
+ "projectId": "",
+ "folderId": "17",
+ "nRows": 33,
+ "columns": [
+  {
+   "kind": "ColumnSchema",
+   "id": "a96c94ed-8772-4363-a6a4-a2b704bbe9d3",
+   "name": "Name",
+   "type": "string",
+   "nRows": 0,
+   "size": -1,
+   "metaData": {
+    "kind": "ColumnSchemaMetaData",
+    "sort": [],
+    "ascending": true,
+    "quartiles": [],
+    "properties": []
+   }
+  },
+  {
+   "kind": "ColumnSchema",
+   "id": "6dce6f51-2da5-4216-83aa-8bc07ccb3e50",
+   "name": "Isotope",
+   "type": "double",
+   "nRows": 0,
+   "size": -1,
+   "metaData": {
+    "kind": "ColumnSchemaMetaData",
+    "sort": [],
+    "ascending": true,
+    "quartiles": [],
+    "properties": []
+   }
+  },
+  {
+   "kind": "ColumnSchema",
+   "id": "334022d6-0481-415d-bf6b-3dfd1ebc0b34",
+   "name": "Metal",
+   "type": "string",
+   "nRows": 0,
+   "size": -1,
+   "metaData": {
+    "kind": "ColumnSchemaMetaData",
+    "sort": [],
+    "ascending": true,
+    "quartiles": [],
+    "properties": []
+   }
+  },
+  {
+   "kind": "ColumnSchema",
+   "id": "6619c3f7-1e30-431f-9bbc-03310408a823",
+   "name": "Antigen",
+   "type": "string",
+   "nRows": 0,
+   "size": -1,
+   "metaData": {
+    "kind": "ColumnSchemaMetaData",
+    "sort": [],
+    "ascending": true,
+    "quartiles": [],
+    "properties": []
+   }
+  }
+ ],
+ "dataDirectory": "data/fa/97/fa97025fe6a3d0d3809b5fb7c406ff0572268c28e9a2dba6fec836b83a62dfcb",
+ "relation": {
+  "kind": "Relation",
+  "id": "f2ea8f01-b9cf-46fa-9029-8f53c1a25063"
+ }
+}

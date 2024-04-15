@@ -1,0 +1,510 @@
+{
+ "kind": "ComputedTableSchema",
+ "id": "6c551100b87cc18862e3a841a53afd0d478b24f2f8edc6a4d07674f9946a3af3",
+ "isDeleted": false,
+ "rev": "",
+ "description": "",
+ "name": "8fcd63e6-3979-45bd-90a6-629126120045",
+ "acl": {
+  "kind": "Acl",
+  "owner": "",
+  "aces": []
+ },
+ "createdDate": {
+  "kind": "Date",
+  "value": ""
+ },
+ "lastModifiedDate": {
+  "kind": "Date",
+  "value": ""
+ },
+ "urls": [],
+ "tags": [],
+ "meta": [
+  {
+   "kind": "Pair",
+   "key": "SHA256",
+   "value": "6c551100b87cc18862e3a841a53afd0d478b24f2f8edc6a4d07674f9946a3af3"
+  }
+ ],
+ "url": {
+  "kind": "Url",
+  "uri": ""
+ },
+ "version": "",
+ "isPublic": false,
+ "projectId": "",
+ "folderId": "",
+ "nRows": 2,
+ "columns": [
+  {
+   "kind": "ColumnSchema",
+   "id": "232175f5-2874-44da-b810-a7b03a29a9fd",
+   "name": "filename",
+   "type": "string",
+   "nRows": 0,
+   "size": -1,
+   "metaData": {
+    "kind": "ColumnSchemaMetaData",
+    "sort": [],
+    "ascending": true,
+    "quartiles": [],
+    "properties": []
+   }
+  },
+  {
+   "kind": "ColumnSchema",
+   "id": "3cf9a0b1-af8b-4866-b1d2-c1926a73dc3c",
+   "name": "mimetype",
+   "type": "string",
+   "nRows": 0,
+   "size": -1,
+   "metaData": {
+    "kind": "ColumnSchemaMetaData",
+    "sort": [],
+    "ascending": true,
+    "quartiles": [],
+    "properties": []
+   }
+  },
+  {
+   "kind": "ColumnSchema",
+   "id": "0abc27e9-422e-41af-8854-bc0b5384c72c",
+   "name": ".content",
+   "type": "string",
+   "nRows": 0,
+   "size": -1,
+   "metaData": {
+    "kind": "ColumnSchemaMetaData",
+    "sort": [],
+    "ascending": true,
+    "quartiles": [],
+    "properties": []
+   }
+  }
+ ],
+ "dataDirectory": "data/6c/55/6c551100b87cc18862e3a841a53afd0d478b24f2f8edc6a4d07674f9946a3af3",
+ "relation": {
+  "kind": "Relation",
+  "id": "4c84d825-d155-4bdd-adfc-06b50addc56b"
+ },
+ "query": {
+  "kind": "CubeQuery",
+  "relation": {
+   "kind": "CompositeRelation",
+   "id": "4de8d428-ff00-4adc-92ad-2f1dc42288a3",
+   "joinOperators": [
+    {
+     "kind": "JoinOperator",
+     "joinType": "leftOuter",
+     "leftPair": {
+      "kind": "ColumnPair",
+      "lColumns": [
+       "z..event_id"
+      ],
+      "rColumns": [
+       "z..event_id"
+      ]
+     },
+     "rightRelation": {
+      "kind": "RenameRelation",
+      "id": "3484e7c8-3148-48fa-8f4c-ed7509cde30b",
+      "relation": {
+       "kind": "CompositeRelation",
+       "id": "c628d7d0-abdc-4148-aba8-e3ad71adca5d",
+       "joinOperators": [
+        {
+         "kind": "JoinOperator",
+         "joinType": "leftOuter",
+         "leftPair": {
+          "kind": "ColumnPair",
+          "lColumns": [
+           ".ci"
+          ],
+          "rColumns": [
+           "01b33cb2ae87f8595d75f8679b4d410e1ebf0bee0632bfefa94e066f588a92f2._rids"
+          ]
+         },
+         "rightRelation": {
+          "kind": "SimpleRelation",
+          "id": "01b33cb2ae87f8595d75f8679b4d410e1ebf0bee0632bfefa94e066f588a92f2",
+          "index": 4
+         }
+        }
+       ],
+       "mainRelation": {
+        "kind": "SimpleRelation",
+        "id": "7f5b34da840d3d2dc46de8ad2efaccfaf2fc839e500bbd092fa505e12c60e5d3",
+        "index": 3
+       }
+      },
+      "inNames": [
+       "umap.umap.1",
+       "umap.umap.2",
+       ".ci",
+       "7f5b34da840d3d2dc46de8ad2efaccfaf2fc839e500bbd092fa505e12c60e5d3._rids",
+       "7f5b34da840d3d2dc46de8ad2efaccfaf2fc839e500bbd092fa505e12c60e5d3.tlbId",
+       "z..event_id",
+       "01b33cb2ae87f8595d75f8679b4d410e1ebf0bee0632bfefa94e066f588a92f2._rids",
+       "01b33cb2ae87f8595d75f8679b4d410e1ebf0bee0632bfefa94e066f588a92f2.tlbId",
+       "z..event_id"
+      ],
+      "outNames": [
+       "umap.umap.1",
+       "umap.umap.2",
+       ".ci",
+       "7f5b34da840d3d2dc46de8ad2efaccfaf2fc839e500bbd092fa505e12c60e5d3._rids",
+       "7f5b34da840d3d2dc46de8ad2efaccfaf2fc839e500bbd092fa505e12c60e5d3.tlbId",
+       "z..event_id",
+       "01b33cb2ae87f8595d75f8679b4d410e1ebf0bee0632bfefa94e066f588a92f2._rids",
+       "01b33cb2ae87f8595d75f8679b4d410e1ebf0bee0632bfefa94e066f588a92f2.tlbId",
+       "umap..event_id"
+      ]
+     }
+    }
+   ],
+   "mainRelation": {
+    "kind": "RenameRelation",
+    "id": "6066b26e-be93-4ec5-88bf-0ef0d43385df",
+    "relation": {
+     "kind": "CompositeRelation",
+     "id": "4b5ec7d5-afc3-434f-bc7e-7ae462a9fd1a",
+     "joinOperators": [
+      {
+       "kind": "JoinOperator",
+       "joinType": "leftOuter",
+       "leftPair": {
+        "kind": "ColumnPair",
+        "lColumns": [
+         ".ri"
+        ],
+        "rColumns": [
+         "6aa65467134065c8bac9e6690c8d58e8732d76ea8b7a2a310a720aa4e9939fa0._rids"
+        ]
+       },
+       "rightRelation": {
+        "kind": "SimpleRelation",
+        "id": "6aa65467134065c8bac9e6690c8d58e8732d76ea8b7a2a310a720aa4e9939fa0",
+        "index": 2
+       }
+      }
+     ],
+     "mainRelation": {
+      "kind": "CompositeRelation",
+      "id": "2e1dd1ae-7b31-4563-8e8b-882a89646a0d",
+      "joinOperators": [
+       {
+        "kind": "JoinOperator",
+        "joinType": "leftOuter",
+        "leftPair": {
+         "kind": "ColumnPair",
+         "lColumns": [
+          ".ci"
+         ],
+         "rColumns": [
+          "858ba28582b42f2bc6963c15b5713cb97bcd05f0a3dd2a60e5c451d397af0681._rids"
+         ]
+        },
+        "rightRelation": {
+         "kind": "SimpleRelation",
+         "id": "858ba28582b42f2bc6963c15b5713cb97bcd05f0a3dd2a60e5c451d397af0681",
+         "index": 1
+        }
+       }
+      ],
+      "mainRelation": {
+       "kind": "SimpleRelation",
+       "id": "5e9cdd869d08587a3ebfa5b52e55a66d706020492bae8cf46ac10506af84487f",
+       "index": 0
+      }
+     }
+    },
+    "inNames": [
+     "z.scaled_value",
+     ".ri",
+     ".ci",
+     "5e9cdd869d08587a3ebfa5b52e55a66d706020492bae8cf46ac10506af84487f._rids",
+     "5e9cdd869d08587a3ebfa5b52e55a66d706020492bae8cf46ac10506af84487f.tlbId",
+     "logicle..event_id",
+     "858ba28582b42f2bc6963c15b5713cb97bcd05f0a3dd2a60e5c451d397af0681._rids",
+     "858ba28582b42f2bc6963c15b5713cb97bcd05f0a3dd2a60e5c451d397af0681.tlbId",
+     "logicle..channel_description",
+     "6aa65467134065c8bac9e6690c8d58e8732d76ea8b7a2a310a720aa4e9939fa0._rids",
+     "6aa65467134065c8bac9e6690c8d58e8732d76ea8b7a2a310a720aa4e9939fa0.tlbId",
+     "logicle..event_id",
+     "logicle..channel_description"
+    ],
+    "outNames": [
+     "z.scaled_value",
+     ".ri",
+     ".ci",
+     "5e9cdd869d08587a3ebfa5b52e55a66d706020492bae8cf46ac10506af84487f._rids",
+     "5e9cdd869d08587a3ebfa5b52e55a66d706020492bae8cf46ac10506af84487f.tlbId",
+     "logicle..event_id",
+     "858ba28582b42f2bc6963c15b5713cb97bcd05f0a3dd2a60e5c451d397af0681._rids",
+     "858ba28582b42f2bc6963c15b5713cb97bcd05f0a3dd2a60e5c451d397af0681.tlbId",
+     "logicle..channel_description",
+     "6aa65467134065c8bac9e6690c8d58e8732d76ea8b7a2a310a720aa4e9939fa0._rids",
+     "6aa65467134065c8bac9e6690c8d58e8732d76ea8b7a2a310a720aa4e9939fa0.tlbId",
+     "z..event_id",
+     "z..channel_description"
+    ]
+   }
+  },
+  "colColumns": [],
+  "rowColumns": [
+   {
+    "kind": "Factor",
+    "name": "z..channel_description",
+    "type": "string"
+   }
+  ],
+  "axisQueries": [
+   {
+    "kind": "CubeAxisQuery",
+    "pointSize": 1,
+    "chartType": "point",
+    "yAxis": {
+     "kind": "Factor",
+     "name": "umap.umap.2",
+     "type": "double"
+    },
+    "yAxisSettings": {
+     "kind": "AxisSettings",
+     "meta": []
+    },
+    "xAxis": {
+     "kind": "Factor",
+     "name": "umap.umap.1",
+     "type": "double"
+    },
+    "xAxisSettings": {
+     "kind": "AxisSettings",
+     "meta": []
+    },
+    "errors": [],
+    "labels": [],
+    "colors": [
+     {
+      "kind": "Factor",
+      "name": "z.scaled_value",
+      "type": "double"
+     }
+    ],
+    "preprocessors": []
+   }
+  ],
+  "filters": {
+   "kind": "Filters",
+   "removeNaN": true,
+   "namedFilters": [
+    {
+     "kind": "NamedFilter",
+     "logical": "or",
+     "not": false,
+     "filterExprs": [
+      {
+       "kind": "FilterExpr",
+       "filterOp": "equals",
+       "stringValue": "170Yb_CD3",
+       "factor": {
+        "kind": "Factor",
+        "name": "z..channel_description",
+        "type": "string"
+       }
+      },
+      {
+       "kind": "FilterExpr",
+       "filterOp": "equals",
+       "stringValue": "169Tm_CD19",
+       "factor": {
+        "kind": "Factor",
+        "name": "z..channel_description",
+        "type": "string"
+       }
+      },
+      {
+       "kind": "FilterExpr",
+       "filterOp": "equals",
+       "stringValue": "209Bi_CD16",
+       "factor": {
+        "kind": "Factor",
+        "name": "z..channel_description",
+        "type": "string"
+       }
+      }
+     ],
+     "meta": [],
+     "name": "Keep only"
+    }
+   ]
+  },
+  "operatorSettings": {
+   "kind": "OperatorSettings",
+   "namespace": "umap_channel",
+   "operatorRef": {
+    "kind": "OperatorRef",
+    "name": "Plot",
+    "version": "0.1.6",
+    "operatorId": "3",
+    "operatorKind": "ROperator",
+    "propertyValues": [
+     {
+      "kind": "PropertyValue",
+      "name": "plot_type",
+      "value": "png"
+     },
+     {
+      "kind": "PropertyValue",
+      "name": "plot.width",
+      "value": ""
+     },
+     {
+      "kind": "PropertyValue",
+      "name": "plot.height",
+      "value": ""
+     },
+     {
+      "kind": "PropertyValue",
+      "name": "base.size",
+      "value": "11"
+     },
+     {
+      "kind": "PropertyValue",
+      "name": "x_range",
+      "value": ""
+     },
+     {
+      "kind": "PropertyValue",
+      "name": "y_range",
+      "value": ""
+     },
+     {
+      "kind": "PropertyValue",
+      "name": "xlab",
+      "value": "UMAP 1"
+     },
+     {
+      "kind": "PropertyValue",
+      "name": "ylab",
+      "value": "UMAP 2"
+     },
+     {
+      "kind": "PropertyValue",
+      "name": "title",
+      "value": "UMAP embedding colored by marker intensity"
+     },
+     {
+      "kind": "PropertyValue",
+      "name": "subtitle",
+      "value": ""
+     },
+     {
+      "kind": "PropertyValue",
+      "name": "caption",
+      "value": ""
+     },
+     {
+      "kind": "PropertyValue",
+      "name": "legend.title",
+      "value": ""
+     },
+     {
+      "kind": "PropertyValue",
+      "name": "bar.position",
+      "value": "dodge"
+     },
+     {
+      "kind": "PropertyValue",
+      "name": "theme",
+      "value": "light"
+     },
+     {
+      "kind": "PropertyValue",
+      "name": "scales",
+      "value": "fixed"
+     },
+     {
+      "kind": "PropertyValue",
+      "name": "rotate_x_axis",
+      "value": "false"
+     },
+     {
+      "kind": "PropertyValue",
+      "name": "wrap.1d",
+      "value": "true"
+     },
+     {
+      "kind": "PropertyValue",
+      "name": "flip",
+      "value": "false"
+     },
+     {
+      "kind": "PropertyValue",
+      "name": "split_cells",
+      "value": "false"
+     },
+     {
+      "kind": "PropertyValue",
+      "name": "n_cells_max",
+      "value": "50"
+     },
+     {
+      "kind": "PropertyValue",
+      "name": "heatmap_annotation",
+      "value": "none"
+     },
+     {
+      "kind": "PropertyValue",
+      "name": "default.color",
+      "value": "#36454f"
+     }
+    ],
+    "url": {
+     "kind": "Url",
+     "uri": "https://github.com/tercen/plot_operator"
+    },
+    "operatorSpec": {
+     "kind": "OperatorSpec",
+     "ontologyUri": "",
+     "ontologyVersion": "",
+     "inputSpecs": [],
+     "outputSpecs": []
+    }
+   },
+   "environment": [
+    {
+     "kind": "Pair",
+     "key": "cpu",
+     "value": "0"
+    },
+    {
+     "kind": "Pair",
+     "key": "ram",
+     "value": "0"
+    },
+    {
+     "kind": "Pair",
+     "key": "cpu-shares",
+     "value": "0"
+    },
+    {
+     "kind": "Pair",
+     "key": "tercen.collect.stats",
+     "value": "false"
+    },
+    {
+     "kind": "Pair",
+     "key": "debug",
+     "value": "false"
+    }
+   ],
+   "operatorModel": {
+    "kind": "OperatorModel"
+   }
+  },
+  "qtHash": "",
+  "columnHash": "",
+  "rowHash": ""
+ }
+}

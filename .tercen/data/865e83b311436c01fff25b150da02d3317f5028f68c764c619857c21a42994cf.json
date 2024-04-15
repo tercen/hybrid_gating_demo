@@ -1,0 +1,452 @@
+{
+ "kind": "ComputedTableSchema",
+ "id": "865e83b311436c01fff25b150da02d3317f5028f68c764c619857c21a42994cf",
+ "isDeleted": false,
+ "rev": "",
+ "description": "",
+ "name": "6c100ac0-137a-1f72-baff-1b795fe92eaa",
+ "acl": {
+  "kind": "Acl",
+  "owner": "",
+  "aces": []
+ },
+ "createdDate": {
+  "kind": "Date",
+  "value": ""
+ },
+ "lastModifiedDate": {
+  "kind": "Date",
+  "value": ""
+ },
+ "urls": [],
+ "tags": [],
+ "meta": [
+  {
+   "kind": "Pair",
+   "key": "SHA256",
+   "value": "865e83b311436c01fff25b150da02d3317f5028f68c764c619857c21a42994cf"
+  }
+ ],
+ "url": {
+  "kind": "Url",
+  "uri": ""
+ },
+ "version": "",
+ "isPublic": false,
+ "projectId": "",
+ "folderId": "",
+ "nRows": 16217058,
+ "columns": [
+  {
+   "kind": "ColumnSchema",
+   "id": "e805e8dd-033f-45ee-ae53-ba38b0646cc4",
+   "name": "scale_logicle.scaled_value",
+   "type": "double",
+   "nRows": 0,
+   "size": -1,
+   "metaData": {
+    "kind": "ColumnSchemaMetaData",
+    "sort": [],
+    "ascending": true,
+    "quartiles": [],
+    "properties": []
+   }
+  },
+  {
+   "kind": "ColumnSchema",
+   "id": "c851da8e-9a94-417d-a4af-64b0df862861",
+   "name": ".ri",
+   "type": "int32",
+   "nRows": 0,
+   "size": -1,
+   "metaData": {
+    "kind": "ColumnSchemaMetaData",
+    "sort": [],
+    "ascending": true,
+    "quartiles": [],
+    "properties": []
+   }
+  },
+  {
+   "kind": "ColumnSchema",
+   "id": "b795ba7c-ef08-42f1-b16b-ccfdbd0511c4",
+   "name": ".ci",
+   "type": "int32",
+   "nRows": 0,
+   "size": -1,
+   "metaData": {
+    "kind": "ColumnSchemaMetaData",
+    "sort": [],
+    "ascending": true,
+    "quartiles": [],
+    "properties": []
+   }
+  }
+ ],
+ "dataDirectory": "data/86/5e/865e83b311436c01fff25b150da02d3317f5028f68c764c619857c21a42994cf",
+ "relation": {
+  "kind": "Relation",
+  "id": "4e2db6a7-9b8a-483a-a497-af9eec06684a"
+ },
+ "query": {
+  "kind": "CubeQuery",
+  "relation": {
+   "kind": "CompositeRelation",
+   "id": "d3e35a12-b9d2-4482-90c0-d0d80e2a335d",
+   "joinOperators": [
+    {
+     "kind": "JoinOperator",
+     "joinType": "leftOuter",
+     "leftPair": {
+      "kind": "ColumnPair",
+      "lColumns": [
+       "data.variable"
+      ],
+      "rColumns": [
+       "data.variable"
+      ]
+     },
+     "rightRelation": {
+      "kind": "RenameRelation",
+      "id": "fac53a6d-f71e-4cd1-8f13-bc5b9d824dc4",
+      "relation": {
+       "kind": "CompositeRelation",
+       "id": "41e82e69-3119-425e-aa82-b9021d05b0d2",
+       "joinOperators": [
+        {
+         "kind": "JoinOperator",
+         "joinType": "leftOuter",
+         "leftPair": {
+          "kind": "ColumnPair",
+          "lColumns": [
+           ".ri"
+          ],
+          "rColumns": [
+           "85f2072bd9b6250db75a66defd5412f7402f13d6c39e31a32df8c2db6fbddc7f._rids"
+          ]
+         },
+         "rightRelation": {
+          "kind": "SimpleRelation",
+          "id": "85f2072bd9b6250db75a66defd5412f7402f13d6c39e31a32df8c2db6fbddc7f",
+          "index": 3
+         }
+        }
+       ],
+       "mainRelation": {
+        "kind": "SimpleRelation",
+        "id": "b1ebb2467e8d729a8674b23fae501e344083ccb388f598e8d22282c9d749a2b5",
+        "index": 2
+       }
+      },
+      "inNames": [
+       "marker_names.derFactor",
+       "marker_names.name",
+       ".ri",
+       "b1ebb2467e8d729a8674b23fae501e344083ccb388f598e8d22282c9d749a2b5._rids",
+       "b1ebb2467e8d729a8674b23fae501e344083ccb388f598e8d22282c9d749a2b5.tlbId",
+       "data.variable",
+       "85f2072bd9b6250db75a66defd5412f7402f13d6c39e31a32df8c2db6fbddc7f._rids",
+       "85f2072bd9b6250db75a66defd5412f7402f13d6c39e31a32df8c2db6fbddc7f.tlbId",
+       "data.variable"
+      ],
+      "outNames": [
+       "marker_names.derFactor",
+       "marker_names.name",
+       ".ri",
+       "b1ebb2467e8d729a8674b23fae501e344083ccb388f598e8d22282c9d749a2b5._rids",
+       "b1ebb2467e8d729a8674b23fae501e344083ccb388f598e8d22282c9d749a2b5.tlbId",
+       "data.variable",
+       "85f2072bd9b6250db75a66defd5412f7402f13d6c39e31a32df8c2db6fbddc7f._rids",
+       "85f2072bd9b6250db75a66defd5412f7402f13d6c39e31a32df8c2db6fbddc7f.tlbId",
+       "marker_names..variable"
+      ]
+     }
+    }
+   ],
+   "mainRelation": {
+    "kind": "GatherRelation",
+    "id": "ff775340-69a2-45dc-805a-5afc86984063",
+    "relation": {
+     "kind": "RenameRelation",
+     "id": "f1016ab8-832d-4ef3-9adc-e826daba55b8",
+     "relation": {
+      "kind": "CompositeRelation",
+      "id": "e70d3000-68ee-4919-9c65-72f79cec42a0",
+      "joinOperators": [
+       {
+        "kind": "JoinOperator",
+        "joinType": "leftOuter",
+        "leftPair": {
+         "kind": "ColumnPair",
+         "lColumns": [
+          ".ri"
+         ],
+         "rColumns": [
+          "70b489c66f3854857b8dce425fdee86940e24bef6cbe5fe2969579fd7c1837e0._rids"
+         ]
+        },
+        "rightRelation": {
+         "kind": "SimpleRelation",
+         "id": "70b489c66f3854857b8dce425fdee86940e24bef6cbe5fe2969579fd7c1837e0",
+         "index": 1
+        }
+       }
+      ],
+      "mainRelation": {
+       "kind": "SimpleRelation",
+       "id": "213fe706f05c7d65843e526f60670ee86b98dfdf87fef18ea4ded358cb0eed65",
+       "index": 0
+      }
+     },
+     "inNames": [
+      "logic_transf.BTLA",
+      "logic_transf.CCR4",
+      "logic_transf.CCR5",
+      "logic_transf.CCR6",
+      "logic_transf.CCR7",
+      "logic_transf.CD11a",
+      "logic_transf.CD127",
+      "logic_transf.CD16",
+      "logic_transf.CD19",
+      "logic_transf.CD25",
+      "logic_transf.CD27",
+      "logic_transf.CD28",
+      "logic_transf.CD3",
+      "logic_transf.CD4",
+      "logic_transf.CD45",
+      "logic_transf.CD45RA",
+      "logic_transf.CD45RO",
+      "logic_transf.CD56",
+      "logic_transf.CD57",
+      "logic_transf.CD62L",
+      "logic_transf.CD69",
+      "logic_transf.CD8a",
+      "logic_transf.CD95",
+      "logic_transf.CTLA4",
+      "logic_transf.CXCR3",
+      "logic_transf.DNA1",
+      "logic_transf.DNA2",
+      "logic_transf.Dead",
+      "logic_transf.Granzyme-B",
+      "logic_transf.HLA-DR",
+      "logic_transf.LAG-3",
+      "logic_transf.PD-1",
+      "logic_transf.TCRgd",
+      ".ri",
+      "213fe706f05c7d65843e526f60670ee86b98dfdf87fef18ea4ded358cb0eed65._rids",
+      "213fe706f05c7d65843e526f60670ee86b98dfdf87fef18ea4ded358cb0eed65.tlbId",
+      "filename",
+      "logicle..event_id",
+      "70b489c66f3854857b8dce425fdee86940e24bef6cbe5fe2969579fd7c1837e0._rids",
+      "70b489c66f3854857b8dce425fdee86940e24bef6cbe5fe2969579fd7c1837e0.tlbId",
+      "filename",
+      "logicle..event_id"
+     ],
+     "outNames": [
+      "logic_transf.BTLA",
+      "logic_transf.CCR4",
+      "logic_transf.CCR5",
+      "logic_transf.CCR6",
+      "logic_transf.CCR7",
+      "logic_transf.CD11a",
+      "logic_transf.CD127",
+      "logic_transf.CD16",
+      "logic_transf.CD19",
+      "logic_transf.CD25",
+      "logic_transf.CD27",
+      "logic_transf.CD28",
+      "logic_transf.CD3",
+      "logic_transf.CD4",
+      "logic_transf.CD45",
+      "logic_transf.CD45RA",
+      "logic_transf.CD45RO",
+      "logic_transf.CD56",
+      "logic_transf.CD57",
+      "logic_transf.CD62L",
+      "logic_transf.CD69",
+      "logic_transf.CD8a",
+      "logic_transf.CD95",
+      "logic_transf.CTLA4",
+      "logic_transf.CXCR3",
+      "logic_transf.DNA1",
+      "logic_transf.DNA2",
+      "logic_transf.Dead",
+      "logic_transf.Granzyme-B",
+      "logic_transf.HLA-DR",
+      "logic_transf.LAG-3",
+      "logic_transf.PD-1",
+      "logic_transf.TCRgd",
+      ".ri",
+      "213fe706f05c7d65843e526f60670ee86b98dfdf87fef18ea4ded358cb0eed65._rids",
+      "213fe706f05c7d65843e526f60670ee86b98dfdf87fef18ea4ded358cb0eed65.tlbId",
+      "filename",
+      "logicle..event_id",
+      "70b489c66f3854857b8dce425fdee86940e24bef6cbe5fe2969579fd7c1837e0._rids",
+      "70b489c66f3854857b8dce425fdee86940e24bef6cbe5fe2969579fd7c1837e0.tlbId",
+      "logic_transf..filename",
+      "logic_transf..event_id"
+     ]
+    },
+    "names": [
+     "logic_transf.BTLA",
+     "logic_transf.CCR4",
+     "logic_transf.CCR5",
+     "logic_transf.CCR6",
+     "logic_transf.CCR7",
+     "logic_transf.CD11a",
+     "logic_transf.CD127",
+     "logic_transf.CD16",
+     "logic_transf.CD19",
+     "logic_transf.CD25",
+     "logic_transf.CD27",
+     "logic_transf.CD28",
+     "logic_transf.CD3",
+     "logic_transf.CD4",
+     "logic_transf.CD45",
+     "logic_transf.CD45RA",
+     "logic_transf.CD45RO",
+     "logic_transf.CD56",
+     "logic_transf.CD57",
+     "logic_transf.CD62L",
+     "logic_transf.CD69",
+     "logic_transf.CD8a",
+     "logic_transf.CD95",
+     "logic_transf.CTLA4",
+     "logic_transf.CXCR3",
+     "logic_transf.DNA1",
+     "logic_transf.DNA2",
+     "logic_transf.Dead",
+     "logic_transf.Granzyme-B",
+     "logic_transf.HLA-DR",
+     "logic_transf.LAG-3",
+     "logic_transf.PD-1",
+     "logic_transf.TCRgd"
+    ],
+    "valueName": "data.value",
+    "variableName": "data.variable",
+    "valueType": "double",
+    "gatherType": "no.na"
+   }
+  },
+  "colColumns": [
+   {
+    "kind": "Factor",
+    "name": "logic_transf..filename",
+    "type": "string"
+   },
+   {
+    "kind": "Factor",
+    "name": "logic_transf..event_id",
+    "type": "int32"
+   }
+  ],
+  "rowColumns": [
+   {
+    "kind": "Factor",
+    "name": "marker_names.name",
+    "type": "string"
+   }
+  ],
+  "axisQueries": [
+   {
+    "kind": "CubeAxisQuery",
+    "pointSize": 4,
+    "chartType": "point",
+    "yAxis": {
+     "kind": "Factor",
+     "name": "data.value",
+     "type": "double"
+    },
+    "yAxisSettings": {
+     "kind": "AxisSettings",
+     "meta": []
+    },
+    "xAxis": {
+     "kind": "Factor",
+     "name": "",
+     "type": "string"
+    },
+    "xAxisSettings": {
+     "kind": "AxisSettings",
+     "meta": []
+    },
+    "errors": [],
+    "labels": [],
+    "colors": [],
+    "preprocessors": []
+   }
+  ],
+  "filters": {
+   "kind": "Filters",
+   "removeNaN": true,
+   "namedFilters": []
+  },
+  "operatorSettings": {
+   "kind": "OperatorSettings",
+   "namespace": "scale_logicle",
+   "operatorRef": {
+    "kind": "OperatorRef",
+    "name": "Scale (Z-Score)",
+    "version": "0.12.2",
+    "operatorId": "7",
+    "operatorKind": "ROperator",
+    "propertyValues": [
+     {
+      "kind": "PropertyValue",
+      "name": "scale",
+      "value": "true"
+     },
+     {
+      "kind": "PropertyValue",
+      "name": "center",
+      "value": "true"
+     }
+    ],
+    "url": {
+     "kind": "Url",
+     "uri": "https://github.com/tercen/scale_operator"
+    },
+    "operatorSpec": {
+     "kind": "OperatorSpec",
+     "ontologyUri": "",
+     "ontologyVersion": "",
+     "inputSpecs": [],
+     "outputSpecs": []
+    }
+   },
+   "environment": [
+    {
+     "kind": "Pair",
+     "key": "cpu",
+     "value": "0"
+    },
+    {
+     "kind": "Pair",
+     "key": "ram",
+     "value": "0"
+    },
+    {
+     "kind": "Pair",
+     "key": "cpu-shares",
+     "value": "0"
+    },
+    {
+     "kind": "Pair",
+     "key": "tercen.collect.stats",
+     "value": "false"
+    },
+    {
+     "kind": "Pair",
+     "key": "debug",
+     "value": "false"
+    }
+   ],
+   "operatorModel": {
+    "kind": "OperatorModel"
+   }
+  },
+  "qtHash": "",
+  "columnHash": "",
+  "rowHash": ""
+ }
+}

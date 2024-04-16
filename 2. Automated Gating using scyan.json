@@ -1,6 +1,6 @@
 {
  "kind": "Workflow",
- "id": "16",
+ "id": "15",
  "isDeleted": false,
  "rev": "",
  "description": "Demo workflow",
@@ -188,7 +188,7 @@
      "id": "rename_3de69df0-80ea-448b-9d7b-27954536f03c",
      "relation": {
       "kind": "InMemoryRelation",
-      "id": "684a1102-e9a8-4836-a4b4-e6aec4224c3d",
+      "id": "917ca19b-5c3e-4648-8e5e-3d2982f3bdcc",
       "inMemoryTable": {
        "kind": "Table",
        "nRows": 1,

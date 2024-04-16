@@ -1,6 +1,6 @@
 {
  "kind": "Workflow",
- "id": "24",
+ "id": "23",
  "isDeleted": false,
  "rev": "",
  "description": "",
@@ -152,7 +152,7 @@
      "id": "rename_9d848bd3-964e-4f46-b71d-9d6e88e90eec",
      "relation": {
       "kind": "InMemoryRelation",
-      "id": "42a8ad46-2295-4a39-8113-cde9d762105f",
+      "id": "33b6c3bd-2257-4ce4-b192-b1432954d12e",
       "inMemoryTable": {
        "kind": "Table",
        "nRows": 1,
@@ -22875,7 +22875,7 @@
       "kind": "OperatorRef",
       "name": "Export Table",
       "version": "0.2.6",
-      "operatorId": "22",
+      "operatorId": "21",
       "operatorKind": "ROperator",
       "propertyValues": [
        {

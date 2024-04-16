@@ -1,0 +1,566 @@
+{
+ "kind": "ComputedTableSchema",
+ "id": "16f77d6c904f83f0c2e23e296830e9a35c5de587a6692f4b30176079dc5db0ca",
+ "isDeleted": false,
+ "rev": "",
+ "description": "",
+ "name": "b74a57ed-3a95-4cf7-987d-687216d27bad",
+ "acl": {
+  "kind": "Acl",
+  "owner": "",
+  "aces": []
+ },
+ "createdDate": {
+  "kind": "Date",
+  "value": ""
+ },
+ "lastModifiedDate": {
+  "kind": "Date",
+  "value": ""
+ },
+ "urls": [],
+ "tags": [],
+ "meta": [
+  {
+   "kind": "Pair",
+   "key": "SHA256",
+   "value": "16f77d6c904f83f0c2e23e296830e9a35c5de587a6692f4b30176079dc5db0ca"
+  }
+ ],
+ "url": {
+  "kind": "Url",
+  "uri": ""
+ },
+ "version": "",
+ "isPublic": false,
+ "projectId": "",
+ "folderId": "",
+ "nRows": 2,
+ "columns": [
+  {
+   "kind": "ColumnSchema",
+   "id": "103d086d-64ae-454f-ae68-ccb6e210663b",
+   "name": "filename",
+   "type": "string",
+   "nRows": 0,
+   "size": -1,
+   "metaData": {
+    "kind": "ColumnSchemaMetaData",
+    "sort": [],
+    "ascending": true,
+    "quartiles": [],
+    "properties": []
+   }
+  },
+  {
+   "kind": "ColumnSchema",
+   "id": "b327f711-fb80-475a-aac2-c95da5c9c7f0",
+   "name": "mimetype",
+   "type": "string",
+   "nRows": 0,
+   "size": -1,
+   "metaData": {
+    "kind": "ColumnSchemaMetaData",
+    "sort": [],
+    "ascending": true,
+    "quartiles": [],
+    "properties": []
+   }
+  },
+  {
+   "kind": "ColumnSchema",
+   "id": "e69d8ef1-6856-414c-8fc7-9c6f9e462051",
+   "name": ".content",
+   "type": "string",
+   "nRows": 0,
+   "size": -1,
+   "metaData": {
+    "kind": "ColumnSchemaMetaData",
+    "sort": [],
+    "ascending": true,
+    "quartiles": [],
+    "properties": []
+   }
+  }
+ ],
+ "dataDirectory": "data/16/f7/16f77d6c904f83f0c2e23e296830e9a35c5de587a6692f4b30176079dc5db0ca",
+ "relation": {
+  "kind": "Relation",
+  "id": "94f7f552-053f-4673-880e-49395ae7e54f"
+ },
+ "query": {
+  "kind": "CubeQuery",
+  "relation": {
+   "kind": "CompositeRelation",
+   "id": "a66201f1-04e5-4c2b-a6e2-6189451bb000",
+   "joinOperators": [
+    {
+     "kind": "JoinOperator",
+     "joinType": "leftOuter",
+     "leftPair": {
+      "kind": "ColumnPair",
+      "lColumns": [
+       "count..condition",
+       "count..variable"
+      ],
+      "rColumns": [
+       "count..condition",
+       "count..variable"
+      ]
+     },
+     "rightRelation": {
+      "kind": "RenameRelation",
+      "id": "00715c9d-503e-4d04-bd3b-1b0704dad301",
+      "relation": {
+       "kind": "CompositeRelation",
+       "id": "7630c868-738c-4e2c-86f1-e0e7e3851a3a",
+       "joinOperators": [
+        {
+         "kind": "JoinOperator",
+         "joinType": "leftOuter",
+         "leftPair": {
+          "kind": "ColumnPair",
+          "lColumns": [
+           ".ri"
+          ],
+          "rColumns": [
+           "253b02f7694a504316ebcb2f0f9b9446a9b7d94e566a4a3b54a8fd2ca7264df9._rids"
+          ]
+         },
+         "rightRelation": {
+          "kind": "SimpleRelation",
+          "id": "253b02f7694a504316ebcb2f0f9b9446a9b7d94e566a4a3b54a8fd2ca7264df9",
+          "index": 5
+         }
+        }
+       ],
+       "mainRelation": {
+        "kind": "CompositeRelation",
+        "id": "d6944d8b-aa91-466d-9f43-fe09565c964f",
+        "joinOperators": [
+         {
+          "kind": "JoinOperator",
+          "joinType": "leftOuter",
+          "leftPair": {
+           "kind": "ColumnPair",
+           "lColumns": [
+            ".ci"
+           ],
+           "rColumns": [
+            "8bebe8d0a0f4a820408a1560c05aef08979048fec1648187f1b5703da052af5f._rids"
+           ]
+          },
+          "rightRelation": {
+           "kind": "SimpleRelation",
+           "id": "8bebe8d0a0f4a820408a1560c05aef08979048fec1648187f1b5703da052af5f",
+           "index": 4
+          }
+         }
+        ],
+        "mainRelation": {
+         "kind": "SimpleRelation",
+         "id": "7e7e0b21aea0a56e107b5cb3d92f241baa611c5fda7ec741cbb0856a8bf7db1c",
+         "index": 3
+        }
+       }
+      },
+      "inNames": [
+       ".ci",
+       ".ri",
+       "mean.median",
+       "mean.mad",
+       "7e7e0b21aea0a56e107b5cb3d92f241baa611c5fda7ec741cbb0856a8bf7db1c._rids",
+       "7e7e0b21aea0a56e107b5cb3d92f241baa611c5fda7ec741cbb0856a8bf7db1c.tlbId",
+       "count..condition",
+       "8bebe8d0a0f4a820408a1560c05aef08979048fec1648187f1b5703da052af5f._rids",
+       "8bebe8d0a0f4a820408a1560c05aef08979048fec1648187f1b5703da052af5f.tlbId",
+       "count..variable",
+       "253b02f7694a504316ebcb2f0f9b9446a9b7d94e566a4a3b54a8fd2ca7264df9._rids",
+       "253b02f7694a504316ebcb2f0f9b9446a9b7d94e566a4a3b54a8fd2ca7264df9.tlbId",
+       "count..condition",
+       "count..variable"
+      ],
+      "outNames": [
+       ".ci",
+       ".ri",
+       "mean.median",
+       "mean.mad",
+       "7e7e0b21aea0a56e107b5cb3d92f241baa611c5fda7ec741cbb0856a8bf7db1c._rids",
+       "7e7e0b21aea0a56e107b5cb3d92f241baa611c5fda7ec741cbb0856a8bf7db1c.tlbId",
+       "count..condition",
+       "8bebe8d0a0f4a820408a1560c05aef08979048fec1648187f1b5703da052af5f._rids",
+       "8bebe8d0a0f4a820408a1560c05aef08979048fec1648187f1b5703da052af5f.tlbId",
+       "count..variable",
+       "253b02f7694a504316ebcb2f0f9b9446a9b7d94e566a4a3b54a8fd2ca7264df9._rids",
+       "253b02f7694a504316ebcb2f0f9b9446a9b7d94e566a4a3b54a8fd2ca7264df9.tlbId",
+       "mean..condition",
+       "mean..variable"
+      ]
+     }
+    }
+   ],
+   "mainRelation": {
+    "kind": "RenameRelation",
+    "id": "bc9cc6fc-3684-48a2-9c78-4310eefa85c5",
+    "relation": {
+     "kind": "CompositeRelation",
+     "id": "4d5ab8ef-6fbd-4f8f-9246-e0094dbe3fa0",
+     "joinOperators": [
+      {
+       "kind": "JoinOperator",
+       "joinType": "leftOuter",
+       "leftPair": {
+        "kind": "ColumnPair",
+        "lColumns": [
+         ".ri"
+        ],
+        "rColumns": [
+         "30ceceb782da0e6b8129d145f6c16c7214dcd048e8f3aa703cde9bbde9676c7e._rids"
+        ]
+       },
+       "rightRelation": {
+        "kind": "SimpleRelation",
+        "id": "30ceceb782da0e6b8129d145f6c16c7214dcd048e8f3aa703cde9bbde9676c7e",
+        "index": 2
+       }
+      }
+     ],
+     "mainRelation": {
+      "kind": "CompositeRelation",
+      "id": "deed2af2-d23d-4251-837a-f5e2edd74645",
+      "joinOperators": [
+       {
+        "kind": "JoinOperator",
+        "joinType": "leftOuter",
+        "leftPair": {
+         "kind": "ColumnPair",
+         "lColumns": [
+          ".ci"
+         ],
+         "rColumns": [
+          "ce5f1858646e60600f61849f32c3e7e08c1e672961a17ee29c072d2ca0b428b2._rids"
+         ]
+        },
+        "rightRelation": {
+         "kind": "SimpleRelation",
+         "id": "ce5f1858646e60600f61849f32c3e7e08c1e672961a17ee29c072d2ca0b428b2",
+         "index": 1
+        }
+       }
+      ],
+      "mainRelation": {
+       "kind": "SimpleRelation",
+       "id": "7c7e93086deb7739096d6e9c84ee6187a8e2ffff55461df72a85a90586189d40",
+       "index": 0
+      }
+     }
+    },
+    "inNames": [
+     ".ri",
+     ".ci",
+     "count.n",
+     "count.prop_per_row",
+     "count.prop_per_col",
+     "count.prop_overall",
+     "7c7e93086deb7739096d6e9c84ee6187a8e2ffff55461df72a85a90586189d40._rids",
+     "7c7e93086deb7739096d6e9c84ee6187a8e2ffff55461df72a85a90586189d40.tlbId",
+     "ds0.condition",
+     "ds0..filename",
+     "ce5f1858646e60600f61849f32c3e7e08c1e672961a17ee29c072d2ca0b428b2._rids",
+     "ce5f1858646e60600f61849f32c3e7e08c1e672961a17ee29c072d2ca0b428b2.tlbId",
+     "manual_gating.variable",
+     "30ceceb782da0e6b8129d145f6c16c7214dcd048e8f3aa703cde9bbde9676c7e._rids",
+     "30ceceb782da0e6b8129d145f6c16c7214dcd048e8f3aa703cde9bbde9676c7e.tlbId",
+     "ds0.condition",
+     "ds0..filename",
+     "manual_gating.variable"
+    ],
+    "outNames": [
+     ".ri",
+     ".ci",
+     "count.n",
+     "count.prop_per_row",
+     "count.prop_per_col",
+     "count.prop_overall",
+     "7c7e93086deb7739096d6e9c84ee6187a8e2ffff55461df72a85a90586189d40._rids",
+     "7c7e93086deb7739096d6e9c84ee6187a8e2ffff55461df72a85a90586189d40.tlbId",
+     "ds0.condition",
+     "ds0..filename",
+     "ce5f1858646e60600f61849f32c3e7e08c1e672961a17ee29c072d2ca0b428b2._rids",
+     "ce5f1858646e60600f61849f32c3e7e08c1e672961a17ee29c072d2ca0b428b2.tlbId",
+     "manual_gating.variable",
+     "30ceceb782da0e6b8129d145f6c16c7214dcd048e8f3aa703cde9bbde9676c7e._rids",
+     "30ceceb782da0e6b8129d145f6c16c7214dcd048e8f3aa703cde9bbde9676c7e.tlbId",
+     "count..condition",
+     "count..filename",
+     "count..variable"
+    ]
+   }
+  },
+  "colColumns": [],
+  "rowColumns": [
+   {
+    "kind": "Factor",
+    "name": "mean..variable",
+    "type": "string"
+   }
+  ],
+  "axisQueries": [
+   {
+    "kind": "CubeAxisQuery",
+    "pointSize": 4,
+    "chartType": "bar",
+    "yAxis": {
+     "kind": "Factor",
+     "name": "mean.median",
+     "type": "double"
+    },
+    "yAxisSettings": {
+     "kind": "AxisSettings",
+     "meta": [
+      {
+       "kind": "Pair",
+       "key": "axisType",
+       "value": "row"
+      },
+      {
+       "kind": "Pair",
+       "key": "includeZero",
+       "value": "true"
+      }
+     ]
+    },
+    "xAxis": {
+     "kind": "Factor",
+     "name": "mean..condition",
+     "type": "string"
+    },
+    "xAxisSettings": {
+     "kind": "AxisSettings",
+     "meta": []
+    },
+    "errors": [
+     {
+      "kind": "Factor",
+      "name": "mean.mad",
+      "type": "double"
+     }
+    ],
+    "labels": [],
+    "colors": [
+     {
+      "kind": "Factor",
+      "name": "mean..condition",
+      "type": "string"
+     }
+    ],
+    "preprocessors": []
+   },
+   {
+    "kind": "CubeAxisQuery",
+    "pointSize": 4,
+    "chartType": "point",
+    "yAxis": {
+     "kind": "Factor",
+     "name": "count.prop_per_col",
+     "type": "double"
+    },
+    "yAxisSettings": {
+     "kind": "AxisSettings",
+     "meta": []
+    },
+    "xAxis": {
+     "kind": "Factor",
+     "name": "mean..condition",
+     "type": "string"
+    },
+    "xAxisSettings": {
+     "kind": "AxisSettings",
+     "meta": []
+    },
+    "errors": [],
+    "labels": [],
+    "colors": [
+     {
+      "kind": "Factor",
+      "name": "mean..condition",
+      "type": "string"
+     }
+    ],
+    "preprocessors": []
+   }
+  ],
+  "filters": {
+   "kind": "Filters",
+   "removeNaN": true,
+   "namedFilters": []
+  },
+  "operatorSettings": {
+   "kind": "OperatorSettings",
+   "namespace": "ds1",
+   "operatorRef": {
+    "kind": "OperatorRef",
+    "name": "Plot",
+    "version": "0.1.6",
+    "operatorId": "3",
+    "operatorKind": "ROperator",
+    "propertyValues": [
+     {
+      "kind": "PropertyValue",
+      "name": "plot_type",
+      "value": "png"
+     },
+     {
+      "kind": "PropertyValue",
+      "name": "plot.width",
+      "value": ""
+     },
+     {
+      "kind": "PropertyValue",
+      "name": "plot.height",
+      "value": ""
+     },
+     {
+      "kind": "PropertyValue",
+      "name": "base.size",
+      "value": "11"
+     },
+     {
+      "kind": "PropertyValue",
+      "name": "x_range",
+      "value": ""
+     },
+     {
+      "kind": "PropertyValue",
+      "name": "y_range",
+      "value": ""
+     },
+     {
+      "kind": "PropertyValue",
+      "name": "xlab",
+      "value": ""
+     },
+     {
+      "kind": "PropertyValue",
+      "name": "ylab",
+      "value": ""
+     },
+     {
+      "kind": "PropertyValue",
+      "name": "title",
+      "value": ""
+     },
+     {
+      "kind": "PropertyValue",
+      "name": "subtitle",
+      "value": ""
+     },
+     {
+      "kind": "PropertyValue",
+      "name": "caption",
+      "value": ""
+     },
+     {
+      "kind": "PropertyValue",
+      "name": "legend.title",
+      "value": ""
+     },
+     {
+      "kind": "PropertyValue",
+      "name": "bar.position",
+      "value": "dodge"
+     },
+     {
+      "kind": "PropertyValue",
+      "name": "theme",
+      "value": "light"
+     },
+     {
+      "kind": "PropertyValue",
+      "name": "scales",
+      "value": "free_y"
+     },
+     {
+      "kind": "PropertyValue",
+      "name": "rotate_x_axis",
+      "value": "false"
+     },
+     {
+      "kind": "PropertyValue",
+      "name": "wrap.1d",
+      "value": "true"
+     },
+     {
+      "kind": "PropertyValue",
+      "name": "flip",
+      "value": "false"
+     },
+     {
+      "kind": "PropertyValue",
+      "name": "split_cells",
+      "value": "false"
+     },
+     {
+      "kind": "PropertyValue",
+      "name": "n_cells_max",
+      "value": "50"
+     },
+     {
+      "kind": "PropertyValue",
+      "name": "heatmap_annotation",
+      "value": "none"
+     },
+     {
+      "kind": "PropertyValue",
+      "name": "default.color",
+      "value": "#36454f"
+     }
+    ],
+    "url": {
+     "kind": "Url",
+     "uri": "https://github.com/tercen/plot_operator"
+    },
+    "operatorSpec": {
+     "kind": "OperatorSpec",
+     "ontologyUri": "",
+     "ontologyVersion": "",
+     "inputSpecs": [],
+     "outputSpecs": []
+    }
+   },
+   "environment": [
+    {
+     "kind": "Pair",
+     "key": "cpu",
+     "value": "0"
+    },
+    {
+     "kind": "Pair",
+     "key": "ram",
+     "value": "0"
+    },
+    {
+     "kind": "Pair",
+     "key": "cpu-shares",
+     "value": "0"
+    },
+    {
+     "kind": "Pair",
+     "key": "tercen.collect.stats",
+     "value": "false"
+    },
+    {
+     "kind": "Pair",
+     "key": "debug",
+     "value": "false"
+    }
+   ],
+   "operatorModel": {
+    "kind": "OperatorModel"
+   }
+  },
+  "qtHash": "",
+  "columnHash": "",
+  "rowHash": ""
+ }
+}

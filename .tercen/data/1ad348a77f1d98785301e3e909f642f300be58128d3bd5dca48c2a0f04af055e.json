@@ -1,0 +1,106 @@
+{
+ "kind": "TableSchema",
+ "id": "1ad348a77f1d98785301e3e909f642f300be58128d3bd5dca48c2a0f04af055e",
+ "isDeleted": false,
+ "rev": "",
+ "description": "",
+ "name": "Exported_Table_1. Manual Gating_Export Data_2024-04-16-072238.csv",
+ "acl": {
+  "kind": "Acl",
+  "owner": "",
+  "aces": []
+ },
+ "createdDate": {
+  "kind": "Date",
+  "value": ""
+ },
+ "lastModifiedDate": {
+  "kind": "Date",
+  "value": ""
+ },
+ "urls": [],
+ "tags": [],
+ "meta": [
+  {
+   "kind": "Pair",
+   "key": "SHA256",
+   "value": "1ad348a77f1d98785301e3e909f642f300be58128d3bd5dca48c2a0f04af055e"
+  }
+ ],
+ "url": {
+  "kind": "Url",
+  "uri": ""
+ },
+ "version": "",
+ "isPublic": false,
+ "projectId": "",
+ "folderId": "18",
+ "nRows": 149801,
+ "columns": [
+  {
+   "kind": "ColumnSchema",
+   "id": "17ef861b-eb90-4611-97f2-f01f11dfd267",
+   "name": "filename",
+   "type": "string",
+   "nRows": 0,
+   "size": -1,
+   "metaData": {
+    "kind": "ColumnSchemaMetaData",
+    "sort": [],
+    "ascending": true,
+    "quartiles": [],
+    "properties": []
+   }
+  },
+  {
+   "kind": "ColumnSchema",
+   "id": "d6ecba29-e5c8-4e78-b907-f3ff08967860",
+   "name": "event_id",
+   "type": "double",
+   "nRows": 0,
+   "size": -1,
+   "metaData": {
+    "kind": "ColumnSchemaMetaData",
+    "sort": [],
+    "ascending": true,
+    "quartiles": [],
+    "properties": []
+   }
+  },
+  {
+   "kind": "ColumnSchema",
+   "id": "e48a5ea7-3f50-4dc2-aa80-20b18d87f70c",
+   "name": "manual_gating.variable",
+   "type": "string",
+   "nRows": 0,
+   "size": -1,
+   "metaData": {
+    "kind": "ColumnSchemaMetaData",
+    "sort": [],
+    "ascending": true,
+    "quartiles": [],
+    "properties": []
+   }
+  },
+  {
+   "kind": "ColumnSchema",
+   "id": "90d4cbdc-35b0-4574-b29a-6b7703a087bb",
+   "name": "manual_gating.value",
+   "type": "double",
+   "nRows": 0,
+   "size": -1,
+   "metaData": {
+    "kind": "ColumnSchemaMetaData",
+    "sort": [],
+    "ascending": true,
+    "quartiles": [],
+    "properties": []
+   }
+  }
+ ],
+ "dataDirectory": "data/1a/d3/1ad348a77f1d98785301e3e909f642f300be58128d3bd5dca48c2a0f04af055e",
+ "relation": {
+  "kind": "Relation",
+  "id": "2dea406d-3e50-4c71-9d0d-22bb191a0e4b"
+ }
+}

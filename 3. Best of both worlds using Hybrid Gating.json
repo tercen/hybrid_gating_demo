@@ -1,6 +1,6 @@
 {
  "kind": "Workflow",
- "id": "18",
+ "id": "19",
  "isDeleted": false,
  "rev": "",
  "description": "",
@@ -230,7 +230,7 @@
      "id": "rename_9d848bd3-964e-4f46-b71d-9d6e88e90eec",
      "relation": {
       "kind": "InMemoryRelation",
-      "id": "ded877cc-55c6-4f54-8743-11f59f15b79f",
+      "id": "f4ae969b-362c-4cd3-8c54-03a9304e225f",
       "inMemoryTable": {
        "kind": "Table",
        "nRows": 1,
@@ -1143,7 +1143,7 @@
       "kind": "OperatorRef",
       "name": "Scyan",
       "version": "0.0.5",
-      "operatorId": "12",
+      "operatorId": "13",
       "operatorKind": "DockerOperator",
       "propertyValues": [
        {
@@ -2775,7 +2775,7 @@
       "kind": "OperatorRef",
       "name": "Plot",
       "version": "0.1.6",
-      "operatorId": "13",
+      "operatorId": "14",
       "operatorKind": "ROperator",
       "propertyValues": [
        {
@@ -3897,7 +3897,7 @@
       "kind": "OperatorRef",
       "name": "Median",
       "version": "1.1.2",
-      "operatorId": "14",
+      "operatorId": "15",
       "operatorKind": "ROperator",
       "propertyValues": [],
       "url": {
@@ -4576,7 +4576,7 @@
       "kind": "OperatorRef",
       "name": "Gating to Reference",
       "version": "0.0.2",
-      "operatorId": "20",
+      "operatorId": "21",
       "operatorKind": "ROperator",
       "propertyValues": [],
       "url": {

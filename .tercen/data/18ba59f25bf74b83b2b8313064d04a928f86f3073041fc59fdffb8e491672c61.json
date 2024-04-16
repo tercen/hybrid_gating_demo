@@ -302,7 +302,7 @@
     "kind": "OperatorRef",
     "name": "Plot",
     "version": "0.1.6",
-    "operatorId": "13",
+    "operatorId": "14",
     "operatorKind": "ROperator",
     "propertyValues": [
      {

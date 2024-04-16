@@ -1,10 +1,10 @@
 {
  "kind": "TableSchema",
- "id": "f9076e3dba715b18cfa37595acee8afdfeffe901cec0bb281ecf0664fbd43191",
+ "id": "1ad348a77f1d98785301e3e909f642f300be58128d3bd5dca48c2a0f04af055e",
  "isDeleted": false,
  "rev": "",
  "description": "",
- "name": "Exported_Table_1. Manual Gating_Export Data_2024-04-15-100017.csv",
+ "name": "Exported_Table_1. Manual Gating_Export Data_2024-04-16-072238.csv",
  "acl": {
   "kind": "Acl",
   "owner": "",
@@ -24,7 +24,7 @@
   {
    "kind": "Pair",
    "key": "SHA256",
-   "value": "f9076e3dba715b18cfa37595acee8afdfeffe901cec0bb281ecf0664fbd43191"
+   "value": "1ad348a77f1d98785301e3e909f642f300be58128d3bd5dca48c2a0f04af055e"
   }
  ],
  "url": {
@@ -34,13 +34,28 @@
  "version": "",
  "isPublic": false,
  "projectId": "",
- "folderId": "",
+ "folderId": "18",
  "nRows": 149801,
  "columns": [
   {
    "kind": "ColumnSchema",
-   "id": "edf00a47-789a-4c34-b59d-d3db830eb916",
-   "name": "ds1..event_id",
+   "id": "17ef861b-eb90-4611-97f2-f01f11dfd267",
+   "name": "filename",
+   "type": "string",
+   "nRows": 0,
+   "size": -1,
+   "metaData": {
+    "kind": "ColumnSchemaMetaData",
+    "sort": [],
+    "ascending": true,
+    "quartiles": [],
+    "properties": []
+   }
+  },
+  {
+   "kind": "ColumnSchema",
+   "id": "d6ecba29-e5c8-4e78-b907-f3ff08967860",
+   "name": "event_id",
    "type": "double",
    "nRows": 0,
    "size": -1,
@@ -54,7 +69,7 @@
   },
   {
    "kind": "ColumnSchema",
-   "id": "4a8bcaff-36d6-4af1-a88c-d981d6dd6ada",
+   "id": "e48a5ea7-3f50-4dc2-aa80-20b18d87f70c",
    "name": "manual_gating.variable",
    "type": "string",
    "nRows": 0,
@@ -69,7 +84,7 @@
   },
   {
    "kind": "ColumnSchema",
-   "id": "29c36967-469a-4556-bdc4-225bec7287b5",
+   "id": "90d4cbdc-35b0-4574-b29a-6b7703a087bb",
    "name": "manual_gating.value",
    "type": "double",
    "nRows": 0,
@@ -83,9 +98,9 @@
    }
   }
  ],
- "dataDirectory": "data/f9/07/f9076e3dba715b18cfa37595acee8afdfeffe901cec0bb281ecf0664fbd43191",
+ "dataDirectory": "data/1a/d3/1ad348a77f1d98785301e3e909f642f300be58128d3bd5dca48c2a0f04af055e",
  "relation": {
   "kind": "Relation",
-  "id": "e32ea31f-1606-4a79-9334-887fff0dd893"
+  "id": "2dea406d-3e50-4c71-9d0d-22bb191a0e4b"
  }
 }

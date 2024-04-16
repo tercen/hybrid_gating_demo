@@ -1,0 +1,327 @@
+{
+ "kind": "ComputedTableSchema",
+ "id": "7e7e0b21aea0a56e107b5cb3d92f241baa611c5fda7ec741cbb0856a8bf7db1c",
+ "isDeleted": false,
+ "rev": "",
+ "description": "",
+ "name": "23710520-168e-1f75-baff-1b795fe92eaa",
+ "acl": {
+  "kind": "Acl",
+  "owner": "",
+  "aces": []
+ },
+ "createdDate": {
+  "kind": "Date",
+  "value": ""
+ },
+ "lastModifiedDate": {
+  "kind": "Date",
+  "value": ""
+ },
+ "urls": [],
+ "tags": [],
+ "meta": [
+  {
+   "kind": "Pair",
+   "key": "SHA256",
+   "value": "7e7e0b21aea0a56e107b5cb3d92f241baa611c5fda7ec741cbb0856a8bf7db1c"
+  }
+ ],
+ "url": {
+  "kind": "Url",
+  "uri": ""
+ },
+ "version": "",
+ "isPublic": false,
+ "projectId": "",
+ "folderId": "",
+ "nRows": 36,
+ "columns": [
+  {
+   "kind": "ColumnSchema",
+   "id": "a4962ca3-adb3-4878-b6e5-ccd37f77a54e",
+   "name": ".ci",
+   "type": "int32",
+   "nRows": 0,
+   "size": -1,
+   "metaData": {
+    "kind": "ColumnSchemaMetaData",
+    "sort": [],
+    "ascending": true,
+    "quartiles": [],
+    "properties": []
+   }
+  },
+  {
+   "kind": "ColumnSchema",
+   "id": "3533c210-06f5-40d4-8424-60bd4ae3b550",
+   "name": ".ri",
+   "type": "int32",
+   "nRows": 0,
+   "size": -1,
+   "metaData": {
+    "kind": "ColumnSchemaMetaData",
+    "sort": [],
+    "ascending": true,
+    "quartiles": [],
+    "properties": []
+   }
+  },
+  {
+   "kind": "ColumnSchema",
+   "id": "3a2b8e52-689c-497e-80f2-1af35d6c609b",
+   "name": "mean.median",
+   "type": "double",
+   "nRows": 0,
+   "size": -1,
+   "metaData": {
+    "kind": "ColumnSchemaMetaData",
+    "sort": [],
+    "ascending": true,
+    "quartiles": [],
+    "properties": []
+   }
+  },
+  {
+   "kind": "ColumnSchema",
+   "id": "03108e82-abf4-43fc-9e4f-8cd861862c36",
+   "name": "mean.mad",
+   "type": "double",
+   "nRows": 0,
+   "size": -1,
+   "metaData": {
+    "kind": "ColumnSchemaMetaData",
+    "sort": [],
+    "ascending": true,
+    "quartiles": [],
+    "properties": []
+   }
+  }
+ ],
+ "dataDirectory": "data/7e/7e/7e7e0b21aea0a56e107b5cb3d92f241baa611c5fda7ec741cbb0856a8bf7db1c",
+ "relation": {
+  "kind": "Relation",
+  "id": "cf7dc2a0-cca1-4762-bb6c-122eef6b581b"
+ },
+ "query": {
+  "kind": "CubeQuery",
+  "relation": {
+   "kind": "RenameRelation",
+   "id": "e38b39c0-67f2-4ca3-ad4e-4b75b6c7e90d",
+   "relation": {
+    "kind": "CompositeRelation",
+    "id": "730a63bf-1a91-419d-84a1-378046af3fbe",
+    "joinOperators": [
+     {
+      "kind": "JoinOperator",
+      "joinType": "leftOuter",
+      "leftPair": {
+       "kind": "ColumnPair",
+       "lColumns": [
+        ".ri"
+       ],
+       "rColumns": [
+        "30ceceb782da0e6b8129d145f6c16c7214dcd048e8f3aa703cde9bbde9676c7e._rids"
+       ]
+      },
+      "rightRelation": {
+       "kind": "SimpleRelation",
+       "id": "30ceceb782da0e6b8129d145f6c16c7214dcd048e8f3aa703cde9bbde9676c7e",
+       "index": 2
+      }
+     }
+    ],
+    "mainRelation": {
+     "kind": "CompositeRelation",
+     "id": "eafed99c-df4b-4bd7-a1cb-a9dbf26b3af5",
+     "joinOperators": [
+      {
+       "kind": "JoinOperator",
+       "joinType": "leftOuter",
+       "leftPair": {
+        "kind": "ColumnPair",
+        "lColumns": [
+         ".ci"
+        ],
+        "rColumns": [
+         "ce5f1858646e60600f61849f32c3e7e08c1e672961a17ee29c072d2ca0b428b2._rids"
+        ]
+       },
+       "rightRelation": {
+        "kind": "SimpleRelation",
+        "id": "ce5f1858646e60600f61849f32c3e7e08c1e672961a17ee29c072d2ca0b428b2",
+        "index": 1
+       }
+      }
+     ],
+     "mainRelation": {
+      "kind": "SimpleRelation",
+      "id": "7c7e93086deb7739096d6e9c84ee6187a8e2ffff55461df72a85a90586189d40",
+      "index": 0
+     }
+    }
+   },
+   "inNames": [
+    ".ri",
+    ".ci",
+    "count.n",
+    "count.prop_per_row",
+    "count.prop_per_col",
+    "count.prop_overall",
+    "7c7e93086deb7739096d6e9c84ee6187a8e2ffff55461df72a85a90586189d40._rids",
+    "7c7e93086deb7739096d6e9c84ee6187a8e2ffff55461df72a85a90586189d40.tlbId",
+    "ds0.condition",
+    "ds0..filename",
+    "ce5f1858646e60600f61849f32c3e7e08c1e672961a17ee29c072d2ca0b428b2._rids",
+    "ce5f1858646e60600f61849f32c3e7e08c1e672961a17ee29c072d2ca0b428b2.tlbId",
+    "manual_gating.variable",
+    "30ceceb782da0e6b8129d145f6c16c7214dcd048e8f3aa703cde9bbde9676c7e._rids",
+    "30ceceb782da0e6b8129d145f6c16c7214dcd048e8f3aa703cde9bbde9676c7e.tlbId",
+    "ds0.condition",
+    "ds0..filename",
+    "manual_gating.variable"
+   ],
+   "outNames": [
+    ".ri",
+    ".ci",
+    "count.n",
+    "count.prop_per_row",
+    "count.prop_per_col",
+    "count.prop_overall",
+    "7c7e93086deb7739096d6e9c84ee6187a8e2ffff55461df72a85a90586189d40._rids",
+    "7c7e93086deb7739096d6e9c84ee6187a8e2ffff55461df72a85a90586189d40.tlbId",
+    "ds0.condition",
+    "ds0..filename",
+    "ce5f1858646e60600f61849f32c3e7e08c1e672961a17ee29c072d2ca0b428b2._rids",
+    "ce5f1858646e60600f61849f32c3e7e08c1e672961a17ee29c072d2ca0b428b2.tlbId",
+    "manual_gating.variable",
+    "30ceceb782da0e6b8129d145f6c16c7214dcd048e8f3aa703cde9bbde9676c7e._rids",
+    "30ceceb782da0e6b8129d145f6c16c7214dcd048e8f3aa703cde9bbde9676c7e.tlbId",
+    "count..condition",
+    "count..filename",
+    "count..variable"
+   ]
+  },
+  "colColumns": [
+   {
+    "kind": "Factor",
+    "name": "count..condition",
+    "type": "string"
+   }
+  ],
+  "rowColumns": [
+   {
+    "kind": "Factor",
+    "name": "count..variable",
+    "type": "string"
+   }
+  ],
+  "axisQueries": [
+   {
+    "kind": "CubeAxisQuery",
+    "pointSize": 4,
+    "chartType": "point",
+    "yAxis": {
+     "kind": "Factor",
+     "name": "count.prop_per_col",
+     "type": "double"
+    },
+    "yAxisSettings": {
+     "kind": "AxisSettings",
+     "meta": [
+      {
+       "kind": "Pair",
+       "key": "axisType",
+       "value": "row"
+      },
+      {
+       "kind": "Pair",
+       "key": "includeZero",
+       "value": "true"
+      }
+     ]
+    },
+    "xAxis": {
+     "kind": "Factor",
+     "name": "count..condition",
+     "type": "string"
+    },
+    "xAxisSettings": {
+     "kind": "AxisSettings",
+     "meta": []
+    },
+    "errors": [],
+    "labels": [],
+    "colors": [
+     {
+      "kind": "Factor",
+      "name": "count..condition",
+      "type": "string"
+     }
+    ],
+    "preprocessors": []
+   }
+  ],
+  "filters": {
+   "kind": "Filters",
+   "removeNaN": true,
+   "namedFilters": []
+  },
+  "operatorSettings": {
+   "kind": "OperatorSettings",
+   "namespace": "mean",
+   "operatorRef": {
+    "kind": "OperatorRef",
+    "name": "Median and MAD",
+    "version": "0.0.3",
+    "operatorId": "9",
+    "operatorKind": "ROperator",
+    "propertyValues": [],
+    "url": {
+     "kind": "Url",
+     "uri": "https://github.com/tercen/median_mad_operator"
+    },
+    "operatorSpec": {
+     "kind": "OperatorSpec",
+     "ontologyUri": "",
+     "ontologyVersion": "",
+     "inputSpecs": [],
+     "outputSpecs": []
+    }
+   },
+   "environment": [
+    {
+     "kind": "Pair",
+     "key": "cpu",
+     "value": "0"
+    },
+    {
+     "kind": "Pair",
+     "key": "ram",
+     "value": "0"
+    },
+    {
+     "kind": "Pair",
+     "key": "cpu-shares",
+     "value": "0"
+    },
+    {
+     "kind": "Pair",
+     "key": "tercen.collect.stats",
+     "value": "false"
+    },
+    {
+     "kind": "Pair",
+     "key": "debug",
+     "value": "false"
+    }
+   ],
+   "operatorModel": {
+    "kind": "OperatorModel"
+   }
+  },
+  "qtHash": "",
+  "columnHash": "",
+  "rowHash": ""
+ }
+}

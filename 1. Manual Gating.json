@@ -1,6 +1,6 @@
 {
  "kind": "Workflow",
- "id": "23",
+ "id": "24",
  "isDeleted": false,
  "rev": "",
  "description": "",
@@ -152,7 +152,7 @@
      "id": "rename_9d848bd3-964e-4f46-b71d-9d6e88e90eec",
      "relation": {
       "kind": "InMemoryRelation",
-      "id": "498c15b1-120a-4da3-9597-87891113009f",
+      "id": "42a8ad46-2295-4a39-8113-cde9d762105f",
       "inMemoryTable": {
        "kind": "Table",
        "nRows": 1,
@@ -22260,7 +22260,7 @@
    },
    "state": {
     "kind": "StepState",
-    "taskId": "ecec08d7653d61d461c80731a207c322",
+    "taskId": "ecec08d7653d61d461c80731a2f08ef8",
     "taskState": {
      "kind": "DoneState"
     }
@@ -22282,7 +22282,7 @@
          "properties": [],
          "propertyValues": []
         },
-        "pointSize": 1
+        "pointSize": 2
        },
        "colors": {
         "kind": "Colors",
@@ -22385,7 +22385,7 @@
     },
     "columnTable": {
      "kind": "CrosstabTable",
-     "cellSize": 356.625,
+     "cellSize": 696.533203125,
      "offset": 0,
      "graphicalFactors": [
       {
@@ -22604,7 +22604,7 @@
     },
     "rowTable": {
      "kind": "CrosstabTable",
-     "cellSize": 390.625,
+     "cellSize": 488.28125,
      "offset": 0,
      "graphicalFactors": [
       {
@@ -22636,7 +22636,7 @@
    },
    "computedRelation": {
     "kind": "CompositeRelation",
-    "id": "816d5c9d-5415-4d64-b5f3-c6119e4ff598",
+    "id": "cc7dddf9-aefc-4c85-8243-073fc7009b53",
     "joinOperators": [
      {
       "kind": "JoinOperator",
@@ -22648,14 +22648,14 @@
       },
       "rightRelation": {
        "kind": "SimpleRelation",
-       "id": "c1bbdda4c827f282bb724d8c4e7be801b1366fe40218f095cb2cae7aefaf46f5",
+       "id": "0d22af08f8b114ebd3659a27827e723b5c6a122d2dc2fe8e1c7a17ccdfb32c79",
        "index": 0
       }
      }
     ],
     "mainRelation": {
      "kind": "Relation",
-     "id": "c0e1f228-952e-4468-b164-fed7cecfe87c"
+     "id": "29055f16-f7b3-473f-b788-838ea7b58cb9"
     }
    },
    "parentDataStepId": ""
@@ -22696,9 +22696,9 @@
    },
    "state": {
     "kind": "StepState",
-    "taskId": "ecec08d7653d61d461c80731a2087504",
+    "taskId": "",
     "taskState": {
-     "kind": "DoneState"
+     "kind": "InitState"
     }
    },
    "description": "Perform computation on user defined projection.",
@@ -22875,7 +22875,7 @@
       "kind": "OperatorRef",
       "name": "Export Table",
       "version": "0.2.6",
-      "operatorId": "21",
+      "operatorId": "22",
       "operatorKind": "ROperator",
       "propertyValues": [
        {
@@ -22961,6 +22961,27 @@
        "kind": "GraphicalFactor",
        "factor": {
         "kind": "Factor",
+        "name": "filename",
+        "type": "string"
+       },
+       "rectangle": {
+        "kind": "Rectangle",
+        "extent": {
+         "kind": "Point",
+         "x": 80.0,
+         "y": 30.0
+        },
+        "topLeft": {
+         "kind": "Point",
+         "x": 0.0,
+         "y": 0.0
+        }
+       }
+      },
+      {
+       "kind": "GraphicalFactor",
+       "factor": {
+        "kind": "Factor",
         "name": "ds1..event_id",
         "type": "int32"
        },
@@ -23006,36 +23027,16 @@
     "taskId": ""
    },
    "computedRelation": {
-    "kind": "CompositeRelation",
-    "id": "81e96d67-df45-497f-8d39-b275dcab1ca3",
-    "joinOperators": [
-     {
-      "kind": "JoinOperator",
-      "joinType": "",
-      "leftPair": {
-       "kind": "ColumnPair",
-       "lColumns": [],
-       "rColumns": []
-      },
-      "rightRelation": {
-       "kind": "SimpleRelation",
-       "id": "42c326399b97fcf3650a348c5908acdf4d10a2152976c7d34405053bfc491cbe",
-       "index": 0
-      }
-     }
-    ],
-    "mainRelation": {
-     "kind": "Relation",
-     "id": "187d1e04-186f-471c-9504-c2c662092d9f"
-    }
+    "kind": "Relation",
+    "id": "9da9a8d2-4dc7-4cc6-a31e-8b05fedb503c"
    },
    "parentDataStepId": ""
   }
  ],
  "offset": {
   "kind": "Point",
-  "x": -30.64321789321797,
-  "y": -1219.046536796536
+  "x": -35.1886724386725,
+  "y": -1178.137445887446
  },
  "scale": 1.1
 }
